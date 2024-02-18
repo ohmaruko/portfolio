@@ -10,7 +10,7 @@ export default function Header() {
             <div className={styles.banner}>
                 <div>
                     <h1>Hi, I'm Madoka.</h1>
-                    <p style={{fontSize:"var(--medium-font)"}}>Front-end Developer / UI UX Designer</p>
+                    <p style={{fontSize:"var(--medium-font)"}}>Front-end Developer / UI/Designer</p>
                 </div>
                 <Image src="/images/profile.png" alt="profile image" width={150} height={150} className={styles.img} />
             </div>
