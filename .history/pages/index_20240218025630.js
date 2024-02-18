@@ -72,42 +72,6 @@ export default function Home() {
                   }
                 />
               </div>
-              <div className={styles.box2}>
-                  <Box title="Tools" content={
-                    <div className={styles.skill}>
-                      <div>
-                        <p>Figma</p>
-                        <p>Illustrator</p>
-                        <p>Photoshop</p>
-                        <p>After Effects</p>
-                        </div>
-                      <div>
-                        <p>HTML, CSS</p>
-                        <p>Javascript</p>
-                        <p>Next.js</p>
-                        <p>Bootstrap</p>
-                        <p>Git</p>
-                      </div>
-                    </div>
-                  }/>
-                </div>
-              <div className={styles.box1}>
-                 <Box title="Skill" content={
-                  <div className={styles.skill}>
-                    <div>
-                      <p>User centered design</p>
-                      <p>Wireframing</p>
-                      <p>Prototyping</p>
-                      <p>User research</p>
-                    </div>
-                    <div>
-                      <p>User testing</p>
-                      <p>Responsive web design</p>
-                      <p>Front-end programming</p>
-                    </div>
-                  </div>
-                 }/>
-              </div>
           </div>
           <div className={styles.outerContainer}>
             {/* <div className={styles.box2}>

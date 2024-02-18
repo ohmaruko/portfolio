@@ -28,9 +28,10 @@
     padding: 1rem 2rem;
 }
 
-@media (max-width: 820px){
-    .banner{
+@media (max-width: 800px){
+    .header{
         display: flex;
         flex-direction: column;
+        background-color: green;
     }
 }
