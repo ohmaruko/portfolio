@@ -1,0 +1,8 @@
+.box {
+    /* background-color: var(--white); */
+    background-color: var(--white);
+    padding: 3em;
+    margin: 0.5em;
+    border-radius: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

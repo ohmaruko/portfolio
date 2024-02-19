@@ -8,6 +8,6 @@
     text-align: center;
 }
 .box2:hover {
-    background-color: var(--blue);
+    /* background-color: var(--blue); */
     color: var(--white);
 }

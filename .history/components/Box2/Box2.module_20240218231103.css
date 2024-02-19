@@ -7,7 +7,7 @@
     color: var(--blue);
     text-align: center;
 }
-.box2:hover {
+.box2:hover h2{
     background-color: var(--blue);
     color: var(--white);
 }

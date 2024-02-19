@@ -30,12 +30,9 @@
 }
 .logo {
   fill: var(--blue);
-  padding: 5px;
-  border-radius: 10px;
 }
-.link:hover .logo{
-  background-color: var(--blue);
-  fill: var(--white);
+.link:hover {
+  logo
 }
 .skill {
   display: flex;

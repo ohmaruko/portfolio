@@ -30,12 +30,11 @@
 }
 .logo {
   fill: var(--blue);
-  padding: 5px;
-  border-radius: 10px;
+  padding: 1rem;
+  border-radius: ;
 }
 .link:hover .logo{
   background-color: var(--blue);
-  fill: var(--white);
 }
 .skill {
   display: flex;

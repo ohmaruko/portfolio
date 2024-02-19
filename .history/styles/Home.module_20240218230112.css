@@ -17,6 +17,8 @@
 }
 .box1 {
   width: 60%;
+  /* flex: 1;
+  flex-basis: 60%; */
 }
 .box2 {
   width: 40%;
@@ -30,12 +32,6 @@
 }
 .logo {
   fill: var(--blue);
-  padding: 5px;
-  border-radius: 10px;
-}
-.link:hover .logo{
-  background-color: var(--blue);
-  fill: var(--white);
 }
 .skill {
   display: flex;

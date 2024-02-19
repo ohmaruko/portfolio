@@ -28,8 +28,7 @@
     padding: 1rem 2rem;
 }
 .menu a:hover {
-    background-color: var(--blue);
-    color: var(--white);
+    
 }
 
 @media (max-width: 820px){

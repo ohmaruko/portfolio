@@ -35,7 +35,7 @@
 }
 .link:hover .logo{
   background-color: var(--blue);
-  fill: var(--white);
+  color: var()
 }
 .skill {
   display: flex;

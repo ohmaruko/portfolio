@@ -4,8 +4,7 @@
     margin: 0.5em;
     border-radius: 50px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    color: var(--blue);
-    text-align: center;
+    
 }
 .box2:hover {
     background-color: var(--blue);
