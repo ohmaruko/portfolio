@@ -19,20 +19,22 @@ export default function Works() {
 
       <div className={styles.container}>
         <Header />
-        <main className={`${styles.meditation} ${workSans.className}`}>
+        <main className={`${styles.film} ${workSans.className}`}>
             <div>
                 <Box content={
                     <div>
-                        <h2>How to meditate</h2>
-                        <div className={styles.heart}>
-                          <Image src='/images/heart.svg' alt='heart' fill/>
-                        </div>
-                        <p>Created a short how to video with graphics.</p>
-                        <p>Tools: Adobe After Effects, Adobe Illustrator</p>
-                        <div>
-                            <video controls>
-                                <source src='/meditation.mp4' type='video/mp4'></source>
-                            </video>
+                        <h2>Film Festival</h2>
+                        <p>Designed two variations of typography layout for film festival.</p>
+                        <p>Fonts: san serif (<a href="https://fonts.google.com/specimen/Rubik" target='_blank'>Rubik</a>) 
+                        and serif (<a href="https://fonts.google.com/specimen/Bitter" target='_blank'>Bitter</a>).</p>
+                        <p>Tools: Adobe Illustrator, Grid layout</p>
+                        <div className={styles.filmAdsContainer}>
+                          <div className={styles.filmAds}>
+                            <Image src='/images/film1.png' alt='Hair Sunset Ad1' fill/>
+                          </div>
+                          <div className={styles.filmAds}>
+                            <Image src='/images/film2.png' alt='Hair Sunset Ad2' fill/>
+                          </div>
                         </div>
                     </div>
                 }/>

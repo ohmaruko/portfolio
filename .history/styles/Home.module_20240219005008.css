@@ -51,7 +51,6 @@
 }
 .donuts {
   width: 70%;
-  max-width: 700px;
 }
 .styleGuide {
   display: flex;
@@ -113,7 +112,7 @@
   }
   .outerContainer {
     width: 90%;
-    max-width: 700px;
+    max-width: 8;
   }
   .donuts {
     width: 90%;

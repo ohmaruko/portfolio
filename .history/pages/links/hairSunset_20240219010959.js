@@ -33,6 +33,16 @@ export default function Works() {
                         </div>
                         <div>
                             <div className={styles.logoContainer}>
+                                {/* <h3>Logo Ideas and variation</h3> */}
+                                {/* <div className={styles.logoInner}>
+                                    <Image src='/images/hairlogo/idea1.svg' alt='Hair Sunset Ad1' width={100} height={100}/>
+                                    <Image src='/images/hairlogo/idea2.svg' alt='Hair Sunset Ad1' width={100} height={100}/>
+                                    <Image src='/images/hairlogo/idea3.svg' alt='Hair Sunset Ad1' width={100} height={100}/>
+                                    <Image src='/images/hairlogo/idea4.svg' alt='Hair Sunset Ad1' width={100} height={100}/>
+                                    <Image src='/images/hairlogo/idea5.svg' alt='Hair Sunset Ad1' width={100} height={100}/>
+                                </div> */}
+                            </div>
+                            <div className={styles.logoContainer}>
                               <h3>Logo Ideas and variation</h3>
                               <div className={styles.logoInner}>
                                   <Image src='/images/hairlogo/BW1.svg' alt='Hair Sunset Ad1' width={100} height={100}/>

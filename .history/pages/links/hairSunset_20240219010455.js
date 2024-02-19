@@ -24,14 +24,24 @@ export default function Works() {
                 <Box content={
                     <div>
                         <h2>Hair Sunset</h2>
-                        <p>Built logo for a hair salon and designed advertisements for a campaign.</p>
-                        <p>Tools: Adobe Illustrator</p>
+                        <p>Built logo for a hair salon and designed advertisements.</p>
+                        <p>Tools: <strong>Adobe Illustrator</strong>Adobe Illustrator</p>
                         <div className={styles.ads}>
                           <Image src='/images/hair1.png' alt='Hair Sunset Ad1' width={300} height={388}/>
                           <Image src='/images/hair2.png' alt='Hair Sunset Ad1' width={300} height={388}/>
                           <Image src='/images/hair3.png' alt='Hair Sunset Ad1' width={300} height={388}/>
                         </div>
                         <div>
+                            <div className={styles.logoContainer}>
+                                {/* <h3>Logo Ideas and variation</h3> */}
+                                {/* <div className={styles.logoInner}>
+                                    <Image src='/images/hairlogo/idea1.svg' alt='Hair Sunset Ad1' width={100} height={100}/>
+                                    <Image src='/images/hairlogo/idea2.svg' alt='Hair Sunset Ad1' width={100} height={100}/>
+                                    <Image src='/images/hairlogo/idea3.svg' alt='Hair Sunset Ad1' width={100} height={100}/>
+                                    <Image src='/images/hairlogo/idea4.svg' alt='Hair Sunset Ad1' width={100} height={100}/>
+                                    <Image src='/images/hairlogo/idea5.svg' alt='Hair Sunset Ad1' width={100} height={100}/>
+                                </div> */}
+                            </div>
                             <div className={styles.logoContainer}>
                               <h3>Logo Ideas and variation</h3>
                               <div className={styles.logoInner}>

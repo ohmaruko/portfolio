@@ -27,8 +27,8 @@ export default function Works() {
                         <div className={styles.heart}>
                           <Image src='/images/heart.svg' alt='heart' fill/>
                         </div>
-                        <p>Created a short how to video with graphics.</p>
-                        <p>Tools: Adobe After Effects, Adobe Illustrator</p>
+                        <p>Created a short how to video with graphics using Adobe After Effects and Adobe Illustrator.</p>
+                        <p></p>
                         <div>
                             <video controls>
                                 <source src='/meditation.mp4' type='video/mp4'></source>

@@ -7,9 +7,10 @@ export default function Box2({
 }) {
     return (
         <div className={styles.box2}>
-            <div className={styles.image}>
-                <Image src={image} width={300} height={300}/>
+            <div>
+                
             </div>
+            <Image src={image} width={300} height={300}/>
             <h2>{title}</h2>
         </div>
     )

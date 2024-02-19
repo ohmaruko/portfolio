@@ -41,11 +41,11 @@ export default function Works() {
               <h2>Style Guide</h2>
               <div className={styles.styleGuide}>
                 <Image src='/images/dolceFont1.png' alt='styleguide font' width={280} height={159}/>
-                <Image src='/images/dolceFont2.png' alt='styleguide font' width={280} height={159}/>
-                <Image src='/images/dolceColour.png' alt='styleguide font' width={280} height={159}/>
-                <Image src='/images/dolceButton.png' alt='styleguide font' width={280} height={159}/>
-                <Image src='/images/dolceIdeas.png' alt='styleguide font' width={280} height={159}/>
-                <Image src='/images/dolceMockup.png' alt='styleguide font' width={280} height={159}/>
+                <Image src='/images/dolceFont2.png' alt='styleguide font' width={300} height={168}/>
+                <Image src='/images/dolceColour.png' alt='styleguide font' width={300} height={168}/>
+                <Image src='/images/dolceButton.png' alt='styleguide font' width={300} height={168}/>
+                <Image src='/images/dolceIdeas.png' alt='styleguide font' width={300} height={168}/>
+                <Image src='/images/dolceMockup.png' alt='styleguide font' width={300} height={168}/>
               </div>
               <h2>Mock-up</h2>
               <p>

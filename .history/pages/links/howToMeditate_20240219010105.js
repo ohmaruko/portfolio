@@ -28,7 +28,7 @@ export default function Works() {
                           <Image src='/images/heart.svg' alt='heart' fill/>
                         </div>
                         <p>Created a short how to video with graphics.</p>
-                        <p>Tools: Adobe After Effects, Adobe Illustrator</p>
+                        <p>Tools: <strong></strong>Adobe After Effects, Adobe Illustrator</p>
                         <div>
                             <video controls>
                                 <source src='/meditation.mp4' type='video/mp4'></source>

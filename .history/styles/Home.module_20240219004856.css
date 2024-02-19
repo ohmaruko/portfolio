@@ -9,7 +9,7 @@
   display: flex;
   flex-wrap: wrap;
   width: 70%;
-  max-width: 1500px;
+  max-width: 700px;
   justify-content: center;
   margin: 2em auto;
 }
@@ -51,7 +51,6 @@
 }
 .donuts {
   width: 70%;
-  max-width: 700px;
 }
 .styleGuide {
   display: flex;
@@ -113,7 +112,6 @@
   }
   .outerContainer {
     width: 90%;
-    max-width: 700px;
   }
   .donuts {
     width: 90%;

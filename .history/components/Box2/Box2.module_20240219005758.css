@@ -8,8 +8,7 @@
     text-align: center;
 }
 .image {
-    border-radius: 50px 50px 0 0;
-    overflow: hidden;
+    border-radius: 50px;
 }
 .box2:hover {
     background-color: var(--blue);
