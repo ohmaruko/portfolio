@@ -4,29 +4,25 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Box from '@/components/Box'
 import { Work_Sans } from 'next/font/google'
-const workSans = Work_Sans ({subsets: ['latin']})
+import Head from 'next/head'
+const workSans = Work_Sans({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <>
-
-      <head>
-        <title>Madoka Nogaki Portfolio</title>
-        <meta name="description" content="Portfolio page" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </head>
+    <div>
+      <Head>
+        <title>Madoka Nogaki</title>
+      </Head>
 
       <div className={styles.container}>
         <Header className={styles.header}/>
-        
-        <main  className={`${styles.outerContainer}, ${workSans.className}`}>
-          <div className={styles.outerContainer}>
+        <main  className={`${styles.mainContainer}, ${workSans.className}`}>
+          <div className={styles.homeContainer}>
               <div className={styles.box1}>
                 <Box title="About me" content={
                   <div>
                     <p> 
-                    I am a frontend developer and UI/UX designer, raised in Japan, based in Vanvouver. 
+                    I am a frontend developer and digital designer, raised in Japan, based in Vanvouver. 
                     My primary tools include Next.js, javascript, HTML, CSS. 
                     Additionally I am passionate about digital design.</p>
                     <h5>Education</h5>
@@ -56,15 +52,6 @@ export default function Home() {
                           <p>GitHub</p>
                         </a>
                       </div>
-                      <div>
-                        <div href='' className={styles.link}>
-                          <svg className={styles.logo} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 96" id="email" width="20" height="20"><g data-name="Layer 2">
-                            <path d="M0 11.283V8a8 8 0 0 1 8-8h112a8 8 0 0 1 8 8v3.283l-64 40zm66.12 48.11a4.004 4.004 0 0 1-4.24 0L0 20.717V88a8 8 0 0 0 8 8h112a8 8 0 0 0 8-8V20.717z">
-                            </path></g>
-                          </svg>
-                          <p>maruko66513@gmail.com</p>
-                        </div>
-                      </div>
                     </>
                   }
                 />
@@ -77,6 +64,7 @@ export default function Home() {
                         <p>Illustrator</p>
                         <p>Photoshop</p>
                         <p>After Effects</p>
+                        <p>InDesign</p>
                         </div>
                       <div>
                         <p>HTML, CSS</p>
@@ -84,6 +72,7 @@ export default function Home() {
                         <p>Next.js</p>
                         <p>Bootstrap</p>
                         <p>Git</p>
+                        <p>Wordpress</p>
                       </div>
                     </div>
                   }/>
@@ -92,15 +81,16 @@ export default function Home() {
                  <Box title="Skill" content={
                   <div className={styles.skill}>
                     <div>
-                      <p>User centered design</p>
                       <p>Wireframing</p>
                       <p>Prototyping</p>
                       <p>User research</p>
+                      <p>User testing</p>
                     </div>
                     <div>
-                      <p>User testing</p>
                       <p>Responsive web design</p>
                       <p>Front-end programming</p>
+                      <p>Logo and graphic creation</p>
+                      <p>Animating graphics</p>
                     </div>
                   </div>
                  }/>
@@ -113,6 +103,6 @@ export default function Home() {
         </div>
       </div>
 
-    </>
+    </div>
   )
 }

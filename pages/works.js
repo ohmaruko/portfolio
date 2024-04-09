@@ -5,6 +5,7 @@ import Footer from '@/components/Footer'
 import { Work_Sans } from 'next/font/google'
 import Box2 from '@/components/Box2'
 import Link from 'next/link'
+import Head from 'next/head'
 
 const workSans = Work_Sans ({subsets: ['latin']})
 
@@ -12,12 +13,9 @@ export default function Works() {
   return (
     <>
 
-      <head>
-        <title>Madoka Nogaki Portfolio</title>
-        <meta name="description" content="Portfolio page" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
-      </head>
+      <Head>
+        <title>Madoka Nogaki Works</title>
+      </Head>
 
       <div className={styles.container}>
         <Header className={workSans.className}/>
@@ -34,22 +32,22 @@ export default function Works() {
           </div> */}
           <div>
             <Link href="./links/hairSunset" className={styles.link}>
-                <Box2 title='Hair Sunset' image='/images/hairlogo/coloured1.svg' url="/"/>
+                <Box2 title='Hair Sunset' image='/images/hairlogo/coloured1.svg'/>
             </Link>
           </div>
           <div>
             <Link href="./links/filmFestival" className={styles.link}>
-                <Box2 title='Film Festival' image='/images/film1.png' url="/"/>
+                <Box2 title='Film Festival' image='/images/film1.png'/>
             </Link>
           </div>
           <div>
             <Link href="./links/howToMeditate" className={styles.link}>
-                <Box2 title='How to meditate' image='/images/heart.svg' url="/"/>
+                <Box2 title='How to meditate' image='/images/heart.svg'/>
             </Link>
           </div>
         </main>
 
-        <div className={styles.outerContainer}>
+        <div className={styles.footer}>
           <Footer />
         </div>
       </div>

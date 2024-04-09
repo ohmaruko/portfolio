@@ -5,21 +5,19 @@ import { Work_Sans } from 'next/font/google'
 import Image from 'next/image'
 const workSans = Work_Sans ({subsets: ['latin']})
 import Box from '@/components/Box'
+import Head from 'next/head'
 
 export default function Works() {
   return (
-    <>
+    <div>
 
-      <head>
-        <title>Madoka Nogaki Portfolio</title>
-        <meta name="description" content="Portfolio page" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
-      </head>
+      <Head>
+        <title>Film Festival</title>
+      </Head>
 
       <div className={styles.container}>
         <Header />
-        <main className={`${styles.film} ${workSans.className}`}>
+        <main className={`${styles.mainContainer} ${workSans.className}`}>
             <div>
                 <Box content={
                     <div>
@@ -41,11 +39,11 @@ export default function Works() {
             </div>
         </main>
 
-        <div className={styles.outerContainer}>
+        <div className={styles.footer}>
           <Footer />
         </div>
       </div>
 
-    </>
+    </div>
   )
 }

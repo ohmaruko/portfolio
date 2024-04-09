@@ -5,7 +5,7 @@
   min-height: 100vh;
   width: 100%;
 }
-.outerContainer {
+.homeContainer {
   display: flex;
   flex-wrap: wrap;
   width: 70%;
@@ -49,6 +49,20 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+/* link pages */
+.mainContainer {
+  width: 70%;
+}
+.mainContainer a{
+  text-decoration: none;
+  color: var(--blue);
+}
+.mainContainer video {
+  width: 100%;
+  height: auto;
+}
+
 .donuts {
   width: 70%;
   max-width: 700px;
@@ -72,13 +86,6 @@
   display: flex;
   justify-content: space-evenly;
 }
-.film {
-  width: 70%;
-}
-.film a{
-  text-decoration: none;
-  color: var(--blue);
-}
 .filmAdsContainer {
   display: flex;
   flex-wrap: wrap;
@@ -89,18 +96,11 @@
   height: 500px;
   position: relative;
 }
-.meditation {
-  width: 70%;
-}
 .heart {
   width: 200px;
   height: 200px;
   position: relative;
   margin: 0 auto;
-}
-.meditation video {
-  width: 100%;
-  height: auto;
 }
 
 /* mobile */
@@ -111,24 +111,18 @@
   .box2 {
     flex-basis: 100%;
   }
-  .outerContainer {
+  .homeContainer {
     width: 90%;
     max-width: 700px;
   }
+  .mainContainer {
+    width: 90%;
+  }
   .donuts {
-    width: 90%;
-  }
-  .hair {
-    width: 90%;
-  }
-  .film {
     width: 90%;
   }
   .filmAds {
     width: 250px;
     height: 250px;
-  }
-  .meditation {
-    width: 90%;
   }
 }

@@ -5,19 +5,17 @@ import { Work_Sans } from 'next/font/google'
 import Link from 'next/link'
 import Box from '@/components/Box'
 import Image from 'next/image'
+import Head from 'next/head'
 
 const workSans = Work_Sans ({subsets: ['latin']})
 
 export default function Works() {
   return (
-    <>
+    <div>
 
-      <head>
-        <title>Madoka Nogaki Portfolio</title>
-        <meta name="description" content="Portfolio page" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
-      </head>
+      <Head>
+        <title>Dolce Donuts</title>
+      </Head>
 
       <div className={styles.container}>
         <Header />
@@ -65,11 +63,11 @@ export default function Works() {
           }/>
         </main>
 
-        <div className={styles.outerContainer}>
+        <div className={styles.footer}>
           <Footer />
         </div>
       </div>
 
-    </>
+    </div>
   )
 }
