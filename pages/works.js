@@ -21,15 +21,20 @@ export default function Works() {
         <Header className={workSans.className}/>
         <main className={`${styles.works} ${workSans.className}`}>
           <div>
+            <Link href="./links/tranquify" className={styles.link}>
+                <Box2 title='Tranquify' image='/images/tranquify/tranquifyLogo.svg'/>
+            </Link>
+          </div>
+          <div>
             <Link href="./links/dolcedonuts" className={styles.link}>
                 <Box2 title='Dolce Donut' image='/images/dolce.png'/>
             </Link>
           </div>
-          {/* <div>
-            <Link href="./links/goSync" className={styles.link}>
-                <Box2 title='GoSync' image='/images/goSync.png' url="/"/>
+          <div>
+            <Link href="./links/howToMeditate" className={styles.link}>
+                <Box2 title='How to meditate' image='/images/heart.svg'/>
             </Link>
-          </div> */}
+          </div>
           <div>
             <Link href="./links/hairSunset" className={styles.link}>
                 <Box2 title='Hair Sunset' image='/images/hairlogo/coloured1.svg'/>
@@ -38,11 +43,6 @@ export default function Works() {
           <div>
             <Link href="./links/filmFestival" className={styles.link}>
                 <Box2 title='Film Festival' image='/images/film1.png'/>
-            </Link>
-          </div>
-          <div>
-            <Link href="./links/howToMeditate" className={styles.link}>
-                <Box2 title='How to meditate' image='/images/heart.svg'/>
             </Link>
           </div>
         </main>
