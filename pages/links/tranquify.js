@@ -32,6 +32,7 @@ export default function Works() {
                         <p>Team: Two other teammates in the same roles</p>
                         <p>Timeline: Jan 2024 - In progress</p>
                         <p>Tools: Figma, NextJS, Adobe Illustrator, Adobe After Effects</p>
+                        <Link href="https://tranquify.vercel.app/" target='_blank' style={{textDecoration: 'none', color: 'var(--blue)'}}>Visit our app mockup</Link>
                         <h2>Summary</h2>
                         <p>We're currently in the process of developing a mood tracking and meditation app designed to support mental health. 
                             Our journey began with brainstorming sessions to refine our concept, 
@@ -47,7 +48,7 @@ export default function Works() {
                             <Image src='/images/tranquify/typography.svg' alt="Tranquify Logos" width={290} height={150} />
                             <Image src='/images/tranquify/buttons.svg' alt="Tranquify Logos" width={500} height={100} />
                         </div>
-                        <h2>Figma Mock-up</h2>
+                        <h2>Figma prototype</h2>
                         <p>We ensure that app's functionality resonate with our target audience  
                             while our designs reflect our brand identity by leveraging our style guide. 
                             Prioritizing a natural flow throughout the app, we enable users to navigate intuitively. 
@@ -57,9 +58,11 @@ export default function Works() {
                             <Link href="https://www.figma.com/proto/TKkB4s3xcb0ILssL8EJnpZ/Tranquify-(Madoka)?type=design&node-id=157-971&t=HKCX43am6eU5htbw-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=157%3A971&mode=design"
                             target='_blank' style={{textDecoration: 'none', color: 'var(--blue)'}}>Visit our figma prototype</Link>
                         </p>
-                        <h2>Usability Testing</h2>
+                        {/* <h2>Usability Testing</h2>
                         <p>In progress
-                        </p>
+                        </p> */}
+                        <h2>Mockup</h2>
+                        <Link href="https://tranquify.vercel.app/" target='_blank' style={{textDecoration: 'none', color: 'var(--blue)'}}>Visit our app</Link>
                     </div>
                 }/>
             </div>
