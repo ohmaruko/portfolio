@@ -26,8 +26,13 @@ export default function Works() {
             </Link>
           </div>
           <div>
-            <Link href="./works/dolce_donuts" className={styles.link}>
-                <Box2 title='Dolce Donut' image='/images/dolce.png'/>
+            <Link href="./works/hair_sunset" className={styles.link}>
+                <Box2 title='Hair Sunset' image='/images/hairlogo/coloured1.svg'/>
+            </Link>
+          </div>
+          <div>
+            <Link href="./works/konmari" className={styles.link}>
+                <Box2 title='Konmari Method' image='/images/konmari.svg'/>
             </Link>
           </div>
           <div>
@@ -36,8 +41,8 @@ export default function Works() {
             </Link>
           </div>
           <div>
-            <Link href="./works/hair_sunset" className={styles.link}>
-                <Box2 title='Hair Sunset' image='/images/hairlogo/coloured1.svg'/>
+            <Link href="./works/dolce_donuts" className={styles.link}>
+                <Box2 title='Dolce Donut' image='/images/dolce.png'/>
             </Link>
           </div>
           <div>
