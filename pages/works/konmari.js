@@ -1,4 +1,4 @@
-import styles from '/styles/Works/Konmari.module.css'
+import styles from '/styles/works/Konmari.module.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { Work_Sans } from 'next/font/google'
