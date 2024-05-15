@@ -18,36 +18,36 @@ export default function Works() {
       </Head>
 
       <div className={styles.container}>
-        <Header className={workSans.className}/>
+        <Header className={styles.header}/>
         <main className={`${styles.works} ${workSans.className}`}>
           <div>
             <Link href="./works/tranquify" className={styles.link}>
-                <Box2 title='Tranquify' image='/images/tranquify/tranquifyLogo.svg'/>
+                <Box2 title='Tranquify' image='/images/tranquify/tranquifyLogo.svg' tags={["UI UX Design", "Frontend Development"]}/>
             </Link>
           </div>
           <div>
             <Link href="./works/hair_sunset" className={styles.link}>
-                <Box2 title='Hair Sunset' image='/images/hairlogo/coloured1.svg'/>
+                <Box2 title='Hair Sunset' image='/images/hairlogo/coloured1-2.svg' tags={["Graphic Design"]}/>
             </Link>
           </div>
           <div>
             <Link href="./works/konmari" className={styles.link}>
-                <Box2 title='Konmari Method' image='/images/konmari.svg'/>
+                <Box2 title='Konmari Method' image='/images/konmari.svg' tags={["Motion Graphic Design"]}/>
             </Link>
           </div>
           <div>
             <Link href="./works/how_to_meditate" className={styles.link}>
-                <Box2 title='How to meditate' image='/images/heart.svg'/>
+                <Box2 title='How to meditate' image='/images/heart.svg' tags={["Motion Graphic Design"]}/>
             </Link>
           </div>
           <div>
             <Link href="./works/dolce_donuts" className={styles.link}>
-                <Box2 title='Dolce Donut' image='/images/dolce.png'/>
+                <Box2 title='Dolce Donut' image='/images/dolce.png' tags={["UI UX Design"]}/>
             </Link>
           </div>
           <div>
             <Link href="./works/film_festival" className={styles.link}>
-                <Box2 title='Film Festival' image='/images/film1.png'/>
+                <Box2 title='Film Festival' image='/images/film1.png' tags={["Graphic Design"]}/>
             </Link>
           </div>
         </main>
