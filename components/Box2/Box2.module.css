@@ -6,6 +6,7 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     color: var(--blue);
     text-align: center;
+    width: 300px;
 }
 .image {
     border-radius: 50px 50px 0 0;

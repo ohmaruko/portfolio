@@ -50,6 +50,16 @@ export default function Works() {
                 <Box2 title='Film Festival' image='/images/film1.png' tags={["Graphic Design"]}/>
             </Link>
           </div>
+          <div>
+            <Link href="https://west-point-hotel.vercel.app/" target="_blank" className={styles.link}>
+                <Box2 title='West Point Hotel' image='/images/west-point-hotel.svg' tags={["Wordpress", "UI UX Design"]}/>
+            </Link>
+          </div>
+          <div>
+            <Link href="https://the-world-of-studio-ghibli.vercel.app/" target="_blank" className={styles.link}>
+                <Box2 title='The World of Studio Ghibli' image='/images/ghibli.svg' tags={["Wordpress", "UI UX Design"]}/>
+            </Link>
+          </div>
         </main>
 
         <div className={styles.footer}>
