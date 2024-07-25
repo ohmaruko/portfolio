@@ -20,6 +20,33 @@
 .footer {
     margin: 2rem;
 }
+
+.about, .color {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.testing {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.sliderContainer {
+  width: 100%;
+  overflow:hidden;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+}
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 5))}
+}
+.slider{
+  animation: scroll 30s linear infinite;
+  display: flex;
+  width: calc(250px * 10);
+}
 /* mobile */
 @media (max-width: 820px){
     .mainContainer {

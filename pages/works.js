@@ -52,12 +52,12 @@ export default function Works() {
           </div>
           <div>
             <Link href="https://west-point-hotel.vercel.app/" target="_blank" className={styles.link}>
-                <Box2 title='West Point Hotel' image='/images/west-point-hotel.svg' tags={["Wordpress", "UI UX Design"]}/>
+                <Box2 title='West Point Hotel' image='/images/west-point-hotel.svg' tags={["WordPress", "UI UX Design"]}/>
             </Link>
           </div>
           <div>
             <Link href="https://the-world-of-studio-ghibli.vercel.app/" target="_blank" className={styles.link}>
-                <Box2 title='The World of Studio Ghibli' image='/images/ghibli.svg' tags={["Wordpress", "UI UX Design"]}/>
+                <Box2 title='The World of Studio Ghibli' image='/images/ghibli.svg' tags={["WordPress", "UI UX Design"]}/>
             </Link>
           </div>
         </main>
