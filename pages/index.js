@@ -21,10 +21,8 @@ export default function Home() {
               <div className={styles.box1}>
                 <Box title="About me" content={
                   <div>
-                    <p> 
-                    I am a frontend developer and digital designer, raised in Japan, based in Vanvouver. 
-                    My primary tools include Next.js, javascript, HTML, CSS. 
-                    Additionally I am passionate about digital design.</p>
+                    <p>I'm a graphic designer specializing in <strong>branding</strong>.</p>
+                    <p>I love using <strong>color</strong> to bring a fun, playful touch to everyday life.</p>
                     <h5>Education</h5>
                     <p>British Columbia Institute of Techonology (Sep 2023 – May 2025)</p>
                     <p>Digital Design and Development Diploma</p>
@@ -60,19 +58,16 @@ export default function Home() {
                   <Box title="Tools" content={
                     <div className={styles.skill}>
                       <div>
-                        <p>Figma</p>
                         <p>Illustrator</p>
                         <p>Photoshop</p>
                         <p>After Effects</p>
                         <p>InDesign</p>
                         </div>
                       <div>
-                        <p>HTML, CSS</p>
-                        <p>Javascript</p>
+                        <p>Figma</p>
                         <p>Next.js</p>
-                        <p>Bootstrap</p>
+                        <p>HTML, CSS, Javascript</p>
                         <p>Git</p>
-                        <p>Wordpress</p>
                       </div>
                     </div>
                   }/>
@@ -81,17 +76,15 @@ export default function Home() {
                  <Box title="Skill" content={
                   <div className={styles.skill}>
                     <div>
-                      <p>Wireframing</p>
-                      <p>Prototyping</p>
-                      <p>User research</p>
-                      <p>User testing</p>
+                      <p>Logo design</p>
+                      <p>Packaging design</p>
+                      <p>Animating graphics</p>
                     </div>
                     <div>
                       <p>Responsive web design</p>
                       <p>Front-end programming</p>
-                      <p>Logo and graphic creation</p>
-                      <p>Animating graphics</p>
                     </div>
+
                   </div>
                  }/>
               </div>
