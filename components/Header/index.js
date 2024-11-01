@@ -12,7 +12,7 @@ export default function Header() {
                     <h1>Hi, I'm Madoka.</h1>
                     <h3 style={{fontWeight: 400}}>Graphic Design / Branding Design / Web Design</h3>
                 </div>
-                <Image src="/images/profile.png" alt="profile image" width={150} height={150} className={styles.img} />
+                <Image src="/images/profile2.png" alt="profile image" width={150} height={150} className={styles.img} />
             </div>
             <div className={styles.menu}>
                 <Link href='/'>HOME</Link>
