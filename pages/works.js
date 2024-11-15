@@ -21,6 +21,11 @@ export default function Works() {
         <Header className={styles.header}/>
         <main className={`${styles.works} ${workSans.className}`}>
           <div>
+            <Link href="./works/glow_kombu" className={styles.link}>
+                <Box2 title='Glow Kombu' image='/images/glowkombu/glowkombu.png' tags={["Packaging Design"]}/>
+            </Link>
+          </div>
+          <div>
             <Link href="./works/tranquify" className={styles.link}>
                 <Box2 title='Tranquify' image='/images/tranquify/tranquifyLogo.svg' tags={["UI UX Design", "Frontend Development"]}/>
             </Link>
