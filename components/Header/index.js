@@ -15,7 +15,7 @@ export default function Header() {
                 <div className={styles.flipContainer}>
                     <div className={styles.flipper}>
                         <div className={styles.front}>
-                            <Image src="/images/profile2.png" alt="profile image" width={150} height={150} className={styles.img} />
+                            <Image src="/images/profile4.png" alt="profile image" width={150} height={150} className={styles.img} />
                         </div>
                         <div className={styles.back}>
                             <Image src="/favicon.ico" alt="profile image" width={150} height={150} className={styles.img} />
