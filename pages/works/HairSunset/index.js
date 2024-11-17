@@ -34,11 +34,11 @@ export default function Works() {
                           I decided to include a pair of scissors to signify the salon's services, 
                           and added a friendly face or eyes to make it inviting and approachable.</p>
                         <div className={styles.logoInner}>
-                            <Image src='/images/sunsetIdea01.jpg' alt='Logo Scketch' width={100} height={100}/>
-                            <Image src='/images/sunsetIdea02.jpg' alt='Logo Scketch' width={100} height={100}/>
-                            <Image src='/images/sunsetIdea03.jpg' alt='Logo Scketch' width={100} height={100}/>
-                            <Image src='/images/sunsetIdea04.jpg' alt='Logo Scketch' width={100} height={100}/>
-                            <Image src='/images/sunsetIdea05.jpg' alt='Logo Scketch' width={100} height={100}/>
+                            <Image src='/images/hair/sunsetIdea01.jpg' alt='Logo Scketch' width={100} height={100}/>
+                            <Image src='/images/hair/sunsetIdea02.jpg' alt='Logo Scketch' width={100} height={100}/>
+                            <Image src='/images/hair/sunsetIdea03.jpg' alt='Logo Scketch' width={100} height={100}/>
+                            <Image src='/images/hair/sunsetIdea04.jpg' alt='Logo Scketch' width={100} height={100}/>
+                            <Image src='/images/hair/sunsetIdea05.jpg' alt='Logo Scketch' width={100} height={100}/>
                         </div>
                         <h3>Logo Variations</h3>
                         <p>After receiving feedback on my logo concepts, 
@@ -66,8 +66,8 @@ export default function Works() {
                         <p>Inspired by the hair salon's name, I chosen an ellipse shape like the sunin for the primary ad design, 
                           ensuring that the chosen colors harmonize with the logo and evoke the salon's atmosphere.</p>
                         <div className={styles.logoInner}>
-                            <Image src='/images/sunsetIdea07.jpg' alt='Ads Scketch' width={300} height={200}/>
-                            <Image src='/images/hair2.png' alt='Hair Sunset Ad1' width={150} height={200}/>
+                            <Image src='/images/hair/sunsetIdea07.jpg' alt='Ads Scketch' width={300} height={200}/>
+                            <Image src='/images/hair/hair2.png' alt='Hair Sunset Ad1' width={150} height={200}/>
                         </div>
                         <h3>Campaign Advertisement Series</h3>
                         <p>To maintain a consistent style across the ads, 
