@@ -72,7 +72,23 @@
     color: var(--white);
 }
 
+/* Animation for automatic flipping */
+@keyframes flipAnimation {
+    0%, 80%, 100% {
+        transform: rotateY(0deg);
+    }
+    20% {
+        transform: rotateY(180deg);
+    }
+    60% {
+        transform: rotateY(180deg);
+    }
+}
+
 @media (max-width: 820px){
+    .flipper {
+        animation: flipAnimation 10s infinite;
+    }
     .banner{
         display: flex;
         flex-direction: column;

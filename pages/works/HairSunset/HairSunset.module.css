@@ -1,0 +1,50 @@
+/* Common styles for Works page -> */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 70%;
+  margin: 2rem auto;
+}
+/* mobile */
+@media (max-width: 820px){
+  .container {
+    width: 90%;
+  }
+}
+/* <- Common styles for Works page */
+
+.innerContainer {
+  width: 100%;
+}
+.logo {
+  width: 30%;
+  margin: 0 auto;
+}
+.businessCard img{
+  width: 100%;
+}
+.ads {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+.ads img {
+  width: 30%;
+}
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+  }
+.logoInner{
+    display: flex;
+    justify-content: space-evenly;
+  }
+/* mobile */
+@media (max-width: 820px){
+  .logoInner {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+.footer img {
+    width: 36px;
+    height: 36px;
+}
