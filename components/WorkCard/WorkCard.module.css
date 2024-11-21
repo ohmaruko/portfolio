@@ -8,6 +8,12 @@
     text-align: center;
     width: 300px;
 }
+/* @media (prefers-color-scheme: dark) {
+    .workCard {
+        background-color: var(--gray);
+        box-shadow: rgba(95, 100, 105, 0.2) 0px 8px 24px;
+    }
+} */
 .image {
     border-radius: 50px 50px 0 0;
     overflow: hidden;
@@ -24,14 +30,15 @@
     justify-content: center;
     gap: 2px;
 }
-.tag{
+.tag p{
     background-color: var(--blue);
     color: var(--white);
     font-size: 12px;
     border-radius: 10px;
     padding: 2px 8px;
+    margin: 0;
 }
-.workCard:hover .tag{
+.workCard:hover .tag p{
     background-color: var(--white);
     color: var(--blue);
 }

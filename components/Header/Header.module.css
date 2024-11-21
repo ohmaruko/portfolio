@@ -59,18 +59,27 @@
 .menu a {
     text-decoration: none;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--blue);
     font-weight: bold;
     background-color: var(--white);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 20px;
-    padding: 1rem 2rem;
+    padding: 1.3rem 2rem;
     width: 80px;
 }
 .menu a:hover {
     background-color: var(--blue);
     color: var(--white);
 }
+/* @media (prefers-color-scheme: dark) {
+    .menu a {
+        background-color: var(--gray);
+        box-shadow: rgba(95, 100, 105, 0.2) 0px 8px 24px;
+    }
+} */
 
 /* Animation for automatic flipping */
 @keyframes flipAnimation {

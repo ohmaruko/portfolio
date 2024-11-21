@@ -16,7 +16,7 @@ export default function WorkCard({
                 {
                     tags.map(tag => {
                         return(
-                            <div className={styles.tag}>{tag}</div>
+                            <div className={styles.tag}><p>{tag}</p></div>
                         )
                     })
                 }
