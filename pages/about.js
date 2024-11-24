@@ -76,7 +76,7 @@ export default function Home() {
           </div>
 
           <div className={styles.box1}>
-              <Box title="Edication" content={
+              <Box title="Education" content={
                 <div className={styles.education}>
                   <p>British Columbia Institute of Techonology</p>
                   <p>Digital Design and Development Diploma</p>
