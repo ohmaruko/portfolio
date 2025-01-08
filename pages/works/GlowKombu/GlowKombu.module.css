@@ -23,6 +23,10 @@
 .mainImage img {
     width: 100%;
 }
+.mainImage p {
+  max-width: 500px;
+  margin: 1rem auto;
+}
 .frontSide {
     display: flex;
     flex-direction: row;
