@@ -30,7 +30,7 @@ const BackToTop = () => {
     <div>
       {visible && (
         <button onClick={scrollToTop} className={styles.backToTopButton}>
-          <img src="/favicon.ico" alt="logo"/>
+          <img src="/images/mascot.svg" alt="The mascot that takes you back to the top of the page"/>
           <p>Fly to the top!</p>
         </button>
       )}

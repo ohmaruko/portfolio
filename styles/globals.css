@@ -1,11 +1,11 @@
 :root {
-  --orange: #FF5714;
-  --light-orange: rgba(255, 87, 20, 0.5);
-  --blue: #7F96FF;
+  --orange: #ff6f26;
+  --light-orange: #ff6e266d;
+  --blue: #006afe;
   --white: #fffdfa;
   --light-yellow: #FFF6E5;
-  --yellow: #e5f599;
-  --text: #5e5e83;
+  --yellow: #d0b227;
+  --text: #282828;
   --dark-gray: #23212b;
   --gray: rgb(52, 50, 63);
   color: var(--blue);
@@ -20,37 +20,29 @@ body {
   background-color: var(--white);
   cursor: none;
 }
+h1, h2, h3, a {
+  font-family: "unbounded", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
 h1 {
   font-size: 64px;
-  font-family: "alkaline-caps", sans-serif;
-  font-weight: 800;
-  font-style: normal;
 }
 h2 {
   font-size: 24px;
-  font-family: "alkaline-caps", sans-serif;
-  font-weight: 800;
-  font-style: normal;
 }
 h3 {
   font-size: 20px;
-  font-family: "alkaline-caps", sans-serif;
-  font-weight: 800;
-  font-style: normal;
 }
 p, li {
   color: var(--text);
-  font-size: 16px;
-  font-family: "Lato", sans-serif;
-  font-optical-sizing: auto;
+  font-size: 18px;
+  font-family: "futura", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 a {
   cursor: none;
-  font-family: "alkaline-caps", sans-serif;
-  font-weight: 800;
-  font-style: normal;
 }
 .custom-cursor {
   position: fixed;
