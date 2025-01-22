@@ -4,7 +4,8 @@ import Image from "next/image"
 export default function WorkCard({
     title,
     image,
-    tags
+    tags,
+    summary
 }) {
     return (
         <div className={styles.workCard}>

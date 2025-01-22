@@ -7,6 +7,7 @@
     color: var(--blue);
     text-align: center;
     width: 300px;
+    /* position: relative; */
 }
 /* @media (prefers-color-scheme: dark) {
     .workCard {
@@ -21,6 +22,7 @@
 .workCard:hover {
     background-color: var(--blue);
     color: var(--white);
+    transition: 0.3s;
 }
 .tagsContainer {
     width: 250px;
@@ -41,4 +43,5 @@
 .workCard:hover .tag p{
     background-color: var(--white);
     color: var(--blue);
+    transition: 0.3s;
 }
