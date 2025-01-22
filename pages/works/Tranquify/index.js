@@ -39,7 +39,7 @@ export default function Works() {
                       <p>A personalized approach to mental well-being through mood tracking and tailored meditation content.</p>
                       <p><strong>Role</strong>: UI/UX Designer, Frontend Developer</p>
                       <p><strong>Team</strong>: Two other teammates</p>
-                      <p><strong>Timeline</strong>: Jan 2024 - April 2024</p>
+                      <p><strong>Timeline</strong>: January 2024 - April 2024</p>
                       <p><strong>Tools</strong>: Figma, NextJS, Adobe Illustrator, Adobe After Effects</p>
                       <div className={styles.btn}>
                         <Link href='https://tranquify.vercel.app/' target='_blank'>Visit mockup</Link>
@@ -55,18 +55,18 @@ export default function Works() {
                         <div className={styles.contextInner}>
                           <h3>Problem</h3>
                           <p>According to <a href='https://www150.statcan.gc.ca/n1/pub/11-627-m/11-627-m2023053-eng.htm' target='_blank'>Statistics Canada</a>, 
-                            18% of Canadians <mark>experienced anxiety and mood disorders</mark> as of 2022, 
+                            18% of Canadians <strong>experienced anxiety and mood disorders</strong> as of 2022, 
                             marking an increase since 2012. While mood-tracking apps help users recognize mood patterns and trends, 
                             which can motivate positive change, 
-                            many fail to provide tools for <mark>interpreting the data or actionable recommendations</mark> to enhance mental well-being.</p>
+                            many fail to provide tools for <strong>interpreting the data or actionable recommendations</strong> to enhance mental well-being.</p>
                         </div>
                         <div className={styles.contextInner}>
                           <h3>Solution</h3>
                           <p>Tranquify is a mobile mood-tracking app designed to empower users to take charge of their mental health. 
-                            It combines <mark>mood tracking</mark> with tailored <mark>meditation content</mark>, 
+                            It combines <strong>mood tracking</strong> with tailored <strong>meditation content</strong>, 
                             offering personalized suggestions and actionable insights based on logged moods. 
                             Users can access meditation resources customized to their emotional state, 
-                            helping them take <mark>meaningful steps toward better mental well-being.</mark></p>
+                            helping them take <strong>meaningful steps toward better mental well-being.</strong></p>
                         </div>
                       </div>
 
@@ -119,12 +119,12 @@ export default function Works() {
                       <div className={styles.testingsContainer}>
                         <div className={styles.testing}>
                           <div className={styles.testingImages}>
-                            <img src='/images/tranquify/user_testing_meditation.svg' alt="meditation page before"  />
+                            <img src='/images/tranquify/user_testing_meditation.svg' alt="meditation page before" />
                             <p>&#8674;</p>
                             <img src='/images/tranquify/page_meditation.svg' alt="meditation page after" />
                           </div>
                           <p>
-                            1. Labels were added to each section for improved <mark>clarity and navigation</mark>.
+                            1. Labels were added to each section for improved <strong>clarity and navigation</strong>.
                           </p>
                         </div>
                         <div className={styles.testing}>
@@ -134,7 +134,7 @@ export default function Works() {
                             <img src='/images/tranquify/page_meditationplay.svg' alt="meditation play page after" />
                           </div>
                           <p>
-                            2. We made the heart icons more <mark>prominent and accessible</mark> throughout the app.
+                            2. We made the heart icons more <strong>prominent and accessible</strong> throughout the app.
                           </p>
                         </div>
                         <div className={styles.testing}>
@@ -144,7 +144,7 @@ export default function Works() {
                             <img src='/images/tranquify/page_home.svg' alt="home page after" />
                           </div>
                           <p>
-                            3. The weather section on the home page was resized to <mark>reduce confusion</mark>.
+                            3. The weather section on the home page was resized to <strong>reduce confusion</strong>.
                           </p>
                         </div>
                       </div>
