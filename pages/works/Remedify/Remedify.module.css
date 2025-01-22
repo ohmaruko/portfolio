@@ -1,0 +1,124 @@
+/* Common styles for Works page -> */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 70%;
+    max-width: 1000px;
+    margin: 2rem auto;
+    }
+    /* mobile */
+    @media (max-width: 820px){
+        .container {
+        width: 90%;
+        }
+    }
+  /* <- Common styles for Works page */
+
+.innerContainer {
+    width: 100%;
+}
+.titleOfWork {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.bannerLogo {
+    width: 40%;
+}
+.bannerImg {
+    width: 100%;
+}
+.overview p {
+    margin: 0;
+}
+.overview span {
+    font-weight: 500;
+}
+.btn {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.btn a {
+    text-decoration: none;
+    text-align: center;
+    color: var(--blue);
+    font-weight: bold;
+    background-color: var(--white);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+}
+.btn a:hover {
+    background-color: var(--blue);
+    color: var(--white);
+}
+.icon {
+    fill: var(--blue);
+    font-size: 20px;
+}
+.icon:hover {
+    background-color: var(--blue);
+    fill: var(--white);
+}
+
+.context {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.contextInner {
+    display: flex;
+    flex-direction: column;
+}
+.context h3, .context p {
+    margin: 0; 
+}
+.context img{
+    width: 50%;
+}
+.context a {
+    font-family: "Lato", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    /* text-decoration: none; */
+    color: var(--blue);
+}
+
+.competitiveAnalysis {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.competitiveAnalysis p{
+    flex: 1;
+}
+
+.styleguide img {
+    width: 100%;
+}
+
+.uiuxContainer img{
+    width: 100%;
+}
+
+.marketingContainer img {
+    width: 100%;
+}
+
+/* mobile */
+@media (max-width: 820px){
+    .context {
+        flex-direction: column;
+    }
+    .btn {
+        flex-direction: column;
+    }
+}
