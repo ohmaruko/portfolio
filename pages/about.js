@@ -12,9 +12,9 @@ export default function Home() {
           <div className={styles.box1}>
             <Box title="About me" content={
               <div className={styles.color}>
-                <p>I'm a graphic designer specializing in <span>branding</span>, originally from Japan and now based in Vancouver/Victoria.</p>
+                <p>I'm a graphic/web designer specializing in <span>branding</span>, originally from Japan and now based in Vancouver/Victoria.</p>
                 <p>I love infusing <span>color</span> and character into my designs, creating playful and organic visuals that <span>brighten everyday life :D </span>
-                My work blends vibrant creativity with a thoughtful approach, whether I’m crafting bold logos or unique brand identities.</p>
+                Aiming to create simple yet memorable designs that effectively deliver messages while bringing a touch of joy to the audience.</p>
               </div>
             }/>
           </div>
@@ -58,13 +58,13 @@ export default function Home() {
 
             
           <div className={styles.box1}>
-              <Box title="Skill" content={
+              <Box title="Skills" content={
               <div className={styles.skill}>
                 <div>
                   <p>Graphic design</p>
                   <p>Logo design</p>
                   <p>Packaging design</p>
-                  <p>Typography Layout</p>
+                  <p>Typography layout</p>
                 </div>
                 <div>
                   <p>Motion graphic design</p>
@@ -88,9 +88,9 @@ export default function Home() {
           <div className={styles.box2}>
             <Box title="Favourites ⟡*" content={
               <div className={styles.funfacts}>
+                <p>Ocean</p>
+                <p>Yoga</p>
                 <p>Gummy Bear</p>
-                <p>Yogi at heart</p>
-                <p>Happiest by the ocean</p>
                 <div className={styles.candies}>
                     <div className={styles.candy1}>🐻‍❄️</div>
                     <div className={styles.candy2}>🧘</div>

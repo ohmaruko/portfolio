@@ -1,11 +1,4 @@
-.homeContainer {
-  display: flex;
-  flex-wrap: wrap;
-  width: 70%;
-  max-width: 1000px;
-  justify-content: center;
-  margin: 2em auto;
-}
+/* Works */
 .worksContainer {
   margin: 2rem auto;
   width: 85%;
@@ -15,21 +8,27 @@
   justify-content: center;
   align-items: center;
 }
-.box1 {
-  width: 60%;
-}
-.box2 {
-  width: 40%;
-}
-.box3 {
-  width: 100%;
-}
 .link {
   text-decoration: none;
   color: var(--text);
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+/* About */
+.homeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  max-width: 1000px;
+  justify-content: center;
+  margin: 2em auto
+}
+.box1 {
+  width: 60%;
+}
+.box2 {
+  width: 40%;
 }
 .color:hover span {
   /* transition: colorText 0.1s ease-out 100ms; */

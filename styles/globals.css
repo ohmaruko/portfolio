@@ -3,7 +3,7 @@
   --light-orange: #ff6e266d;
   --blue: #006afe;
   --white: #fffdfa;
-  --light-yellow: #FFF6E5;
+  --light-yellow: #d0b12724;
   --yellow: #d0b227;
   --text: #282828;
   --dark-gray: #23212b;
@@ -42,12 +42,14 @@ p, li {
   font-style: normal;
 }
 a {
-  cursor: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--blue);
 }
 .custom-cursor {
   position: fixed;
-  width: 20px; 
-  height: 20px; 
+  width: 30px; 
+  height: 30px; 
   background-color: var(--yellow); 
   border-radius: 50%;
   pointer-events: none;
@@ -76,7 +78,7 @@ a {
   h6 {
     font-size: 16px;
   }
-  p {
+  p, li {
     font-size: 14px;
   }
   .custom-cursor {
