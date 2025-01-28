@@ -36,6 +36,19 @@
       text-decoration: none;
     }
   }
+  @media (hover: none) {
+    .button:active {
+      color: var(--white);
+      background-color: var(--blue);
+    }
+    .button:not(:active){
+      color: var(--blue);
+      background-color: var(--white);
+    }
+    .flair {
+      display: none;
+    }
+  }
   
   .label {
     position: relative;
