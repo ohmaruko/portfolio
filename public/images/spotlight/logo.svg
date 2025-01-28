@@ -21,15 +21,21 @@
   <g id="Layer_1-2">
     <g>
       <g class="st0">
-        <text class="st1" transform="translate(112.9 21.4)"><tspan x="0" y="0">Sp</tspan></text>
-        <text class="st1" transform="translate(141.3 21.4)"><tspan x="0" y="0">o</tspan></text>
-        <text class="st1" transform="translate(155.8 21.4)"><tspan x="0" y="0">tlight</tspan></text>
+        <g class="st0">
+          <text class="st1" transform="translate(112.9 21.4)"><tspan x="0" y="0">Sp</tspan></text>
+        </g>
+        <g class="st0">
+          <text class="st1" transform="translate(141.3 21.4)"><tspan x="0" y="0">o</tspan></text>
+        </g>
+        <g class="st0">
+          <text class="st1" transform="translate(155.8 21.4)"><tspan x="0" y="0">tlight</tspan></text>
+        </g>
       </g>
       <g>
         <rect x="74.8" width="28.5" height="28.5"/>
-        <path class="st2" d="M101.3,21.9c-.4-1.4-13.9-12.1-22.1-19v19h0c0,0,0,.2,0,.3,0,1.6,4.9,2.9,11.1,2.9s11.1-1.3,11.1-2.9,0-.2,0-.3h0,0Z"/>
-        <circle cx="91.2" cy="22" r="1"/>
-        <circle cx="96.2" cy="22" r="1"/>
+        <path class="st2" d="M100.3,21.9c-.4-1.4-13.9-12.1-22.1-19v19h0v.3c0,1.6,4.9,2.9,11.1,2.9s11.1-1.3,11.1-2.9,0-.2,0-.3h0Z"/>
+        <circle cx="90.2" cy="22" r="1"/>
+        <circle cx="95.2" cy="22" r="1"/>
       </g>
     </g>
   </g>

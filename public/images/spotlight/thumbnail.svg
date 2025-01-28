@@ -1,32 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178.82 178.82">
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 178.8 178.8">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
   <defs>
     <style>
-      .cls-1 {
-        fill: #fbff86;
+      .st0, .st1 {
+        isolation: isolate;
       }
 
-      .cls-2 {
+      .st1 {
         font-family: Futura-Medium, Futura;
         font-size: 24px;
         font-weight: 500;
       }
 
-      .cls-3 {
-        letter-spacing: 0em;
+      .st2 {
+        fill: #fbff86;
       }
     </style>
   </defs>
-  <g id="Layer_1-2" data-name="Layer 1">
+  <g id="Layer_1-2">
     <g>
-      <rect class="cls-1" width="178.82" height="178.82"/>
+      <rect class="st2" width="178.8" height="178.8"/>
       <g>
-        <text class="cls-2" transform="translate(60.69 96.51)"><tspan x="0" y="0">Sp</tspan><tspan class="cls-3" x="28.38" y="0">o</tspan><tspan x="42.95" y="0">tlight</tspan></text>
+        <g class="st0">
+          <text class="st1" transform="translate(60.7 96.5)"><tspan x="0" y="0">Sp</tspan></text>
+          <text class="st1" transform="translate(89.1 96.5)"><tspan x="0" y="0">o</tspan></text>
+          <text class="st1" transform="translate(103.6 96.5)"><tspan x="0" y="0">tlight</tspan></text>
+        </g>
         <g>
-          <rect x="22.57" y="75.14" width="28.54" height="28.54"/>
-          <path class="cls-1" d="M49.11,97c-.4-1.37-13.95-12.11-22.13-19.03v19.03h.05c-.03.09-.05.17-.05.26,0,1.61,4.95,2.91,11.07,2.91s11.07-1.3,11.07-2.91c0-.09-.02-.17-.05-.26h.05Z"/>
-          <circle cx="38.98" cy="97.14" r="1.05"/>
-          <circle cx="44.01" cy="97.14" r="1.05"/>
+          <rect x="22.6" y="75.1" width="28.5" height="28.5"/>
+          <path class="st2" d="M48.2,97c-.4-1.4-14-12.1-22.1-19v19h0c0,0,0,.2,0,.3,0,1.6,4.9,2.9,11.1,2.9s11.1-1.3,11.1-2.9,0-.2,0-.3h0,0Z"/>
+          <circle cx="38" cy="97.1" r="1.1"/>
+          <circle cx="43.1" cy="97.1" r="1.1"/>
         </g>
       </g>
     </g>
