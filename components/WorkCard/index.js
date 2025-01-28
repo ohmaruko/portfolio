@@ -1,14 +1,19 @@
 import styles from "./WorkCard.module.css"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function WorkCard({
     title,
     image,
+    href,
     tags,
-    summary
+    targetBlank,
+    summary,
 }) {
+
     return (
         <div className={styles.workCard}>
+            <Link href={`${href}#scroll`} target={targetBlank ? "_blank" : ""}>
             <div className={styles.image}>
                 <Image src={image} width={300} height={300}/>
             </div>
@@ -22,6 +27,7 @@ export default function WorkCard({
                     })
                 }
             </div>
+            </Link>
         </div>
     )
 }

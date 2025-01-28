@@ -4,9 +4,22 @@ import Link from 'next/link'
 import { Work_Sans } from 'next/font/google'
 const workSans = Work_Sans ({subsets: ['latin']})
 import AnimatedButton from '../AnimatedButton'
-
+import { useEffect } from 'react'
 
 export default function Header() {
+
+    useEffect(() => {
+        // Check if there's a hash in the URL
+        if (window.location.hash === '#scroll') {
+            // Wait a bit for the page to fully load
+            setTimeout(() => {
+                const scrollElement = document.getElementById('scroll');
+                if (scrollElement) {
+                    scrollElement.scrollIntoView({ behavior: 'smooth' });
+                }
+            }, 100);
+        }
+    }, []);
 
     return (
         <header className={`${styles.header} ${workSans.className}`}>
@@ -32,11 +45,12 @@ export default function Header() {
                     <h2>Branding | Graphic | Web Design</h2>
                     {/* <p>Specializing in branding, I focus on creating playful, organic visuals. My goal is to craft simple, memorable designs that deliver clear messages and bring joy to the audience.</p> */}
                 </div>
+                <div id='scroll'></div>
             </div>
-            <div className={styles.menu}>
+            <section className={styles.menu}>
                 <AnimatedButton href="/">WORK</AnimatedButton>
                 <AnimatedButton href="/about">ABOUT</AnimatedButton>
-            </div>
+            </section>
         </header>
 
     )
