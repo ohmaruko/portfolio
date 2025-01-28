@@ -11,3 +11,9 @@
         box-shadow: rgba(95, 100, 105, 0.2) 0px 8px 24px;
     }
 } */
+
+@media (max-width: 820px){
+    .box {
+        padding: 1em;
+    }
+}

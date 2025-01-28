@@ -15,9 +15,9 @@ export default function WorkCard({
             <h2>{title}</h2>
             <div className={styles.tagsContainer}>
                 {
-                    tags.map(tag => {
+                    tags.map((tag, index) => {
                         return(
-                            <div className={styles.tag}><p>{tag}</p></div>
+                            <div key={index} className={styles.tag}><p>{tag}</p></div>
                         )
                     })
                 }
