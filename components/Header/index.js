@@ -3,8 +3,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Work_Sans } from 'next/font/google'
 const workSans = Work_Sans ({subsets: ['latin']})
+import AnimatedButton from '../AnimatedButton'
+
 
 export default function Header() {
+
     return (
         <header className={`${styles.header} ${workSans.className}`}>
             <div className={styles.logo}>
@@ -31,8 +34,8 @@ export default function Header() {
                 </div>
             </div>
             <div className={styles.menu}>
-                <Link href='/'>WORK</Link>
-                <Link href='/about'>ABOUT</Link>
+                <AnimatedButton href="/">WORK</AnimatedButton>
+                <AnimatedButton href="/about">ABOUT</AnimatedButton>
             </div>
         </header>
 

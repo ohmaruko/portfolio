@@ -18,7 +18,7 @@ body {
     linear-gradient(to bottom, var(--light-orange) 1px, transparent 1px);
   background-size: 2em 2em;
   background-color: var(--white);
-  cursor: none;
+  /* cursor: none; */
 }
 h1, h2, h3, a {
   font-family: "unbounded", sans-serif;
@@ -42,7 +42,7 @@ p, li {
   font-style: normal;
 }
 a {
-  cursor: pointer;
+  /* cursor: none; */
   text-decoration: none;
   color: var(--blue);
 }

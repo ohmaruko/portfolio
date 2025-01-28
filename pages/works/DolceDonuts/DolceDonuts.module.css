@@ -28,29 +28,6 @@
   justify-content: center;
   gap: 1rem;
 }
-.btn a {
-  text-decoration: none;
-  text-align: center;
-  color: var(--blue);
-  font-weight: bold;
-  background-color: var(--white);
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  border-radius: 20px;
-  padding: 1rem 2rem;
-}
-.btn a:hover {
-  background-color: var(--blue);
-  color: var(--white);
-}
-.githubLogo {
-  fill: var(--blue);
-  padding: 5px;
-  border-radius: 10px;
-}
-.githubLogo:hover .logo{
-  background-color: var(--blue);
-  fill: var(--white);
-}
 .styleGuide {
   display: flex;
   flex-wrap: wrap;
@@ -60,6 +37,6 @@
 /* mobile */
 @media (max-width: 820px){
   .btn {
-    flex-direction: column;
+    margin: 0rem;
   }
 }

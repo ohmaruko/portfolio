@@ -2,6 +2,7 @@ import styles from './HarmonyInDesign.module.css'
 import Box from '@/components/Box'
 import Head from 'next/head'
 import Link from 'next/link'
+import AnimatedButton from '@/components/AnimatedButton'
 
 export default function HarmonyInDesign() {
   return (
@@ -23,7 +24,7 @@ export default function HarmonyInDesign() {
                         <img src='/images/digital_magazine.png' alt='Digital Magazine' />
                     </div>
                     <div className={styles.btn}>
-                      <Link href='https://indd.adobe.com/view/a151626f-84f9-4d74-82c0-0df11a2ecfcc' target='_blank'>View Digital Magazine 👀</Link>
+                      <AnimatedButton href='https://indd.adobe.com/view/a151626f-84f9-4d74-82c0-0df11a2ecfcc' targetBlank={true}>View Digital Magazine 👀</AnimatedButton>
                     </div>
                     <p><strong>Tools</strong>: Adobe InDesign</p>
                 </div>

@@ -7,6 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { MdOutlineContentPaste } from "react-icons/md";
 import { GoGoal } from "react-icons/go";
 import { MdOutlineTipsAndUpdates } from "react-icons/md";
+import AnimatedButton from '@/components/AnimatedButton';
 
 export default function Works() {
     return (
@@ -28,14 +29,10 @@ export default function Works() {
                     <img src='/images/spotlight/spotlight_home.png' alt="Spotlight Home"  />
                     <p>Role: UI/UX Designer</p>
                     <p>Team: A frontend developer, two backend developers</p>
-                    <div>
-                        <div className={styles.btn}>
-                            <Link href='https://devpost.com/software/spotlight-fx9bgu' target='_blank'>Devpost</Link>
-                            <Link href='https://spotlight-sigma-plum.vercel.app/' target='_blank'>Spotlight</Link>
-                            <Link href='https://github.com/romansinkus/spotlight' target='_blank' className={styles.icon}>
-                                <FaGithub />
-                            </Link>
-                        </div>
+                    <div className={styles.btn}>
+                        <AnimatedButton href='https://devpost.com/software/spotlight-fx9bgu' targetBlank={true}>Devpost</AnimatedButton>
+                        <AnimatedButton href='https://spotlight-sigma-plum.vercel.app/' targetBlank={true}>Spotlight</AnimatedButton>
+                        <AnimatedButton href='https://github.com/romansinkus/spotlight' targetBlank={true}><FaGithub /></AnimatedButton>
                     </div>
                     <h2>Inspiration</h2>
                     <p>
@@ -131,7 +128,7 @@ export default function Works() {
                         <div>
                             <p><MdOutlineTipsAndUpdates />Design Notes:</p>
                             <ul>
-                                <li>The student’s schedule is displayed with the current time highlighted, allowing users to quickly identify available time slots</li>
+                                <li>The student’s schedule is displayed with the current time highlighted, allowing users to quickly identify available time slots.</li>
                             </ul>
                         </div>
                     </div>
@@ -146,14 +143,10 @@ export default function Works() {
                     <h2>What's next for Spotlight</h2>
                     <p><strong>Privacy Enhancement</strong>: To further prioritize user privacy, a blur effect will be added to the streaming content. While Spotlight can already detect available spaces, the blur will obscure sensitive details in the stream, ensuring a more secure and private experience for users.</p>
                     <h2>Explore more about the project and its development below!</h2>
-                    <div>
-                        <div className={styles.btn}>
-                            <Link href='https://devpost.com/software/spotlight-fx9bgu' target='_blank'>Devpost</Link>
-                            <Link href='https://spotlight-sigma-plum.vercel.app/' target='_blank'>Spotlight</Link>
-                            <Link href='https://github.com/romansinkus/spotlight' target='_blank' className={styles.icon}>
-                                <FaGithub />
-                            </Link>
-                        </div>
+                    <div className={styles.btn}>
+                        <AnimatedButton href='https://devpost.com/software/spotlight-fx9bgu' targetBlank={true}>Devpost</AnimatedButton>
+                        <AnimatedButton href='https://spotlight-sigma-plum.vercel.app/' targetBlank={true}>Spotlight</AnimatedButton>
+                        <AnimatedButton href='https://github.com/romansinkus/spotlight' targetBlank={true}><FaGithub /></AnimatedButton>
                     </div>
                     <div className={styles.mockup}>
                         <iframe style={{border: "1px solid var(--light-orange)", borderRadius: "20px"}} width="800" height="550" src="https://embed.figma.com/proto/MHGdpBpkvLOCBJ7by1hMSG/Spotlight-nwHacks2025?node-id=10-517&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=39%3A1807&embed-host=share" allowfullscreen></iframe>

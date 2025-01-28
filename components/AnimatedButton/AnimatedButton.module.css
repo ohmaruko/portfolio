@@ -1,0 +1,80 @@
+.button {
+    --ease-in-out-quart: cubic-bezier(0.76, 0, 0.24, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--white);
+    border: none;
+    border-radius: 20px;
+    color: var(--blue);
+    cursor: pointer;
+    /* font-size: 1.2rem; */
+    font-weight: bold;
+    /* gap: 0.363636em; */
+    /* letter-spacing: -0.01em; */
+    /* line-height: 1.04545; */
+    overflow: hidden; /*Hides flair effect*/
+    padding: 1.3rem 2rem;
+    position: relative;
+    /* text-decoration: none; */
+    /* word-break: break-word; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+  .button::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    /* border: 0.125rem solid var(--blue); */
+    border-radius: 20px;
+    pointer-events: none;
+  }
+  
+  @media (hover: hover) {
+    .button:hover {
+      color: var(--white);
+      text-decoration: none;
+    }
+  }
+  
+  .label {
+    position: relative;
+    text-align: center;
+    transition: color 50ms var(--ease-in-out-quart);
+  }
+  
+  .button:hover .label {
+    transition: color 0.15s var(--ease-in-out-quart);
+  }
+  
+  .flair {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    transform: scale(0);
+    transform-origin: 0 0;
+    will-change: transform;
+  }
+  
+  .flair::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    aspect-ratio: 1/1;
+    width: 170%;
+    background-color: var(--blue);
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+  }
+  /* mobile */
+@media (max-width: 820px){
+  .button {
+    box-shadow: none;
+    padding: 1rem 1.3rem;
+  }
+  .button::after {
+      border: 2px solid var(--blue);
+  }
+}

@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { FaGithub } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
+import AnimatedButton from '@/components/AnimatedButton';
 
 export default function GlowKombu() {
     return (
@@ -31,10 +32,8 @@ export default function GlowKombu() {
                             <p><span>Tools</span>: Figma, Expo, UI Kitten, OpenAI GPT-4o mini, Canadian Drug Product Database API</p>
                         </div>
                         <div className={styles.btn}>
-                            <Link href='https://remedify.vercel.app/' target='_blank'>Landing Page</Link>
-                            <Link href='https://github.com/yeenathan/Asclepius' target='_blank' className={styles.icon}>
-                                <FaGithub />
-                            </Link>
+                            <AnimatedButton href='https://remedify.vercel.app/' targetBlank={true}>Landing Page</AnimatedButton>
+                            <AnimatedButton href='https://github.com/yeenathan/Asclepius' targetBlank={true}><FaGithub /></AnimatedButton>
                         </div>
                     </div>
 
@@ -118,9 +117,7 @@ export default function GlowKombu() {
                             <li>Canadian Drug Product Database (DPD) API</li>
                         </ul>
                         <div className={styles.btn}>
-                            <Link href='https://github.com/yeenathan/Asclepius' target='_blank'>
-                                Visit Repository <FaGithub />
-                            </Link>
+                            <AnimatedButton href='https://github.com/yeenathan/Asclepius' targetBlank={true}><FaGithub /></AnimatedButton>
                         </div>
                     </div>
 
@@ -132,10 +129,8 @@ export default function GlowKombu() {
                         <p>On Instagram, diverse content types were created to attract and engage the audience. These include features highlighting Remedify's benefits, educational posts with medication practice statistics, and team introductions to build trust and connection.</p>
                         <img src='/images/remedify/landingpage.svg' alt="Landing Page Banner Image"  />
                         <div className={styles.btn}>
-                            <Link href='https://remedify.vercel.app/' target='_blank'>Landing Page</Link>
-                            <Link href='https://www.instagram.com/rememberwithremedify/?utm_source=ig_web_button_share_sheet' target='_blank' className={styles.icon}>
-                                <FaSquareInstagram />
-                            </Link>
+                            <AnimatedButton href='https://remedify.vercel.app/' targetBlank={true}>Landing Page</AnimatedButton>
+                            <AnimatedButton href='https://www.instagram.com/rememberwithremedify/?utm_source=ig_web_button_share_sheet' targetBlank={true}><FaSquareInstagram /></AnimatedButton>
                         </div>
                     </div>
 
