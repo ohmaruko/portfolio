@@ -4,16 +4,27 @@
     margin: 0.5em;
     border-radius: 50px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    overflow: hidden;
 }
-/* @media (prefers-color-scheme: dark) {
-    .box {
-        background-color: var(--gray);
-        box-shadow: rgba(95, 100, 105, 0.2) 0px 8px 24px;
-    }
-} */
+.link {
+    position: relative;
+    left: 20%;
+    overflow: hidden;
+    text-align: end;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.link:hover{
+    opacity: 0.9;
+    transform: translateX(-20%);
+}
 
 @media (max-width: 820px){
     .box {
         padding: 1em;
+    }
+    .link {
+        font-size: 10px;
+        position: inherit;
     }
 }
