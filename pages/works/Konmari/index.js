@@ -11,7 +11,7 @@ export default function Works() {
       </Head>
 
       <div className={styles.container}>
-          <Box content={
+          <Box  backButton={true} content={
               <div>
                   <h1>Konmari Method</h1>
                   <h1>Motion Graphic Video</h1>

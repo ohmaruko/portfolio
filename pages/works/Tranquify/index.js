@@ -31,7 +31,7 @@ export default function Works() {
 
       <div className={styles.container}>
           <div className={styles.innerContainer}>
-              <Box content={
+              <Box  backButton={true} content={
                   <div>
                       <div className={styles.titleOfWork}>
                           <img className={styles.bannerLogo}src='/images/tranquify/horizontalLogo.svg' alt="Tranquify logo: a green cloudy shape with a relaxed smiling face, accompanied by a wordmark." />

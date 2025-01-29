@@ -11,10 +11,7 @@ export default function GlowKombu() {
       </Head>
 
       <div className={styles.container}>
-        {/* <div className={styles.innerContainer}>
-
-        </div> */}
-        <Box content={
+        <Box backButton={true} content={
             <div>
                 <h1>Glow Kombu</h1>
                 <h1>Kombucha Can Design</h1>

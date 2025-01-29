@@ -12,7 +12,7 @@ export default function Works() {
       </Head>
 
       <div className={styles.container}>
-          <Box content={
+          <Box backButton={true} content={
             <div>
                   <h1>How to Meditate</h1>
                   <div className={styles.heart}>

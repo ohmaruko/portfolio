@@ -14,7 +14,7 @@ export default function DolceDonuts() {
       </Head>
       <div className={styles.container}>
         <div className={styles.innerContainer}>
-            <Box content={
+            <Box backButton={true} content={
               <div>
                 <h1>Dolce Donuts</h1>
                 <div className={styles.logo}>

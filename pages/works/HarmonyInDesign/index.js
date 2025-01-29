@@ -14,7 +14,7 @@ export default function HarmonyInDesign() {
 
       <div className={styles.container}>
           <div className={styles.innerContainer}>
-            <Box content={
+            <Box  backButton={true} content={
                 <div>
                     <h1>Harmony In Design</h1>
                     <h1>Magazine Design</h1>

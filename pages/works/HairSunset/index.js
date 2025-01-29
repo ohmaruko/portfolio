@@ -13,7 +13,7 @@ export default function Works() {
 
       <div className={styles.container}>
           <div className={styles.innerContainer}>
-              <Box content={
+              <Box  backButton={true} content={
                   <div>
                       <div className={styles.logo}>
                         <img src='/images/hairlogo/logo_wordmark.svg' alt='Hair Sunset Ad1' />

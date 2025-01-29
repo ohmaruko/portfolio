@@ -16,7 +16,7 @@ export default function GlowKombu() {
         </Head>
 
         <div className={styles.container}>
-            <Box content={
+            <Box backButton={true} content={
                 <div>
                     <div className={styles.titleOfWork}>
                             <img className={styles.bannerLogo}src='/images/remedify/remedify_logo.svg' alt="Remedify Logo" />

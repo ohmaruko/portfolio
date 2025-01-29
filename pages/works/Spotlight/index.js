@@ -18,7 +18,7 @@ export default function Works() {
         </Head>
 
         <div className={styles.container}>
-            <Box content={
+            <Box  backButton={true} content={
                 <div>
                     <h1>Spotlight</h1>
                     <h3>Helping you find the perfect study spot or gym time on campus.</h3>

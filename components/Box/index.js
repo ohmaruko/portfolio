@@ -4,11 +4,13 @@ import Link from "next/link"
 export default function Box({
     title,
     content,
+    backButton
 }) {
     return (
         <div className={styles.box} style={{}}>
+            {title ?<h2>{title}</h2>:<></>}
             {content}
-            <Link href='/'><h3 className={styles.link}>╰(･ ᗜ ･ )╯Back to Home ╰(･ ᗜ ･ )╯╰(･ ᗜ ･ )╯╰(･ ᗜ ･ )╯===3=3</h3></Link>
+            {backButton ? <Link href='/'><h3 className={styles.link}>╰(･ ᗜ ･ )╯Back to Home ╰(･ ᗜ ･ )╯╰(･ ᗜ ･ )╯╰(･ ᗜ ･ )╯===3=3</h3></Link>: <></>}
         </div>
     )
 }
