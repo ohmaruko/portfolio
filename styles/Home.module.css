@@ -31,24 +31,12 @@
   width: 40%;
 }
 .color:hover span {
-  /* transition: colorText 0.1s ease-out 100ms; */
-  animation: colorText 5s linear infinite;
-}
-@keyframes colorText {
-  0% {
-  }
-  25% {
-    color: #90a040;
-  }
-  50% {
-    color: #d4664d;
-  }
-  75% {
-    color: #3498db;
-  }
-  100% {
-    color: #5834db;
-  }
+  transition: 0.3s;
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    #d0b127a2 50%
+  );
 }
 
 .education img{

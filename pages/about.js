@@ -14,7 +14,7 @@ export default function Home() {
           <div className={styles.box1}>
             <Box title="About me" content={
               <div className={styles.color}>
-                <p>I'm a graphic/web designer specializing in <span>branding</span>, originally from Japan and now based in Vancouver/Victoria.</p>
+                <p>I'm a graphic/web designer, originally from Japan and now based in Vancouver/Victoria.</p>
                 <p>I love infusing <span>color</span> and character into my designs, creating playful and organic visuals that <span>brighten everyday life :D </span>
                 Aiming to create simple yet memorable designs that effectively deliver messages while bringing a touch of joy to the audience.</p>
               </div>

@@ -4,22 +4,38 @@ import Link from 'next/link'
 import { Work_Sans } from 'next/font/google'
 const workSans = Work_Sans ({subsets: ['latin']})
 import AnimatedButton from '../AnimatedButton'
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
+
+
+import { gsap } from "gsap";
+import { useGSAP } from '@gsap/react';
+gsap.registerPlugin(useGSAP);
 
 export default function Header() {
 
-    useEffect(() => {
-        // Check if there's a hash in the URL
-        if (window.location.hash === '#scroll') {
-            // Wait a bit for the page to fully load
-            setTimeout(() => {
-                const scrollElement = document.getElementById('scroll');
-                if (scrollElement) {
-                    scrollElement.scrollIntoView({ behavior: 'smooth' });
-                }
-            }, 100);
-        }
-    }, []);
+    const containerRef = useRef(null);
+    const servicesRef = useRef(null);
+    const services = ['Branding', '*', 'Graphic Design', '*', 'Web Design', '*'];
+
+    // useGSAP(() => {
+    //     const container = containerRef.current;
+    //     const servicesEl = servicesRef.current;
+    //     if (!container || !servicesEl) return;
+    //     // Create the animation
+    //     const tl = gsap.timeline({ repeat: -1, ease: 'linear' });
+    //     tl.to(servicesEl, {
+    //         x: '-50%',
+    //         duration: 20,
+    //         ease: 'linear'
+    //     });
+    //     // Cleanup function
+    //     return () => {
+    //         tl.kill();
+    //     };
+    // }, []);
+
+
+    // const services = ['Branding', 'Graphic', 'Web Design']
 
     return (
         <header className={`${styles.header} ${workSans.className}`}>
@@ -42,8 +58,14 @@ export default function Header() {
                         </div>
                     </div>
                     <h1>Designing brands that connect and delight.</h1>
-                    <h2>Branding | Graphic | Web Design</h2>
-                    {/* <p>Specializing in branding, I focus on creating playful, organic visuals. My goal is to craft simple, memorable designs that deliver clear messages and bring joy to the audience.</p> */}
+                    <div className={styles.servicesContainer} ref={containerRef} >
+                        <div className={styles.services} ref={servicesRef} >
+                            {[...services, ...services, ...services, ...services].map((item, index) => {
+                                return <h2 key={index} className={styles.serviceItem}>{item}</h2>
+                            })}
+                        </div>
+                    </div>
+                    <h2 className={styles.servicesContainerMobile}>Branding | Graphic | Webdesign</h2>
                 </div>
                 <div id='scroll'></div>
             </div>

@@ -8,7 +8,7 @@ export default function Works() {
   return (
     <>
       <Head>
-        <title>Madoka Nogaki: A branding & web designer based in Vancouver/Victoria</title>
+        <title>Madoka Nogaki: A graphic & web designer based in Vancouver/Victoria</title>
       </Head>
       <div className={styles.worksContainer}>
           <WorkCard title='Spotlight' image='/images/spotlight/thumbnail.svg'  href='./works/Spotlight' 
