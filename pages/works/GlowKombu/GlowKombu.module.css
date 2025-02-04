@@ -5,7 +5,7 @@
   align-items: center;
   min-height: 100vh;
   width: 70%;
-  max-width: 1000px;
+  max-width: 1440px;
   margin: 2rem auto;
 }
 /* mobile */
@@ -20,12 +20,35 @@
   margin: 0.5rem;
   line-height: 100%;
 }
+.mainImage {
+  margin: 1rem 0;
+}
 .mainImage img {
     width: 100%;
 }
-.mainImage p {
+.aboutGoal {
   max-width: 500px;
-  margin: 1rem auto;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.flavors {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flavors img {
+  width: 50%;
+}
+.colors {
+  width: 50%;
+  /* display: block; */
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.colors img {
+  width: 30%;
 }
 .frontSide {
     display: flex;

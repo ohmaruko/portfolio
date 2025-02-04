@@ -10,7 +10,12 @@ export default function Box({
         <div className={styles.box} style={{}}>
             {title ?<h2>{title}</h2>:<></>}
             {content}
-            {backButton ? <Link href='/'><h3 className={styles.link}>╰(･ ᗜ ･ )╯Back to Home ╰(･ ᗜ ･ )╯╰(･ ᗜ ･ )╯╰(･ ᗜ ･ )╯===3=3</h3></Link>: <></>}
+            {backButton ? 
+                <div className={styles.backbutton}>
+                    <h1>Thank you!</h1>
+                    <Link href='/'><h3 className={styles.link}>╰(･ ᗜ ･ )╯Back to Home ╰(･ ᗜ ･ )╯╰(･ ᗜ ･ )╯╰(･ ᗜ ･ )╯===3=3</h3></Link>
+                </div>
+                : <></>}
         </div>
     )
 }

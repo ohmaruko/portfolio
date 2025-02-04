@@ -6,7 +6,15 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     overflow: hidden;
 }
+.backbutton {
+    margin: 7rem 0 1rem;
+}
+.backbutton h1 {
+    text-align: end;
+}
 .link {
+    margin: -3rem;
+    padding: 3rem;
     position: relative;
     left: 20%;
     overflow: hidden;
@@ -26,5 +34,8 @@
     .link {
         font-size: 10px;
         position: inherit;
+    }
+    .backbutton {
+        margin: 3rem 0 1rem;
     }
 }

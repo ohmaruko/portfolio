@@ -9,7 +9,7 @@ export default function Document() {
         <meta name="author" content="Madoka Nogaki" />
         <meta property="og:title" content="Madoka Nogaki | A graphic & web designer based in Vancouver/Victoria" />
         {/* <meta property="og:description" content="" /> */}
-        <meta property="og:image" content="https://workwithmadoka.com/images/logo.svg" />
+        <meta property="og:image" content="https://workwithmadoka.com/images/logo_horizontal.svg" />
         {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
 
         <link rel="icon" href="/favicon.ico" />
