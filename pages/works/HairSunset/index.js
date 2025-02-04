@@ -8,7 +8,7 @@ export default function Works() {
     <div>
 
       <Head>
-        <title>Hair Sunset</title>
+        <title>Hair Sunset | Madoka Nogaki</title>
       </Head>
 
       <div className={styles.container}>

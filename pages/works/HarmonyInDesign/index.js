@@ -9,7 +9,7 @@ export default function HarmonyInDesign() {
     <div>
 
       <Head>
-        <title>Harmony In Design</title>
+        <title>Harmony In Design | Madoka Nogaki</title>
       </Head>
 
       <div className={styles.container}>

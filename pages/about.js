@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Madoka Nogaki</title>
+        <title>About Madoka Nogaki: A graphic & web designer based in Vancouver/Victoria</title>
       </Head>
       <div className={styles.homeContainer}>
           <div className={styles.box1}>

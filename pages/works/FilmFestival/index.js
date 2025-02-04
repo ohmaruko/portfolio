@@ -8,7 +8,7 @@ export default function Works() {
     <div>
 
       <Head>
-        <title>Film Festival</title>
+        <title>Film Festival | Madoka Nogaki</title>
       </Head>
 
       <div className={styles.container}>

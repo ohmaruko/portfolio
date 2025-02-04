@@ -10,7 +10,7 @@ export default function DolceDonuts() {
   return (
     <div>
       <Head>
-        <title>Dolce Donuts</title>
+        <title>Dolce Donuts | Madoka Nogaki</title>
       </Head>
       <div className={styles.container}>
         <div className={styles.innerContainer}>

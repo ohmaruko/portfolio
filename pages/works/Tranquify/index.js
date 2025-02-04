@@ -26,7 +26,7 @@ export default function Works() {
     <div>
 
       <Head>
-        <title>Tranquify</title>
+        <title>Tranquify | Madoka Nogaki</title>
       </Head>
 
       <div className={styles.container}>

@@ -7,7 +7,7 @@ export default function GlowKombu() {
     <div>
 
       <Head>
-        <title>Glow Kombu</title>
+        <title>Glow Kombu | Madoka Nogaki</title>
       </Head>
 
       <div className={styles.container}>

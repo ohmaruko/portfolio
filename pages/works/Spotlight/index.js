@@ -14,7 +14,7 @@ export default function Works() {
     <div>
 
         <Head>
-            <title>Spotlight</title>
+            <title>Spotlight | Madoka Nogaki</title>
         </Head>
 
         <div className={styles.container}>

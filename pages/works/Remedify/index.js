@@ -12,7 +12,7 @@ export default function GlowKombu() {
         <div>
 
         <Head>
-            <title>Remedify</title>
+            <title>Remedify | Madoka Nogaki</title>
         </Head>
 
         <div className={styles.container}>

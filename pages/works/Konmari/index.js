@@ -7,7 +7,7 @@ export default function Works() {
     <div>
 
       <Head>
-        <title>How to Meditate</title>
+        <title>How to Meditate | Madoka Nogaki</title>
       </Head>
 
       <div className={styles.container}>
