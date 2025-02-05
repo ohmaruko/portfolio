@@ -16,14 +16,15 @@
     margin: -3rem;
     padding: 3rem;
     position: relative;
-    left: 20%;
+    /* left: 20%; */
+    left: 10%;
     overflow: hidden;
     text-align: end;
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
 
 .link:hover{
-    opacity: 0.9;
+    opacity: 0.8;
     transform: translateX(-20%);
 }
 

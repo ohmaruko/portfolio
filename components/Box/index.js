@@ -13,7 +13,9 @@ export default function Box({
             {backButton ? 
                 <div className={styles.backbutton}>
                     <h1>Thank you!</h1>
-                    <Link href='/'><h3 className={styles.link}>╰(･ ᗜ ･ )╯Back to Home ╰(･ ᗜ ･ )╯╰(･ ᗜ ･ )╯╰(･ ᗜ ･ )╯===3=3</h3></Link>
+                    {/* <Link href='/'><h3 className={styles.link}>╰(･ ᗜ ･ )╯Back to Home ╰(･ ᗜ ･ )╯╰(･ ᗜ ･ )╯╰(･ ᗜ ･ )╯===3=3</h3></Link> */}
+                    <Link href='/'><h3 className={styles.link}>٩(¨ )ว = Back to Home ٩(¨ )ว ٩(¨ )ว ٩(¨ )ว =3 </h3></Link>
+                    {/* <Link href='/'><h3 className={styles.link}>🏃 Back to Home 🏃 🏃 🏃 💨</h3></Link> */}
                 </div>
                 : <></>}
         </div>

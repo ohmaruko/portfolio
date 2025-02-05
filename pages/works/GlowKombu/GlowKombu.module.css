@@ -26,16 +26,20 @@
 .mainImage img {
     width: 100%;
 }
-.aboutGoal {
+.textContainer {
   max-width: 500px;
   margin: 2rem auto;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
+.textContainer ul {
+  margin: 0;
+}
 .flavors {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 0.2rem;
 }
 .flavors img {
   width: 50%;

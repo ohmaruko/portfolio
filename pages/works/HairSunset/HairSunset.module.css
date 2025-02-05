@@ -16,33 +16,63 @@
 }
 /* <- Common styles for Works page */
 
+.container h2 {
+  border-bottom: 1px solid var(--blue);
+  padding: 1rem;
+}
 .innerContainer {
   width: 100%;
 }
-.logo {
-  width: 30%;
+.banner img{
+  width: 100%;
   margin: 0 auto;
+}
+.section {
+  margin: 4rem 0;
+}
+.smallSection {
+  margin: 2rem 0;
 }
 .businessCard img{
   width: 100%;
 }
+.logoSketches img{
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid var(--blue);
+}
+.logoInner {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 1px solid var(--blue);
+}
+.finalLogo {
+  display: block;
+  width: 30%;
+  margin: 3rem auto;
+}
+.adIdeas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+  gap: 4rem;
+}
 .ads {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    background-color: #F3F0E7;
+    border-radius: 20px;
+    padding: 2rem 2rem;
   }
 .ads img {
-  width: 30%;
+  width: 60%;
+  transition: opacity 0.5s ease-in-out;
 }
-.logoContainer {
-    display: flex;
-    flex-direction: column;
-  }
-.logoInner{
-    display: flex;
-    justify-content: space-evenly;
-  }
+.adsMockup {
+  width: 100%;
+}
 /* mobile */
 @media (max-width: 820px){
   .logoInner {

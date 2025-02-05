@@ -20,7 +20,7 @@ export default function GlowKombu() {
                     <img src='/images/glowkombu/banner.png' alt='GlowKombu Kombucha'/>
                     <img src='/images/glowkombu/glowkombu_straight.png' alt='GlowKombu Kombucha'/>
                 </div>
-                <div className={styles.aboutGoal} >
+                <div className={styles.textContainer} >
                   <div>
                     <h2>About</h2>
                     <p>GLOW KOMBU is a kombucha brand that embodies warmth, balance, and vitality. Inspired by the natural energy of the sun, its design radiates a sense of wellness and refreshment, inviting consumers to experience the glow of kombucha from the moment they pick up the can.</p>
@@ -30,19 +30,27 @@ export default function GlowKombu() {
                     <p>The goal of GLOW KOMBU’s packaging design is to create a visual and emotional connection with health-conscious consumers. The luminous sun motif and monotone color palette establish a minimalistic yet organic aesthetic. Every design element is crafted to make consumers feel grounded, refreshed, and energized, aligning seamlessly with the essence of kombucha.</p>
                     </div>
                 </div>
-                <div className={styles.flavors}>
-                    <img src='/images/glowkombu/mockup_ginger.png' alt='GlowKombu Kombucha'/>
-                    <img src='/images/glowkombu/mockup_mango.png' alt='GlowKombu Kombucha'/>
-                    <img src='/images/glowkombu/mockup_blueberry.png' alt='GlowKombu Kombucha'/>
-                    <img src='/images/glowkombu/colors.png' alt='GlowKombu Kombucha'/>
-                </div>
                 {/* <div className={styles.frontSide}>
                     <img src='/images/glowkombu/mockup_face_ginger.png' alt='GlowKombu Kombucha'/>
                     <img src='/images/glowkombu/mockup_side_ginger.png' alt='GlowKombu Kombucha'/>
                     </div> */}
                 <div className={styles.mainImage} >
+                    <div className={styles.flavors}>
+                        <img src='/images/glowkombu/mockup_faceback_ginger.png' alt='GlowKombu Kombucha'/>
+                        <img src='/images/glowkombu/mockup_faceback_mango.png' alt='GlowKombu Kombucha'/>
+                        <img src='/images/glowkombu/mockup_faceback_blueberry.png' alt='GlowKombu Kombucha'/>
+                        <img src='/images/glowkombu/colors.png' alt='GlowKombu Kombucha'/>
+                    </div>
                     <img src='/images/glowkombu/mockups_wide.png' alt='GlowKombu Kombucha'/>
                     <img src='/images/glowkombu/banner_2.png' alt='GlowKombu Kombucha'/>
+                </div>
+                <div className={styles.textContainer}>
+                  <h2>What I learned</h2>
+                    <ul>
+                      <li>The use and purpose of dielines, mockups, and proofs.</li>
+                      <li>Creating adaptable designs that allow easy transformation for different flavors or product variations while maintaining brand consistency.</li>
+                      <li>Incorporating required content such as ingredients and nutritional information early in the design process.</li>
+                    </ul>
                 </div>
             </div>
         }/>
