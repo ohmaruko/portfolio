@@ -19,14 +19,30 @@ export default function HarmonyInDesign() {
                     <h1>Harmony In Design</h1>
                     <h1>Magazine Design</h1>
                     <p>October 2024</p>
+                    <p>Tools: Adobe InDesign</p>
                     <div className={styles.magazine}>
+                        <h2>Print Magazine</h2>
                         <img src='/images/print_magazine.png' alt='Print Magazine' />
+                        <div className={styles.printPages}>
+                            <img src='/images/harmonyInDesign/print2-3.png' alt='Print Magazine Page 1' />
+                            <img src='/images/harmonyInDesign/print4-5.png' alt='Print Magazine Page 1' />
+                            <img src='/images/harmonyInDesign/print6-7.png' alt='Print Magazine Page 1' />
+                            <img src='/images/harmonyInDesign/print8-9.png' alt='Print Magazine Page 1' />
+                            <img src='/images/harmonyInDesign/print10-11.png' alt='Print Magazine Page 1' />
+                            <img src='/images/harmonyInDesign/print_covers.png' alt='Print Magazine Page 1' />
+                        </div>
+                    </div>
+                    <div className={styles.magazine}>
+                        <h2>Interactive Digital Magazine</h2>
                         <img src='/images/digital_magazine.png' alt='Digital Magazine' />
+                        <iframe className={styles.digitalPages} 
+                            src="https://indd.adobe.com/embed/a151626f-84f9-4d74-82c0-0df11a2ecfcc?startpage=1&allowFullscreen=false" 
+                            frameborder="0" allowfullscreen="false">
+                        </iframe>
+                        <div className={styles.btn}>
+                          <AnimatedButton href='https://indd.adobe.com/view/a151626f-84f9-4d74-82c0-0df11a2ecfcc' targetBlank={true}>View in Full Screen👀</AnimatedButton>
+                        </div>
                     </div>
-                    <div className={styles.btn}>
-                      <AnimatedButton href='https://indd.adobe.com/view/a151626f-84f9-4d74-82c0-0df11a2ecfcc' targetBlank={true}>View Digital Magazine 👀</AnimatedButton>
-                    </div>
-                    <p><strong>Tools</strong>: Adobe InDesign</p>
                 </div>
             }/>
           </div>
