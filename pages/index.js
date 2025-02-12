@@ -26,7 +26,7 @@ export default function Works() {
             targetBlank={false} tags={["Graphic Design", "Logo Design"]}
             summary="A warm, inviting logo and campaign ad series for a family-friendly hair salon."
           />
-          <WorkCard title='Harmony In Design' image='/images/print_magazine_square.png' href="./works/HarmonyInDesign" 
+          <WorkCard title='Harmony In Design' image='/images/harmonyInDesign/print_magazine_square.png' href="./works/HarmonyInDesign" 
             targetBlank={false} tags={["Magazine Design", "Print", "Digital"]}/>
           <WorkCard title='Konmari Method' image='/images/konmari.svg' href="./works/Konmari" 
             targetBlank={false} tags={["Motion Graphic Design"]}/>

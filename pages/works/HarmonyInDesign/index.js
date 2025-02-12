@@ -22,7 +22,7 @@ export default function HarmonyInDesign() {
                     <p>Tools: Adobe InDesign</p>
                     <div className={styles.magazine}>
                         <h2>Print Magazine</h2>
-                        <img src='/images/print_magazine.png' alt='Print Magazine' />
+                        <img src='/images/harmonyInDesign/print_magazine.png' alt='Print Magazine' />
                         <div className={styles.printPages}>
                             <img src='/images/harmonyInDesign/print2-3.png' alt='Print Magazine Page 1' />
                             <img src='/images/harmonyInDesign/print4-5.png' alt='Print Magazine Page 1' />
@@ -34,13 +34,13 @@ export default function HarmonyInDesign() {
                     </div>
                     <div className={styles.magazine}>
                         <h2>Interactive Digital Magazine</h2>
-                        <img src='/images/digital_magazine.png' alt='Digital Magazine' />
+                        <img src='/images/harmonyInDesign/digital_magazine.png' alt='Digital Magazine' />
                         <iframe className={styles.digitalPages} 
                             src="https://indd.adobe.com/embed/a151626f-84f9-4d74-82c0-0df11a2ecfcc?startpage=1&allowFullscreen=false" 
                             frameborder="0" allowfullscreen="false">
                         </iframe>
                         <div className={styles.btn}>
-                          <AnimatedButton href='https://indd.adobe.com/view/a151626f-84f9-4d74-82c0-0df11a2ecfcc' targetBlank={true}>View in Full Screen👀</AnimatedButton>
+                          <AnimatedButton href='https://indd.adobe.com/view/a151626f-84f9-4d74-82c0-0df11a2ecfcc' targetBlank={true}>View in Full Screen 👀</AnimatedButton>
                         </div>
                     </div>
                 </div>
