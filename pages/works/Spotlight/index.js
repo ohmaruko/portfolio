@@ -9,7 +9,7 @@ import { GoGoal } from "react-icons/go";
 import { MdOutlineTipsAndUpdates } from "react-icons/md";
 import AnimatedButton from '@/components/AnimatedButton';
 
-export default function Works() {
+export default function Spotlight() {
     return (
     <div>
 
@@ -27,7 +27,7 @@ export default function Works() {
                         <p><GiTargetPrize />Winner of the Aquareum.tv Sponsor Prize</p>
                     </div>
                     <img src='/images/spotlight/spotlight_home.png' alt="Spotlight Home"  />
-                    <p>Role: UI/UX Designer</p>
+                    <p>Role: UX/UI Designer</p>
                     <p>Team: A frontend developer, two backend developers</p>
                     <div className={styles.btn}>
                         <AnimatedButton href='https://devpost.com/software/spotlight-fx9bgu' targetBlank={true}>Devpost</AnimatedButton>

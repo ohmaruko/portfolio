@@ -32,6 +32,8 @@ export default function Works() {
             targetBlank={false} tags={["Motion Graphic Design"]}/>
           <WorkCard title='How to meditate' image='/images/heart.svg' href="./works/HowToMeditate" 
             targetBlank={false} tags={["Motion Graphic Design"]}/>
+          <WorkCard title='FurryTales' image='/images/furrytales/thumbnail.svg' href="./works/FurryTales" 
+            targetBlank={false} tags={["UX/UI Design"]}/>
           <WorkCard title='Film Festival' image='/images/film1.png' href="./works/FilmFestival" 
             targetBlank={false} tags={["Typography Layout"]}/>
           <WorkCard title='Dolce Donut' image='/images/dolce.png' href="./works/DolceDonuts" 
