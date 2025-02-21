@@ -37,16 +37,6 @@ export default function Works() {
                           <img className={styles.bannerLogo}src='/images/tranquify/horizontalLogo.svg' alt="Tranquify logo: a green cloudy shape with a relaxed smiling face, accompanied by a wordmark." />
                           <img className={styles.bannerImg} src='/images/tranquify/tranquify_banner.png' alt="Hand holding a smartphone displaying Tranquify's mood tracking screen, featuring colorful mood icons and a user-friendly interface" />
                       </div>
-                      <h2>Overview</h2>
-                      <p>A personalized approach to mental well-being through mood tracking and tailored meditation content.</p>
-                      <p><strong>Role</strong>: UI/UX Designer, Frontend Developer</p>
-                      <p><strong>Team</strong>: Two other teammates</p>
-                      <p><strong>Timeline</strong>: January 2024 - April 2024</p>
-                      <p><strong>Tools</strong>: Figma, NextJS, Adobe Illustrator, Adobe After Effects</p>
-                      <div className={styles.btn}>
-                        <AnimatedButton href='https://tranquify.vercel.app/' targetBlank={true}>Visit mockup</AnimatedButton>
-                        <AnimatedButton href='https://github.com/ohmaruko/Tranquify' targetBlank={true}><FaGithub /></AnimatedButton>
-                      </div>
 
                       <div className={styles.section}>
                         <h2>Context</h2>
@@ -69,6 +59,17 @@ export default function Works() {
                               helping them take <strong>meaningful steps toward better mental well-being.</strong></p>
                           </div>
                         </div>
+                      </div>
+
+                      <h2>Overview</h2>
+                      <p>A personalized approach to mental well-being through mood tracking and tailored meditation content.</p>
+                      <p><strong>Role</strong>: Graphic Designer, UX/UI Designer, Frontend Developer</p>
+                      <p><strong>Team</strong>: Two other teammates</p>
+                      <p><strong>Timeline</strong>: January 2024 - April 2024</p>
+                      <p><strong>Tools</strong>: Figma, NextJS, Adobe Illustrator, Adobe After Effects</p>
+                      <div className={styles.btn}>
+                        <AnimatedButton href='https://tranquify.vercel.app/' targetBlank={true}>Visit mockup</AnimatedButton>
+                        <AnimatedButton href='https://github.com/ohmaruko/Tranquify' targetBlank={true}><FaGithub /></AnimatedButton>
                       </div>
 
                       <div className={styles.section}>

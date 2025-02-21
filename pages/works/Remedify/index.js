@@ -20,19 +20,12 @@ export default function GlowKombu() {
                 <div>
                     <div className={styles.titleOfWork}>
                             <img className={styles.bannerLogo}src='/images/remedify/remedify_logo.svg' alt="Remedify Logo" />
+                            <div>
+                                <h3>AI-powered medication reminder app</h3>
+                                <p>UI/UX Designer | September 2024 - December 2024</p>
+                                <p><span>Team</span>: A project manager, two other UI/UX designers, a graphic designer, three developers</p>
+                            </div>
                             <img className={styles.bannerImg} src='/images/remedify/remedify_mockup.png' alt="Remedify mockup image showing, a medication scanning camera, a medication schedule view, a medication library screens." />
-                    </div>
-                    <h2>Overview</h2>
-                    <p>Remedify is an <strong>AI-powered medication reminder app</strong> designed to improve adherence, simplify health management, and support users with clear medication tracking and information.</p>
-                    <div className={styles.overview}>
-                        <p><span>Role</span>: UI/UX Designer</p>
-                        <p><span>Team</span>: A project manager, two other UI/UX designers, a graphic designer, three developers</p>
-                        <p><span>Timeline</span>: September 2024 - December 2024</p>
-                        <p><span>Tools</span>: Figma, Expo, UI Kitten, OpenAI GPT-4o mini, Canadian Drug Product Database API</p>
-                    </div>
-                    <div className={styles.btn}>
-                        <AnimatedButton href='https://remedify.vercel.app/' targetBlank={true}>Landing Page</AnimatedButton>
-                        <AnimatedButton href='https://github.com/yeenathan/Asclepius' targetBlank={true}><FaGithub /></AnimatedButton>
                     </div>
 
                     
@@ -49,6 +42,10 @@ export default function GlowKombu() {
                             <p>Remedify is an <strong>AI-powered medication reminder app</strong> that bridges the gap in adherence, making health management easier and more efficient. 
                             Going beyond the capabilities of a standard pillbox, Remedify is designed for <strong>individuals facing cognitive challenges or managing multiple medications</strong>, where the risk of misdosing is high. With a strong focus on accessibility and adherence, the app offers a reminder and a comprehensive medication library to support users in staying on track with their health.</p>
                             </div>
+                        </div>
+                        <div className={styles.btn}>
+                            <AnimatedButton href='https://remedify.vercel.app/' targetBlank={true}>Landing Page</AnimatedButton>
+                            <AnimatedButton href='https://github.com/yeenathan/Asclepius' targetBlank={true}><FaGithub /></AnimatedButton>
                         </div>
                     </div>
 
@@ -137,15 +134,19 @@ export default function GlowKombu() {
 
                     <div className={styles.section}>
                         <h2>Frontend Developing</h2>
-                            <p>Built with</p>
-                            <ul>
-                                <li>Expo, React Native</li>
-                                <li>UI Kitten</li>
-                                <li>OpenAI GPT-4o Mini</li>
-                                <li>Canadian Drug Product Database (DPD) API</li>
-                            </ul>
-                            <div className={styles.btn}>
-                                <AnimatedButton href='https://github.com/yeenathan/Asclepius' targetBlank={true}><FaGithub /></AnimatedButton>
+                            <div className={styles.frontendContainer}>
+                                <div>
+                                    <p>Built with</p>
+                                    <ul>
+                                        <li>Expo, React Native</li>
+                                        <li>UI Kitten</li>
+                                        <li>OpenAI GPT-4o Mini</li>
+                                        <li>Canadian Drug Product Database (DPD) API</li>
+                                    </ul>
+                                </div>
+                                <div className={styles.btn}>
+                                    <AnimatedButton href='https://github.com/yeenathan/Asclepius' targetBlank={true}><FaGithub /></AnimatedButton>
+                                </div>
                             </div>
                     </div>
 

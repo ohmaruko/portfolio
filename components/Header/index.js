@@ -40,7 +40,9 @@ export default function Header() {
     return (
         <header className={`${styles.header} ${workSans.className}`}>
             <div className={styles.logo}>
-                <Image src="/images/logo.svg" alt="Logo: Madoka Nogaki" width={70} height={70} />
+                <a href='/'>
+                    <Image src="/images/logo.svg" alt="Logo: Madoka Nogaki" width={70} height={70} />
+                </a>
             </div>
             <div className={styles.banner}>
                 <div className={styles.bannerInner}>
@@ -70,8 +72,8 @@ export default function Header() {
                 <div id='scroll'></div>
             </div>
             <section className={styles.menu}>
-                <AnimatedButton href="/">WORK</AnimatedButton>
-                <AnimatedButton href="/about">ABOUT</AnimatedButton>
+                <AnimatedButton href="/#scroll">WORK</AnimatedButton>
+                <AnimatedButton href="/about/#scroll">ABOUT</AnimatedButton>
             </section>
         </header>
 
