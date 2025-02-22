@@ -44,14 +44,18 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
   width: 85%;
 }
-.link {
-  text-decoration: none;
-  color: var(--text);
-  display: flex;
-  align-items: center;
-  gap: 1rem;
+/* mobile */
+@media (max-width: 743px){
+  .worksContainer {
+    margin: 1rem auto 2rem;
+    display: flex;
+    flex-direction: column;
+    max-width: none;
+    width: 100%;
+  }
 }
 /* About */
 .homeContainer {

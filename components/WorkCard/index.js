@@ -12,22 +12,23 @@ export default function WorkCard({
 }) {
 
     return (
-        <div className={styles.workCard}>
-            <Link href={`${href}#scroll`} target={targetBlank ? "_blank" : ""}>
-            <div className={styles.image}>
-                <Image src={image} width={300} height={300}/>
+        <Link href={`${href}#scroll`} target={targetBlank ? "_blank" : ""} className={styles.workCard}>
+
+            <img src={image} alt={title}/>
+
+            <div className={styles.title}>
+                <h2>{title}</h2>
+                <div className={styles.tagsContainer}>
+                    {
+                        tags.map((tag, index) => {
+                            return(
+                                <div key={index} className={styles.tag}><p>{tag}</p></div>
+                            )
+                        })
+                    }
+                </div>
             </div>
-            <h2>{title}</h2>
-            <div className={styles.tagsContainer}>
-                {
-                    tags.map((tag, index) => {
-                        return(
-                            <div key={index} className={styles.tag}><p>{tag}</p></div>
-                        )
-                    })
-                }
-            </div>
-            </Link>
-        </div>
+            
+        </Link>
     )
 }
