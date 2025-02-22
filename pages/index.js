@@ -2,47 +2,61 @@ import styles from '../styles/Home.module.css'
 import WorkCard from '@/components/WorkCard'
 import Link from 'next/link'
 import Head from 'next/head'
+import { useState } from 'react'
+import { workList } from '../data/worksList'
 
 export default function Works() {
+  const [selectedTag, setSelectedTag] = useState("All");
+
+  const filterTags = [
+    "All",
+    "Graphic Design",
+    "UX/UI Design",
+    "Motion Graphic Design"
+  ];
+
+  const handleTagClick = (tag) => {
+    setSelectedTag(tag);
+  };
+
+  const filteredWorks = selectedTag === "All"
+  ? workList
+  : workList.filter(work => work.category.includes(selectedTag));
+
 
   return (
-    <>
+    <div className={styles.outerContainer}>
       <Head>
         <title>Madoka Nogaki: A graphic & web designer based in Vancouver/Victoria</title>
       </Head>
-      <div className={styles.worksContainer}>
-          <WorkCard title='Spotlight' image='/images/spotlight/thumbnail.svg'  href='./works/Spotlight' 
-            tags={["UX/UI Design", "Logo Design"]} targetBlank={false} summary="Kombucha can design" />
-          <WorkCard title='Glow Kombu' image='/images/glowkombu/glowkombu.png' href="./works/GlowKombu" 
-            targetBlank={false} tags={["Packaging Design"]} summary="Kombucha can design" />
-          <WorkCard title='Remedify' image='/images/remedify/remedify_thumbnail.png' href="./works/Remedify" 
-            targetBlank={false} tags={["UX/UI Design", "Mobile App"]}/>
-          <WorkCard title='Tranquify' image='/images/tranquify/tranquifyLogo.svg' href="./works/Tranquify"
-            targetBlank={false}
-            tags={["Graphic Design", "UX/UI Design", "Frontend Development", "Mobile App"]}
-            summary="A personalized journey to better mental health through mood tracking and tailored meditation content."
-            />
-          <WorkCard title='Hair Sunset' image='/images/hair/hair_sunset_business_card_square.png' href="./works/HairSunset"
-            targetBlank={false} tags={["Graphic Design", "Logo Design"]}
-            summary="A warm, inviting logo and campaign ad series for a family-friendly hair salon."
-          />
-          <WorkCard title='Harmony In Design' image='/images/harmonyInDesign/print_magazine_square.png' href="./works/HarmonyInDesign" 
-            targetBlank={false} tags={["Magazine Design", "Print", "Digital"]}/>
-          <WorkCard title='Konmari Method' image='/images/konmari.svg' href="./works/Konmari" 
-            targetBlank={false} tags={["Motion Graphic Design"]}/>
-          <WorkCard title='How to meditate' image='/images/heart.svg' href="./works/HowToMeditate" 
-            targetBlank={false} tags={["Motion Graphic Design"]}/>
-          <WorkCard title='FurryTales' image='/images/furrytales/thumbnail.svg' href="./works/FurryTales" 
-            targetBlank={false} tags={["UX/UI Design"]}/>
-          <WorkCard title='Film Festival' image='/images/film1.png' href="./works/FilmFestival" 
-            targetBlank={false} tags={["Typography Layout"]}/>
-          <WorkCard title='Dolce Donut' image='/images/dolce.png' href="./works/DolceDonuts" 
-            targetBlank={false} tags={["UX/UI Design", "Frontend Development"]}/>
-          <WorkCard title='West Point Hotel' image='/images/west-point-hotel.svg'  href="https://west-point-hotel.vercel.app/" 
-            targetBlank={true} tags={["WordPress", "UX/UI Design", "Website"]}/>
-          <WorkCard title='The World of Studio Ghibli' image='/images/ghibli.jpg' href="https://the-world-of-studio-ghibli.vercel.app/" 
-            targetBlank={true} tags={["WordPress", "UX/UI Design", "Blog"]}/>
+
+      {/* Filter */}
+      <div className={styles.filter}>
+        {filterTags.map(tag => (
+          <div
+            key={tag}
+            onClick={() => handleTagClick(tag)}
+            className={`
+              ${selectedTag === tag
+                ? styles.filterOn
+                : styles.filterOff
+              }`}
+          >
+            <h4>{tag}</h4>
+          </div>
+        ))}
       </div>
-    </>
+
+      {/* Work Cards */}
+      <div className={styles.worksContainer}>
+        {
+          filteredWorks.map( work => (
+            <WorkCard 
+              title={work.title} image={work.image}  href={work.href}
+            tags={work.tags} targetBlank={work.targetBlank} summary={work.summary} />
+          ))
+        }
+      </div>
+    </div>
   )
 }

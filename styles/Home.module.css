@@ -1,12 +1,36 @@
 /* Works */
+.filter {
+  display: flex;
+  justify-content: start;
+  margin: 2rem auto 0;
+  gap: 1rem;
+  max-width: 850px;
+}
+.filter div{
+  border: 1px solid var(--blue);
+  border-radius: 50px;
+  padding: 0rem 1rem;
+}
+.filter h4 {
+  margin: 0.5rem;
+}
+.filterOn {
+  background-color: var(--blue);
+}
+.filterOn h4 {
+  color: var(--white);
+}
+.filterOff {
+  background-color: var(--white);
+}
 .worksContainer {
-  margin: 2rem auto;
-  width: 85%;
+  margin: 1rem auto 2rem;
   max-width: 1000px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  width: 85%;
 }
 .link {
   text-decoration: none;
