@@ -72,6 +72,13 @@
 .box2 {
   width: 40%;
 }
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .color:hover span {
   transition: 0.3s;
   background: linear-gradient(
