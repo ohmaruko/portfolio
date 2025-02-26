@@ -24,10 +24,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 1rem;
     width: 100%;
   }
 .filmAds img{
     width: 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
 .container a {
   text-decoration: none;
