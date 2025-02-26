@@ -38,14 +38,14 @@
   }
 }
 .worksContainer {
-  margin: 1rem auto 2rem;
+  margin: 2rem auto 2rem;
   max-width: 1000px;
+  width: 85%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  width: 85%;
 }
 /* mobile */
 @media (max-width: 743px){

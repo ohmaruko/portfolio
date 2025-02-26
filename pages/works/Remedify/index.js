@@ -19,13 +19,15 @@ export default function GlowKombu() {
             <Box backButton={true} content={
                 <div>
                     <div className={styles.titleOfWork}>
-                            <img className={styles.bannerLogo}src='/images/remedify/remedify_logo.svg' alt="Remedify Logo" />
-                            <div>
-                                <h3>AI-powered medication reminder app</h3>
-                                <p>UI/UX Designer | September 2024 - December 2024</p>
-                                <p><span>Team</span>: A project manager, two other UI/UX designers, a graphic designer, three developers</p>
-                            </div>
-                            <img className={styles.bannerImg} src='/images/remedify/remedify_mockup.png' alt="Remedify mockup image showing, a medication scanning camera, a medication schedule view, a medication library screens." />
+                        <div className={styles.bannerLogo}>
+                            <img src='/images/remedify/remedify_logo.svg' alt="Remedify Logo" />
+                        </div>
+                        <div>
+                            <h3>AI-powered medication reminder app</h3>
+                            <p>UI/UX Designer | September 2024 - December 2024</p>
+                            <p><span>Team</span>: A project manager, two other UI/UX designers, a graphic designer, three developers</p>
+                        </div>
+                        <img className={styles.bannerImg} src='/images/remedify/remedify_mockup.png' alt="Remedify mockup image showing, a medication scanning camera, a medication schedule view, a medication library screens." />
                     </div>
 
                     

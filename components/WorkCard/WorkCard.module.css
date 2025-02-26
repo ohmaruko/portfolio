@@ -1,7 +1,6 @@
 .workCard {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: var(--white);
     padding-bottom: 1rem;
@@ -10,6 +9,7 @@
     color: var(--blue);
     text-align: center;
     width: 300px;
+    height: 400px;
 }
 .workCard img {
     border-radius: 50px 50px 0 0;
@@ -52,6 +52,7 @@
         justify-content: space-between;
         padding-bottom: 0;
         width: auto;
+        height: 150px;
     }
     .title {
         width: 150px;
