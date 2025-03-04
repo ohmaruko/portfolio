@@ -18,7 +18,7 @@ export default function DolceDonuts() {
               <div>
                 <h1>Dolce Donuts</h1>
                 <div className={styles.logo}>
-                  <img src='/images/dolceLogo.svg' alt='styleguide font' />
+                  <img src='/images/dolcedonut/dolceLogo.svg' alt='styleguide font' />
                 </div>
                 <h2>Overview</h2>
                 <p>Role: UI designer, Prototyping, Logo Mockup</p>
@@ -30,12 +30,12 @@ export default function DolceDonuts() {
                   we created a style guide, wireframes, components and high-fidelity designs.</p>
                 <h2>Style Guide</h2>
                 <div className={styles.styleGuide}>
-                  <Image src='/images/dolceFont1.png' alt='styleguide font' width={280} height={159}/>
-                  <Image src='/images/dolceFont2.png' alt='styleguide font' width={280} height={159}/>
-                  <Image src='/images/dolceColour.png' alt='styleguide font' width={280} height={159}/>
-                  <Image src='/images/dolceButton.png' alt='styleguide font' width={280} height={159}/>
-                  <Image src='/images/dolceIdeas.png' alt='styleguide font' width={280} height={159}/>
-                  <Image src='/images/dolceMockup.png' alt='styleguide font' width={280} height={159}/>
+                  <Image src='/images/dolcedonut/dolceFont1.png' alt='styleguide font' width={280} height={159}/>
+                  <Image src='/images/dolcedonut/dolceFont2.png' alt='styleguide font' width={280} height={159}/>
+                  <Image src='/images/dolcedonut/dolceColour.png' alt='styleguide font' width={280} height={159}/>
+                  <Image src='/images/dolcedonut/dolceButton.png' alt='styleguide font' width={280} height={159}/>
+                  <Image src='/images/dolcedonut/dolceIdeas.png' alt='styleguide font' width={280} height={159}/>
+                  <Image src='/images/dolcedonut/dolceMockup.png' alt='styleguide font' width={280} height={159}/>
                 </div>
                 <h2>Mock-up</h2>
                 <div className={styles.btn}>

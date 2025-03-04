@@ -101,7 +101,7 @@ export const workList = [
     },
     // {
     //     title: 'Dolce Donut',
-    //     image: '/images/dolce.png',
+    //     image: '/images/dolcedonut/dolce.png',
     //     href: './works/DolceDonuts',
     //     tags: ["UX/UI Design", "Frontend Development"],
     //     targetBlank: false,
