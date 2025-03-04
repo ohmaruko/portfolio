@@ -59,6 +59,23 @@
     width: 50%;
 }
 
+.hifi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.hifiInner {
+    width: 40%;
+    border: 1px solid var(--blue);
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.mockup {
+    margin: 3rem 0;
+}
 /* mobile */
 @media (max-width: 820px){
     .btn {

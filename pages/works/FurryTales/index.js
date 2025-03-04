@@ -5,6 +5,7 @@ import Link from 'next/link'
 import AnimatedButton from '@/components/AnimatedButton';
 
 export default function FurryTales() {
+    
     return (
     <div>
 
@@ -18,13 +19,13 @@ export default function FurryTales() {
                     <h1>FurryTales</h1>
                     <h3>Redesigning the Website for a Local Pet Treat Business</h3>
                     <div className={styles.date}>
-                        <p>Feb 16 - 23, 2025 @<Link href='https://www.fluihackathon.ca/' target='_blank'>FLUI Hackathon</Link></p>
+                        <p>Feb 16 - 19, 2025 @<Link href='https://www.fluihackathon.ca/' target='_blank'>FLUI Hackathon</Link></p>
                         <p>Role: UX/UI Designer</p>
                         <p>Team: Three other UX/UI Designers</p>
                     </div>
                     <img src='/images/furrytales/banner.png' alt="FurryTales banner with home screen"  />
                     <div className={styles.btn}>
-                        <AnimatedButton href='https://www.youtube.com/watch?v=ucoG4F-jbYI' targetBlank={true}>Presentation Video</AnimatedButton>
+                        {/* <AnimatedButton href='https://www.youtube.com/watch?v=ucoG4F-jbYI' targetBlank={true}>Presentation Video</AnimatedButton> */}
                         <AnimatedButton href='https://www.figma.com/proto/60QIY05yDwlw2WZG8Vwn0A/Furrytales-Pet?node-id=6-16&t=2cFfM7ZykA7dPCmw-1&scaling=scale-down-width&content-scaling=fixed&page-id=5%3A32&starting-point-node-id=6%3A16' targetBlank={true}>Figma Mockup</AnimatedButton>
                     </div>
 
@@ -44,11 +45,13 @@ export default function FurryTales() {
                         <p>
                             The goal was to <strong>revamp FurryTales Pet's website </strong> 
                             to improve <strong>trust</strong>, <strong>discoverability</strong>, and <strong>user experience</strong> by:
+                        </p>
                             <ul>
                                 <li>Adding reviews, testimonials, and clear product descriptions to build trust.</li>
                                 <li>Enhancing product visibility and business information for easier access.</li>
                                 <li>Improving site hierarchy, design, and accessibility for a smoother browsing experience.</li>
                             </ul>
+                        <p>
                             The aim was to align the website with FurryTales' fun and creative branding while addressing key pain points.
                         </p>
                     </div>
@@ -104,16 +107,26 @@ export default function FurryTales() {
                         </div>
                         <div className={styles.subsection}>
                             <h3>Discovery Meeting</h3>
-                            <li>
-                                Asked about:
+                            <p>
+                                During the discovery phase, we engaged in a detailed conversation with the client to ensure alignment on goals and to validate the <strong>problem statements</strong>. 
+                                Key insights were gathered around the <strong>business challenges</strong>, <strong>desired outcomes</strong>, and other crucial aspects of their brand:
+                            </p>
                                 <ul>
-                                    <li><strong>Business challenges</strong> they face</li>
-                                    <li><strong>Project details</strong> based on the pre-provided outline</li>
-                                    <li>Design <strong>constraints</strong> and <strong>preferences</strong></li>
-                                    <li>Key desired <strong>outcomes</strong></li>
+                                    <li>Challenges:
+                                        <ul>
+                                            <li>Inconsistent branding.</li>
+                                            <li>No feedback system for products/services.</li>
+                                            <li>Need to expand the customer base and convert new customers into return buyers.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Unique Aspect: The brand’s dog, Soya, is the face of the brand.</li>
+                                    <li>Desired Outcomes:
+                                        <ul>
+                                            <li>A more professional, functional website.</li>
+                                            <li>Increased social media engagement, especially on Instagram for better customer communication.</li>
+                                        </ul>
+                                    </li>
                                 </ul>
-                            </li>
-                            <li>Ensured alignment and validated <strong>problem statements</strong>.</li>
                         </div>
                     </div>
 
@@ -121,24 +134,31 @@ export default function FurryTales() {
                         <h2>Target Areas</h2>
                         <ul>
                             <li>
-                                <strong>Customers’ lack of trust</strong>
+                                <strong>Our Story page</strong>
+                                <ul>
+                                    <li>Highlight the dog (brand face) and the owner's background in nutritional science.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Building trust</strong>
                                 <ul>
                                     <li>No reviews/testimonial content</li>
-                                    <li>Product desc. is hidden and inaccessible - lack transparency</li>
+                                    <li>Product descriptions are hidden and hard to access, lacking transparency.</li>
+                                    <li>Inconsistent branding across the site</li>
                                 </ul>
                             </li>
                             <li>
-                                <strong>Unclear Acquisition methods / discoverability</strong>
+                                <strong>Acquisition methods / discoverability</strong>
                                 <ul>
-                                    <li>Unclear where the business is located, how to get products</li>
-                                    <li>Organization of products is not smooth to browse</li>
+                                    <li>Business location and product access are unclear</li>
+                                    <li>Product organization makes browsing difficult</li>
                                 </ul>
                             </li>
                             <li>
-                                <strong>Hierarchy, visual design, and accessibility of website</strong>
+                                <strong>Hierarchy, visual design, and accessibility</strong>
                                 <ul>
                                     <li>Poor type hierarchy and navigation experience</li>
-                                    <li>Small font sizes, low colour contrasts</li>
+                                    <li>Small fonts and low color contrast affecting readability.</li>
                                 </ul>
                             </li>
                         </ul>
@@ -159,21 +179,53 @@ export default function FurryTales() {
                     </div>
 
                     <div className={styles.section}>
-                        <h2>Sketches and Wireframes</h2>
-                        <p>Focused on key pages identified for redesign.</p>
+                        <h2>Sketches</h2>
+                        <p>Focused on the identified target areas, sketches were created to brainstorm ideas. 
+                            We collaborated by giving and receiving feedback to refine the design and ensure the best outcome.</p>
                         <div className={styles.sketches}>
-                            <img src='/images/furrytales/sketch_ourstory.png' alt="Sketches"  />
-                            <img src='/images/furrytales/sketch_product.png' alt="Sketches"  />
-                            <img src='/images/furrytales/sketch_contact.png' alt="Sketches"  />
-                            <img src='/images/furrytales/sketch_popup.png' alt="Sketches"  />
+                            <img src='/images/furrytales/sketch_ourstory.png' alt="Sketches Our Story"  />
+                            <img src='/images/furrytales/sketch_product.png' alt="Sketches Product"  />
+                            <img src='/images/furrytales/sketch_contact.png' alt="Sketches Contact"  />
+                            <img src='/images/furrytales/sketch_popup.png' alt="Sketches Popup"  />
                         </div>
                     </div>
                     
                     <div className={styles.section}>
                         <h2>Hi-Fi</h2>
-                        <p>Utilized <a href='https://html.to.design/home/' target='_blank'>plugins</a> to efficiently redesign the interface.</p>
+                        <div className={styles.hifi}>
+                            <div  className={styles.hifiInner}>
+                                <p><strong>Landing page</strong></p>
+                                <p>Add a testimonial section to build credibility and a social media section to emphasize the brand's online presence.</p>
+                                <img src='/images/furrytales/hifi_landing.png' alt="Hifi Landing page"  />
+                            </div>
+                            <div  className={styles.hifiInner}>
+                                <p><strong>Our Story</strong></p>
+                                <p>Place the dog at the top and add interactive animation to enhance engagement.</p>
+                                <img src='/images/furrytales/hifi_ourstory.png' alt="Hifi Our Story"  />
+                            </div>
+                            <div  className={styles.hifiInner}>
+                                <p><strong>Shop All</strong></p>
+                                <p>Reorganize categories for easy filtering. Add separate cat and dog categories to align with user behavior.</p>
+                                <img src='/images/furrytales/hifi_shopall.png' alt="Hifi Shop All"  />
+                            </div>
+                            <div  className={styles.hifiInner}>
+                                <p><strong>Product Details</strong></p>
+                                <p>Make detailed information easily accessible by adding a tab.</p>
+                                <img src='/images/furrytales/hifi_product.png' alt="Hifi Product"  />
+                            </div>
+                            <div  className={styles.hifiInner}>
+                                <p><strong>Reviews</strong></p>
+                                <p>Add reviews to build trust and gather feedback.</p>
+                                <img src='/images/furrytales/hifi_reviews.png' alt="Hifi Reviews"  />
+                            </div>
+                            <div  className={styles.hifiInner}>
+                                <p><strong>Locations</strong></p>
+                                <p>Provide easy access to information on where users can find products.</p>
+                                <img src='/images/furrytales/hifi_locations.png' alt="Hifi Locations"  />
+                            </div>
+                        </div>
                         <div className={styles.mockup}>
-                            <iframe style={{border: "1px solid var(--light-orange)", borderRadius: "20px"}} width="800" height="450" src="https://embed.figma.com/proto/60QIY05yDwlw2WZG8Vwn0A/Furrytales-Pet?node-id=6-16&scaling=scale-down-width&content-scaling=fixed&page-id=5%3A32&starting-point-node-id=6%3A16&embed-host=share" allowfullscreen></iframe>
+                            <iframe style={{border: "1px solid var(--light-orange)", borderRadius: "20px"}} width="800" height="450" src="https://embed.figma.com/proto/60QIY05yDwlw2WZG8Vwn0A/Furrytales-Pet?node-id=6-16&scaling=scale-down-width&content-scaling=fixed&page-id=5%3A32&starting-point-node-id=6%3A16&embed-host=share" allowFullScreen></iframe>
                         </div>
                     </div>
 
@@ -197,15 +249,14 @@ export default function FurryTales() {
 
                     <div className={styles.section}>
                         <h2>What I learned</h2>
-                        <p><strong>Research is essential</strong> for understanding both the client and their audience before designing. Each method provided unique insights:
+                        <p><strong>Research is essential</strong> for understanding both the client and their audience before designing. Each method provided unique insights:</p>
                             <ul>
                                 <li><strong>Market research</strong> revealed gaps in industry standards.</li>
                                 <li><strong>User research</strong> helped define the audience.</li>
                                 <li><strong>Website critique</strong> identified current issues.</li>
                                 <li><strong>Client meetings</strong> clarified business goals and challenges.</li>
                             </ul>
-                            These insights made the <strong>design process more efficient and meaningful</strong>.
-                        </p>
+                        <p>These insights made the <strong>design process more efficient and meaningful</strong>.</p>
                     </div>
 
                 </div>
