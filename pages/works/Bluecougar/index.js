@@ -35,14 +35,14 @@ export default function Spotlight() {
                     <div className={styles.section}>
                         <h2>Process</h2>
                         <div className={styles.process}>
-                            <div className={styles.beforeAfter}>
-                                <img src={`/images/bluecougar/process/${imgNum}.png`} alt='Creative Process' key={imgNum}/>
-                                <img src='/images/bluecougar/bookcover.png' alt="BLUECOUGAR Bookcover"  />
-                            </div>
                             <div className={styles.originalImg}>
                                 <img src='/images/bluecougar/cougar.jpeg' alt="BLUECOUGAR Bookcover"  />
                                 <img src='/images/bluecougar/bird.jpeg' alt="BLUECOUGAR Bookcover"  />
                                 <img src='/images/bluecougar/mountain_sheep.jpeg' alt="BLUECOUGAR Bookcover"  />
+                            </div>
+                            <div className={styles.beforeAfter}>
+                                <img src={`/images/bluecougar/process/${imgNum}.png`} alt='Creative Process' key={imgNum}/>
+                                <img src='/images/bluecougar/bookcover.png' alt="BLUECOUGAR Bookcover"  />
                             </div>
                         </div>
                     </div>

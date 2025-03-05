@@ -3,6 +3,9 @@ import Box from '@/components/Box'
 import Head from 'next/head'
 import Link from 'next/link'
 import AnimatedButton from '@/components/AnimatedButton';
+import { Carousel } from 'react-responsive-carousel';
+import ReactDOM from 'react-dom';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function FurryTales() {
     
@@ -163,8 +166,8 @@ export default function FurryTales() {
                             </li>
                         </ul>
                         <div className={styles.originalSite}>
-                            <img src='/images/furrytales/original_home.png' alt="Original website home"  />
-                            <img src='/images/furrytales/original_product.png' alt="Original website product page"  />
+                            <img src='/images/furrytales/original_ourstory.png' alt="Original Our Story"  />
+                            <img src='/images/furrytales/original_shopall.png' alt="Original website product page"  />
                             <img src='/images/furrytales/original_form.png' alt="Original website form"  />
                         </div>
                     </div>
@@ -193,39 +196,95 @@ export default function FurryTales() {
                     <div className={styles.section}>
                         <h2>Hi-Fi</h2>
                         <div className={styles.hifi}>
-                            <div  className={styles.hifiInner}>
-                                <p><strong>Landing page</strong></p>
-                                <p>Add a testimonial section to build credibility and a social media section to emphasize the brand's online presence.</p>
-                                <img src='/images/furrytales/hifi_landing.png' alt="Hifi Landing page"  />
-                            </div>
-                            <div  className={styles.hifiInner}>
-                                <p><strong>Our Story</strong></p>
-                                <p>Place the dog at the top and add interactive animation to enhance engagement.</p>
-                                <img src='/images/furrytales/hifi_ourstory.png' alt="Hifi Our Story"  />
-                            </div>
-                            <div  className={styles.hifiInner}>
-                                <p><strong>Shop All</strong></p>
-                                <p>Reorganize categories for easy filtering. Add separate cat and dog categories to align with user behavior.</p>
-                                <img src='/images/furrytales/hifi_shopall.png' alt="Hifi Shop All"  />
-                            </div>
-                            <div  className={styles.hifiInner}>
-                                <p><strong>Product Details</strong></p>
-                                <p>Make detailed information easily accessible by adding a tab.</p>
-                                <img src='/images/furrytales/hifi_product.png' alt="Hifi Product"  />
-                            </div>
-                            <div  className={styles.hifiInner}>
-                                <p><strong>Reviews</strong></p>
-                                <p>Add reviews to build trust and gather feedback.</p>
-                                <img src='/images/furrytales/hifi_reviews.png' alt="Hifi Reviews"  />
-                            </div>
-                            <div  className={styles.hifiInner}>
-                                <p><strong>Locations</strong></p>
-                                <p>Provide easy access to information on where users can find products.</p>
-                                <img src='/images/furrytales/hifi_locations.png' alt="Hifi Locations"  />
-                            </div>
+                            <Carousel showArrows={true} infiniteLoop={true} showThumbs={false} autoPlay={true}>
+                                <div className={styles.hifiInner}>
+                                    <p>Landing page</p>
+                                    <p>Add a <span>testimonial section to build credibility</span> and a social media section to emphasize the brand's online presence.</p>
+                                    <div className={styles.beforeAfter}>  
+                                        <div>
+                                            <p>Before</p>
+                                            <img src='/images/furrytales/original_landing.png' alt="Original Landing page" />
+                                        </div>
+                                        <div>
+                                            <p>After</p>
+                                            <img src='/images/furrytales/hifi_landing.png' alt="Hifi Landing page" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  className={styles.hifiInner}>
+                                    <p>Our Story</p>
+                                    <p><span>Feature the brand's dog, Soya</span>, at the top with interactive animation for better engagement.</p>
+                                    <div className={styles.beforeAfter}>  
+                                        <div>
+                                            <p>Before</p>
+                                            <img src='/images/furrytales/original_ourstory.png' alt="Original Our Story" />
+                                        </div>
+                                        <div>
+                                            <p>After</p>
+                                            <img src='/images/furrytales/hifi_ourstory.gif' alt="Hifi Our Story" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  className={styles.hifiInner}>
+                                    <p>Shop All</p>
+                                    <p>Reorganize categories for easy filtering. Add <span>cat and dog tags to each product</span> to align with user behavior and improve navigation.</p>
+                                    <div className={styles.beforeAfter}>  
+                                        <div>
+                                            <p>Before</p>
+                                            <img src='/images/furrytales/original_shopall.png' alt="Original Shop All" />
+                                        </div>
+                                        <div>
+                                            <p>After</p>
+                                            <img src='/images/furrytales/hifi_shopall.png' alt="Hifi Shop All" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  className={styles.hifiInner}>
+                                    <p>Product Details</p>
+                                    <p>Make <span>detailed information easily accessible</span> by adding a tab.</p>
+                                    <div className={styles.beforeAfter}>  
+                                        <div>
+                                            <p>Before</p>
+                                            <img src='/images/furrytales/original_product.png' alt="Original Product" />
+                                        </div>
+                                        <div>
+                                            <p>After</p>
+                                            <img src='/images/furrytales/hifi_product.png' alt="Hifi Product"  />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  className={styles.hifiInner}>
+                                    <p>Reviews</p>
+                                    <p>Add <span>reviews to build trust</span> and gather feedback.</p>
+                                    <div className={styles.beforeAfter}>  
+                                        <div>
+                                            <p>Before</p>
+                                            <img src='/images/furrytales/original_reviews.png' alt="Original Reviews" />
+                                        </div>
+                                        <div>
+                                            <p>After</p>
+                                            <img src='/images/furrytales/hifi_reviews.png' alt="Hifi Reviews"  />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className={styles.hifiInner}>
+                                    <p>Locations</p>
+                                    <p>Provide <span>easy access to information</span> on where users can find products.</p>
+                                    <div className={styles.beforeAfter}>  
+                                        <div>
+                                            <p>Before</p>
+                                            <img src='/images/furrytales/original_locations.png' alt="Original Locations" />
+                                        </div>
+                                        <div>
+                                            <p>After</p>
+                                            <img src='/images/furrytales/hifi_locations.png' alt="Hifi Locations"  />
+                                        </div>
+                                    </div>
+                                </div>
+                            </Carousel>
                         </div>
                         <div className={styles.mockup}>
-                            <iframe style={{border: "1px solid var(--light-orange)", borderRadius: "20px"}} width="800" height="450" src="https://embed.figma.com/proto/60QIY05yDwlw2WZG8Vwn0A/Furrytales-Pet?node-id=6-16&scaling=scale-down-width&content-scaling=fixed&page-id=5%3A32&starting-point-node-id=6%3A16&embed-host=share" allowFullScreen></iframe>
+                            <iframe style={{border: "1px solid var(--light-orange)", borderRadius: "20px"}} src="https://embed.figma.com/proto/60QIY05yDwlw2WZG8Vwn0A/Furrytales-Pet?node-id=6-16&scaling=scale-down-width&content-scaling=fixed&page-id=5%3A32&starting-point-node-id=6%3A16&embed-host=share" allowFullScreen></iframe>
                         </div>
                     </div>
 

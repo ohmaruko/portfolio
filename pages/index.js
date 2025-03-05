@@ -32,9 +32,9 @@ export default function Works() {
 
       {/* Filter */}
       <div className={styles.filter}>
-        {filterTags.map(tag => (
+        {filterTags.map((tag, index) => (
           <div
-            key={tag}
+            key={index}
             onClick={() => handleTagClick(tag)}
             className={`
               ${selectedTag === tag
