@@ -5,6 +5,7 @@
     background-color: var(--white);
     padding-bottom: 1rem;
     border-radius: 50px;
+    /* border: 1px solid var(--blue); */
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     color: var(--blue);
     text-align: center;
@@ -59,7 +60,7 @@
         padding: 0 1rem;
     }
     .workCard img {
-        border-radius: 50px;
+        border-radius: 10px;
         width: 150px;
         height: 150px;
     }
