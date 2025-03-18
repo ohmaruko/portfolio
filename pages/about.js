@@ -83,7 +83,7 @@ export default function About() {
             </div>
           </div>
           <div className={styles.contactOuterContainer} ref={addToRefs}>
-            <AboutCard 
+            <AboutCard rotateDeg={3}
               content={
                 <div className={styles.contactInnerContainer}>
                   <div className={styles.profileImg} >
@@ -107,20 +107,20 @@ export default function About() {
 
         <div className={styles.service}>
           <div className={styles.serviceCard} ref={addToRefs}>
-            <AboutCard title="Branding" content={
+            <AboutCard title="Branding" rotateDeg={-5} content={
               <p>Transform brand messages into visuals through logo design, packaging, and design asset creation.</p>
             }/>
           </div>
 
             
           <div className={styles.serviceCard} ref={addToRefs}>
-              <AboutCard title="Graphic Design" content={
+              <AboutCard title="Graphic Design" rotateDeg={3} content={
                 <p>Communicate messages visually, through advertisements, typography layouts, motion graphics.</p>
               }/>
           </div>
 
           <div className={styles.serviceCard} ref={addToRefs}>
-              <AboutCard title="UX/UI Design" content={
+              <AboutCard title="UX/UI Design" rotateDeg={5} content={
                 <p>Design solutions to achieve business goals with intuitive and responsive web design.</p>
               }/>
           </div>
@@ -133,7 +133,7 @@ export default function About() {
                     <p>2025.4 -</p>
                     <p>
                       Website Experience and Design Intern
-                      <br/>Unicorn Marketing Co.
+                      <br/>@Unicorn Marketing Co.
                     </p>
                   </div>
                   <div className={styles.exprience}>
@@ -149,9 +149,10 @@ export default function About() {
           </div>
 
           <div className={styles.favouritesOuterContainer}>
+            <h2>Things I love...</h2>
             <div className={styles.favouritesMiddleContainer}>
               <div className={styles.favourite} ref={addToRefs}>
-                <AboutCard 
+                <AboutCard rotateDeg={-5} 
                   content={
                     <div className={styles.favouriteInnerContainer}>
                         <img src='/images/about/nature.jpg' alt='Nature' />
@@ -161,7 +162,7 @@ export default function About() {
                 />
               </div>
               <div className={styles.favourite} ref={addToRefs}>
-                <AboutCard 
+                <AboutCard rotateDeg={3} 
                   content={
                     <div className={styles.favouriteInnerContainer}>
                         <img src='/images/about/cat.jpg' alt='Cat' />
@@ -171,7 +172,7 @@ export default function About() {
                 />
               </div>
               <div className={styles.favourite} ref={addToRefs}>
-                <AboutCard 
+                <AboutCard rotateDeg={5} 
                   content={
                     <div className={styles.favouriteInnerContainer}>
                         <img src='/images/about/color.jpg' alt='Color puzzle' />
@@ -183,7 +184,7 @@ export default function About() {
             </div>
             <div className={styles.favouritesMiddleContainer}>
               <div className={styles.favourite} ref={addToRefs}>
-                <AboutCard 
+                <AboutCard rotateDeg={-3} 
                   content={
                     <div className={styles.favouriteInnerContainer}>
                         <img src='/images/about/yoga.jpg' alt='Yoga and Meditation' />
@@ -193,7 +194,7 @@ export default function About() {
                 />
               </div>
               <div className={styles.favourite} ref={addToRefs}>
-                <AboutCard 
+                <AboutCard rotateDeg={5} 
                   content={
                     <div className={styles.favouriteInnerContainer}>
                         <img src='/images/about/crochet.jpg' alt='Crochet' />
