@@ -2,7 +2,7 @@
     background-color: var(--white);
     margin: 0.5rem;
     border: 1px solid var(--blue);
-    border-radius: 0px;
+    border-radius: 5px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     overflow: hidden;
 }

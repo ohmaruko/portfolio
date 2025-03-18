@@ -67,6 +67,9 @@
 .serviceCard {
     width: 350px;
 }
+.serviceCard img {
+    width: 44px;
+}
 .serviceCard:nth-child(1) {
     position: relative;
     left: 50px;
@@ -99,9 +102,10 @@
     text-align: right;
 }
 .experienceOuterContainer img{
+    width: 34px;
     position: relative;
     bottom: 50px;
-    rotate: -30deg;
+    rotate: -10deg;
     z-index: 100;
 }
 

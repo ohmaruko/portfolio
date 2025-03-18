@@ -46,9 +46,14 @@ export default function About() {
           if (card) {
             Draggable.create(card, {
               type: "x,y",
-              bounds: document.querySelector(`.${styles.aboutContainer}`),
               inertia: true,
               edgeResistance: 0.5,
+              onPress: function () {
+                gsap.to(this.target, { rotation: 3, duration: 0.2, ease: "power1.out" });
+              },
+              onRelease: function () {
+                gsap.to(this.target, { rotation: 0, duration: 0.3, ease: "back" });
+              },
             });
           }
         });
@@ -67,7 +72,7 @@ export default function About() {
         <div className={styles.aboutAndContact}>
           <div>
             <div className={styles.about} ref={addToRefs}>
-              <AboutCard title="About" content={
+              <AboutCard content={
                 <div className={styles.color}>
                   <p>
                     I'm a graphic/web designer focusing on branding, originally from Japan and now based in Vancouver/Victoria. 
@@ -107,21 +112,33 @@ export default function About() {
 
         <div className={styles.service}>
           <div className={styles.serviceCard} ref={addToRefs}>
-            <AboutCard title="Branding" rotateDeg={-5} content={
-              <p>Transform brand messages into visuals through logo design, packaging, and design asset creation.</p>
+            <AboutCard rotateDeg={-5} content={
+              <div>
+                <img src='/images/about/icon_branding.svg' alt='Graphic design' />
+                <h2>Branding</h2>
+                <p>Transform brand messages into visuals through logo design, packaging, and design asset creation.</p>
+            </div>
             }/>
           </div>
 
             
           <div className={styles.serviceCard} ref={addToRefs}>
-              <AboutCard title="Graphic Design" rotateDeg={3} content={
-                <p>Communicate messages visually, through advertisements, typography layouts, motion graphics.</p>
+              <AboutCard rotateDeg={3} content={
+                <div>
+                  <img src='/images/about/icon_graphic_design.svg' alt='Graphic design' />
+                  <h2>Graphic Design</h2>
+                  <p>Communicate messages visually, through advertisements, typography layouts, motion graphics.</p>
+                </div>
               }/>
           </div>
 
           <div className={styles.serviceCard} ref={addToRefs}>
-              <AboutCard title="UX/UI Design" rotateDeg={5} content={
-                <p>Design solutions to achieve business goals with intuitive and responsive web design.</p>
+              <AboutCard rotateDeg={-1} content={
+                <div>
+                  <img src='/images/about/icon_uxui.svg' alt='Graphic design' />
+                  <h2>UX/UI Design</h2>
+                  <p>Design solutions to achieve business goals with intuitive and responsive web design.</p>
+              </div>
               }/>
           </div>
         </div>
@@ -145,7 +162,7 @@ export default function About() {
                   </div>
                 </div>
               }/>
-              <img src='images/bcit_logo.png' alt='BCIT logo' />
+              <img src='images/bcit_logo.svg' alt='BCIT logo' />
           </div>
 
           <div className={styles.favouritesOuterContainer}>

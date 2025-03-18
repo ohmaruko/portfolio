@@ -2,7 +2,6 @@ import styles from "./AboutCard.module.css"
 import { useState, useEffect } from "react";
 
 export default function AboutCard({
-    title,
     content,
     rotateDeg,
 }) {
@@ -17,7 +16,6 @@ export default function AboutCard({
                 <circle cx="11.5" cy="11.5" r="11" fill="#FFFDFA" stroke="#006AFE"/>
             </svg>
             <div className={styles.innerBox}>
-                {title ?<h2>{title}</h2>:<></>}
                 {content}
             </div>
         </div>
