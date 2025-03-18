@@ -6,13 +6,12 @@
 .contactInnerContainer {
     display: flex;
     justify-content: center;
-    gap: 5rem;
     width: 70%;
     margin: 6rem auto;
     padding: 3rem;
     background-color: var(--white);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border-radius: 20px;
+    border-radius: 50px;
     overflow: hidden;
 }
 .contactInnerContainer div:first-child {
@@ -26,9 +25,9 @@
     align-items: flex-end;
 }
 .mascotContainer img {
-    width: 100%;
+    width: 80%;
     position: relative;
-    top: 170px;
+    top: 140px;
 }
 .contactInnerContainer h2 {
     margin: 3rem 0;
