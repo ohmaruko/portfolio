@@ -205,7 +205,7 @@ export default function About() {
                   content={
                     <div className={styles.favouriteInnerContainer}>
                         <img src='/images/about/yoga.jpg' alt='Yoga and Meditation' />
-                      <p>Yoga and Mediation</p>
+                      <p>Yoga and Meditation</p>
                     </div>
                   }
                 />
