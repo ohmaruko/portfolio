@@ -21,7 +21,7 @@
     .box {
         padding: 1rem;
     }
-    .box svg {
+    .pin  {
         display: none;
     }
 }

@@ -4,14 +4,24 @@ import AboutCard from '@/components/AboutCard'
 import Head from 'next/head'
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { useEffect, useRef } from 'react';
+import { useEffect, useState, useRef } from 'react';
 
 export default function About() {
+  // check the screen size
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 820);
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
-  // Draggable card functions
+  // Draggable card function
   const cardsRef = useRef([]);
   const addToRefs = (card) => {
-    if (card && !cardsRef.current.includes(card)) {
+    if (card && !cardsRef.current.includes(card) && !isMobile) {
       cardsRef.current.push(card);
     }
   };
@@ -21,20 +31,31 @@ export default function About() {
       const gsap = (await import('gsap')).default;
       const { Draggable } = await import('gsap/Draggable');
       gsap.registerPlugin(Draggable);
-      
+
+      // clean the current draggable cards
       cardsRef.current.forEach(card => {
-        if (card) {
-          Draggable.create(card, {
-            type: "x,y",
-            bounds: document.querySelector(`.${styles.aboutContainer}`),
-            inertia: true,
-            edgeResistance: 0.5,
-          });
+        if(card){
+          if(Draggable.get(card)){
+            Draggable.get(card).kill();
+          };
         }
-      });
+      })
+      // set new draggable cards
+      if (!isMobile) {
+        cardsRef.current.forEach(card => {
+          if (card) {
+            Draggable.create(card, {
+              type: "x,y",
+              bounds: document.querySelector(`.${styles.aboutContainer}`),
+              inertia: true,
+              edgeResistance: 0.5,
+            });
+          }
+        });
+      }
     };
     draggableGsap();
-  }, []);
+  }, [isMobile]);
   
   return (
     <div>

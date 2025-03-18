@@ -156,13 +156,16 @@
         position: inherit;
     }
     .contactOuterContainer {
-        width: 400px;
+        width: 100%;
         position: relative;
         top: 0;
         right: 0;
     }
     .experienceOuterContainer {
         width: 100%;
+        margin: 0;
+    }
+    .favouritesOuterContainer {
         margin: 0;
     }
     .favouritesMiddleContainer {
