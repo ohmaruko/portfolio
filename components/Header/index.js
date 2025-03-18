@@ -1,41 +1,15 @@
 import styles from './Header.module.css'
 import Image from 'next/image'
-import Link from 'next/link'
 import { Work_Sans } from 'next/font/google'
 const workSans = Work_Sans ({subsets: ['latin']})
 import AnimatedButton from '../AnimatedButton'
-import { useEffect, useRef } from 'react'
-
-
-import { gsap } from "gsap";
-import { useGSAP } from '@gsap/react';
-gsap.registerPlugin(useGSAP);
+import { useRef } from 'react'
 
 export default function Header() {
 
     const containerRef = useRef(null);
     const servicesRef = useRef(null);
     const services = ['Branding', '*', 'Graphic Design', '*', 'Web Design', '*'];
-
-    // useGSAP(() => {
-    //     const container = containerRef.current;
-    //     const servicesEl = servicesRef.current;
-    //     if (!container || !servicesEl) return;
-    //     // Create the animation
-    //     const tl = gsap.timeline({ repeat: -1, ease: 'linear' });
-    //     tl.to(servicesEl, {
-    //         x: '-50%',
-    //         duration: 20,
-    //         ease: 'linear'
-    //     });
-    //     // Cleanup function
-    //     return () => {
-    //         tl.kill();
-    //     };
-    // }, []);
-
-
-    // const services = ['Branding', 'Graphic', 'Web Design']
 
     return (
         <header className={`${styles.header} ${workSans.className}`}>
@@ -74,6 +48,7 @@ export default function Header() {
             <section className={styles.menu}>
                 <AnimatedButton href="/#scroll">WORK</AnimatedButton>
                 <AnimatedButton href="/about/#scroll">ABOUT</AnimatedButton>
+                <AnimatedButton href="/contact/#scroll">Contact</AnimatedButton>
             </section>
         </header>
 
