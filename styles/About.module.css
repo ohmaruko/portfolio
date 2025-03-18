@@ -1,0 +1,211 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em auto;
+}
+
+.aboutAndContact {
+    display: flex;
+    margin: 2rem auto 6rem;
+}
+.about {
+    width: 600px;
+}
+.color span {
+    background: linear-gradient(
+        to bottom,
+        transparent 30%,
+        #d0b127a2 50%
+        );
+    }
+.greeting {
+    padding: 1rem 3rem;
+}
+.contactOuterContainer {
+    width: 400px;
+    position: relative;
+    top: 100px;
+    right: 50px;
+}
+.contactInnerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profileImg {
+    margin: 0 auto;
+    overflow: hidden;
+}
+.profileImg img{
+    width: 100%;
+}
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+.link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.logo {
+    fill: var(--blue);
+    padding: 5px;
+    border-radius: 10px;
+}
+.link:hover .logo{
+    background-color: var(--blue);
+    fill: var(--white);
+}
+
+.service {
+    display: flex;
+    margin: 6rem 0;
+}
+.serviceCard {
+    width: 350px;
+}
+.serviceCard img {
+    width: 44px;
+}
+.serviceCard:nth-child(1) {
+    position: relative;
+    left: 50px;
+}
+.serviceCard:nth-child(2) {
+    position: relative;
+    top: 50px;
+}
+.serviceCard:nth-child(3) {
+    position: relative;
+    bottom: 20px;
+    right: 30px;
+}
+
+.experienceOuterContainer {
+    width: 600px;
+    margin: 3rem 0;
+}
+.exprience {
+    display: flex;
+    gap: 3rem;
+}
+.exprience p:nth-child(2) {
+    flex: 70%;
+    text-align: left;
+}
+
+.exprience p:nth-child(1) {
+    flex: 30%;
+    text-align: right;
+}
+.experienceOuterContainer img{
+    width: 34px;
+    position: relative;
+    bottom: 50px;
+    rotate: -10deg;
+    z-index: 100;
+}
+
+
+.favouritesOuterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem 0;
+}
+.favouritesOuterContainer h2 {
+    padding: 1rem 3rem;
+}
+.favouritesMiddleContainer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+}
+.favourite {
+    width: 300px;
+    position: relative;
+}
+.favouriteInnerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.favouriteInnerContainer p {
+    text-align: center;
+}
+.favouritesMiddleContainer:nth-of-type(1) .favourite:nth-child(1) {
+    z-index: 1;
+}
+.favouritesMiddleContainer:nth-of-type(1) .favourite:nth-child(2) {
+    top: 70px;
+    z-index: 1;
+}
+.favouritesMiddleContainer:nth-of-type(1) .favourite:nth-child(3) {
+    z-index: 1;
+}
+.favouritesMiddleContainer:nth-of-type(2) .favourite:nth-child(1) {
+    top: -130px;
+    right: 50px;
+}
+.favouritesMiddleContainer:nth-of-type(2) .favourite:nth-child(2) {
+    top: -150px;
+    left: 50px;
+}
+
+/* mobile */
+@media (max-width: 820px){
+    .aboutContainer {
+        width: 90%;
+    }
+    .about {
+        width: 100%;
+        align-items: center;
+    }
+    .aboutAndContact {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .service {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .serviceCard:nth-child(1),  .serviceCard:nth-child(2),  .serviceCard:nth-child(3) {
+        position: inherit;
+    }
+    .contactOuterContainer {
+        width: 100%;
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .experienceOuterContainer {
+        width: 100%;
+        margin: 0;
+    }
+    .favouritesOuterContainer {
+        margin: 0;
+    }
+    .favouritesMiddleContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .favouritesMiddleContainer:nth-of-type(1) .favourite:nth-child(2) {
+        top: 0;
+    }
+    .favouritesMiddleContainer:nth-of-type(2) .favourite:nth-child(1) {
+        top: 0;
+        right: 0;
+    }
+    .favouritesMiddleContainer:nth-of-type(2) .favourite:nth-child(2) {
+        top: 0;
+        left: 0;
+    }
+}

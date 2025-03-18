@@ -1,0 +1,29 @@
+.box {
+    background-color: var(--white);
+    margin: 0.5rem;
+    border: 1px solid var(--blue);
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    overflow: hidden;
+}
+
+.pin {
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.innerBox {
+    padding: 0 2rem 1rem 2rem;
+}
+
+@media (max-width: 820px){
+    .box {
+        padding: 1rem;
+    }
+    .pin  {
+        display: none;
+    }
+    .innerBox {
+        padding: 1rem;
+    }    
+}

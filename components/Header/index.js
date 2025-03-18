@@ -54,7 +54,7 @@ export default function Header() {
                                     <Image src="/images/mascot.svg" alt="Mascot" width={80} height={80} className={styles.img} />
                                 </div>
                                 <div className={styles.back}>
-                                    <Image src="/images/profile02.png" alt="Profile Image" width={80} height={80} className={styles.img} />
+                                    <Image src="/images/profile_icon.png" alt="Profile Image" width={80} height={80} className={styles.img} />
                                 </div>
                             </div>
                         </div>
