@@ -1,4 +1,6 @@
-/* Works */
+.outerContainer {
+  margin: 6rem auto;
+}
 .filter {
   display: flex;
   justify-content: start;

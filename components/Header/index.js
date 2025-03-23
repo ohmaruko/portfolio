@@ -41,7 +41,7 @@ export default function Header() {
                             })}
                         </div>
                     </div>
-                    <h2 className={styles.servicesContainerMobile}>Branding | Graphic | Webdesign</h2>
+                    <h2 className={styles.servicesContainerMobile}>Branding | Graphic | Web Design</h2>
                 </div>
                 <div id='scroll'></div>
             </div>

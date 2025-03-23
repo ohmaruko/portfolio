@@ -37,16 +37,11 @@ export default function Contact() {
 
     const handleChange = (e) => {
         const { name, value } = e.target
-        setFormData(prevState => ({
-            ...prevState,
-            [name]: value
-        }))
+        setFormData(prevState => ({...prevState, [name]: value}))
     }
-
     const handleSubmit = async (e) => {
         e.preventDefault()
         setStatus(prevStatus => ({ ...prevStatus, submitting: true }))
-
         try {
             const response = await fetch('/api/send', {
                 method: 'POST',
@@ -55,7 +50,6 @@ export default function Contact() {
                 },
                 body: JSON.stringify(formData)
             })
-
             const data = await response.json()
             if (response.ok) {
                 handleServerResponse(true, 'Thank you for your message! I will get back to you soon.')
@@ -78,26 +72,10 @@ export default function Contact() {
                         <img src='/images/mascot.gif' alt='Mascot' className={styles.mascot} />
                     </div>
                     <div>
-                        <h2>Work with Madoka</h2>
-                        {/* <form className={styles.contactForm}>
-                            <input type='text' id='name' name='name' placeholder='Full Name *' />
-                            <input type='email' id='email' name='email' placeholder='Email *' />
-                            <textarea id='message' name='message' placeholder='Message *'></textarea>
-                            <AnimatedButton type='submit'><h3>Submit</h3></AnimatedButton>
-                        </form> */}
-                               {status.submitted ? (
+                        <h2>Let’s Connect!</h2>
+                        {status.submitted ? (
                             <div className={styles.successMessage}>
                                 <p>{status.info.msg}</p>
-                                <button 
-                                    className={styles.resetButton}
-                                    onClick={() => setStatus({
-                                        submitted: false,
-                                        submitting: false,
-                                        info: { error: false, msg: null }
-                                    })}
-                                >
-                                    Send another message
-                                </button>
                             </div>
                         ) : (
                             <form className={styles.contactForm} onSubmit={handleSubmit}>
