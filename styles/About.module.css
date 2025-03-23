@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2em auto;
+    margin: 0 auto;
 }
 
 .aboutAndContact {
@@ -21,7 +21,7 @@
         );
     }
 .greeting {
-    padding: 1rem 3rem;
+    padding: 5rem 3rem;
 }
 .contactOuterContainer {
     width: 400px;
@@ -170,6 +170,9 @@
         align-items: center;
         width: 100%;
         margin: 0;
+    }
+    .greeting {
+        padding: 3rem;
     }
     .service {
         flex-direction: column;

@@ -26,10 +26,18 @@ export const workList = [
         category: ["Graphic Design"]
     },
     {
+        title: 'Konmari Method',
+        image: '/images/konmari.svg',
+        href: './works/Konmari',
+        tags: ["Motion Graphic Design"],
+        targetBlank: false,
+        category: ["Motion Graphic Design"]
+    },
+    {
         title: 'FurryTales',
         image: '/images/furrytales/thumbnail.svg',
         href: './works/FurryTales',
-        tags: ["UX/UI Design"],
+        tags: ["UX/UI Design", "Website"],
         targetBlank: false,
         category: ["UX/UI Design"]
     },
@@ -58,14 +66,6 @@ export const workList = [
         tags: ["Magazine Design", "Print", "Digital"],
         targetBlank: false,
         category: ["Graphic Design"]
-    },
-    {
-        title: 'Konmari Method',
-        image: '/images/konmari.svg',
-        href: './works/Konmari',
-        tags: ["Motion Graphic Design"],
-        targetBlank: false,
-        category: ["Motion Graphic Design"]
     },
     {
         title: 'MOGUMOGU',

@@ -5,7 +5,6 @@
     background-color: var(--white);
     padding-bottom: 1rem;
     border-radius: 50px;
-    /* border: 1px solid var(--blue); */
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     color: var(--blue);
     text-align: center;
@@ -54,17 +53,23 @@
         padding-bottom: 0;
         width: auto;
         height: 150px;
+        border-radius: 20px;
     }
     .title {
-        width: 150px;
+        width: 170px;
         padding: 0 1rem;
     }
     .workCard img {
-        border-radius: 10px;
+        border-radius: 20px 0 0 20px;
         width: 150px;
         height: 150px;
     }
     .tagsContainer {
         width: 150px;
+    }
+    .tag p{
+        background-color: var(--white);
+        color: var(--blue);
+        border: 1px solid var(--blue);
     }
 }

@@ -84,10 +84,6 @@
   /* mobile */
 @media (max-width: 820px){
   .button {
-    box-shadow: none;
     padding: 1rem 1.3rem;
-  }
-  .button::after {
-      border: 2px solid var(--blue);
   }
 }
