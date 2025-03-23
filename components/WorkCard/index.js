@@ -1,5 +1,4 @@
 import styles from "./WorkCard.module.css"
-import Image from "next/image"
 import Link from "next/link"
 
 export default function WorkCard({
@@ -8,7 +7,6 @@ export default function WorkCard({
     href,
     tags,
     targetBlank,
-    summary,
 }) {
 
     return (
