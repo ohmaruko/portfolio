@@ -147,7 +147,7 @@ export default function About() {
               <AboutCard content={
                 <div className={styles.exprienceInnerContainer}>
                   <div className={styles.exprience}>
-                    <p>2023 - 2025</p>
+                    <p>2023 – 2025</p>
                     <p>
                       British Columbia Institute of Technology 
                       <br/>Digital Design and Development Diploma

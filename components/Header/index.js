@@ -48,7 +48,7 @@ export default function Header() {
             <section className={styles.menu}>
                 <AnimatedButton href="/#scroll">WORK</AnimatedButton>
                 <AnimatedButton href="/about/#scroll">ABOUT</AnimatedButton>
-                <AnimatedButton href="/contact/#scroll">Contact</AnimatedButton>
+                <AnimatedButton href="/contact/#scroll">CONTACT</AnimatedButton>
             </section>
         </header>
 

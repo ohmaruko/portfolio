@@ -90,16 +90,15 @@
 }
 .exprience {
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
+}
+.exprience p:nth-child(1) {
+    flex: 35%;
+    text-align: right;
 }
 .exprience p:nth-child(2) {
-    flex: 70%;
+    flex: 65%;
     text-align: left;
-}
-
-.exprience p:nth-child(1) {
-    flex: 30%;
-    text-align: right;
 }
 .experienceOuterContainer img{
     width: 34px;
