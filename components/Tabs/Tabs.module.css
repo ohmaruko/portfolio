@@ -1,0 +1,20 @@
+.tabList {
+    display: flex;
+}
+.tab {
+    border-radius: 20px 20px 0 0 ;
+    border: 1px solid var(--blue);
+    border-bottom: none;
+    padding: 1rem 2rem;
+}
+.tab:hover, .active {
+    background-color: var(--blue);
+    color: white;
+}
+
+.tabContent {
+    padding: 2rem;
+    border: 1px solid var(--blue);
+    border-radius: 0 0 20px 20px;
+    background-color: var(--light-blue);
+}
