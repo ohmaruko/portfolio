@@ -1,5 +1,13 @@
 export const workList = [
     {
+        title: 'Unicorn Marketing Co.',
+        image: '/images/unicorn/logo.webp',
+        href: './works/UnicornMarketingCo',
+        tags: ["Website Design"],
+        targetBlank: false,
+        category: ["UX/UI Design"]
+    },
+    {
         title: 'Glow Kombu',
         image: '/images/glowkombu/glowkombu.png',
         href: './works/GlowKombu',

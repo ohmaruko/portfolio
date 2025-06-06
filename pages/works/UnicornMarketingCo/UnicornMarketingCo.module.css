@@ -1,0 +1,45 @@
+/* Common styles for Works page -> */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 70%;
+    max-width: 1440px;
+    margin: 2rem auto;
+  }
+  /* mobile */
+  @media (max-width: 820px){
+    .container {
+      width: 90%;
+    }
+  }
+  /* <- Common styles for Works page */
+  .container h1 {
+    text-align: right;
+    margin: 0.5rem;
+    line-height: 100%;
+  }
+
+  .textContainer {
+    margin: 3rem 0;
+  }
+
+.beforeAfter {
+  width: 100%;
+  display: flex;
+  gap: 1%;
+}
+.before, .after {
+  width: 49%;
+  height: auto;
+}
+.websiteLink {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+/* mobile */
+@media (max-width: 820px){
+
+}
