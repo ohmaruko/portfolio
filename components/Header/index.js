@@ -49,6 +49,7 @@ export default function Header() {
                 <AnimatedButton href="/#scroll">WORK</AnimatedButton>
                 <AnimatedButton href="/about/#scroll">ABOUT</AnimatedButton>
                 <AnimatedButton href="/contact/#scroll">CONTACT</AnimatedButton>
+                <AnimatedButton href="/playground/#scroll">Playground</AnimatedButton>
             </section>
         </header>
 

@@ -99,14 +99,14 @@ export const workList = [
         targetBlank: false,
         category: ["Graphic Design"]
     },
-    {
-        title: 'Film Festival',
-        image: '/images/filmfestival/film01.png',
-        href: './works/FilmFestival',
-        tags: ["Typography Layout"],
-        targetBlank: false,
-        category: ["Graphic Design"]
-    },
+    // {
+    //     title: 'Film Festival',
+    //     image: '/images/filmfestival/film01.png',
+    //     href: './works/FilmFestival',
+    //     tags: ["Typography Layout"],
+    //     targetBlank: false,
+    //     category: ["Graphic Design"]
+    // },
     // {
     //     title: 'Dolce Donut',
     //     image: '/images/dolcedonut/dolce.png',
