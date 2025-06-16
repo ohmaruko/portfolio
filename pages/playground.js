@@ -13,6 +13,7 @@ export default function Playground() {
       <div className={styles.imagesOuterContainer}>
         <div className={styles.leftContainer}>
             <ImageViewer imageSrc="/images/playground/glass_morphism.png" altText="Glass Morphism" />
+            <ImageViewer imageSrc="/images/playground/let_go.png" altText="Let Go Illustration" />
             <ImageViewer imageSrc="/images/playground/stickers.jpg" altText="Mascot Stickers" />
         </div>
         <div className={styles.filmFestivalContainer}>
