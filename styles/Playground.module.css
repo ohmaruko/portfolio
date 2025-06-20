@@ -13,7 +13,7 @@
     align-items: center;
     gap: 1rem;
 }
-.filmFestivalContainer {
+.rightContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
