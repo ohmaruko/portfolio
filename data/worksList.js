@@ -1,7 +1,7 @@
 export const workList = [
     {
         title: 'SOMA',
-        image: '/images/soma/golden.png',
+        image: '/images/soma/thumbnail.png',
         href: './works/Soma',
         tags: ["Packaging Design"],
         summary: "Coffee beans packaging design",
