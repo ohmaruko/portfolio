@@ -19,6 +19,7 @@ export default function Playground() {
         <div className={styles.rightContainer}>
             <ImageViewer imageSrc="/images/filmfestival/film01.png" altText="Vancouver Film Festival Poster" />  
             <ImageViewer imageSrc="/images/filmfestival/film02.png" altText="Vancouver Film Festival Poster" />  
+            <ImageViewer imageSrc="/images/playground/hi_posters.png" altText="Orange posters on the wall" />  
             {/* <ImageViewer imageSrc="/images/filmfestival/film03.png" altText="Vancouver Film Festival Poster" />   */}
             <ImageViewer imageSrc="/images/playground/stickers.jpg" altText="Mascot Stickers" />
         </div>
