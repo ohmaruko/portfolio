@@ -16,25 +16,25 @@ export default function GlowKombu() {
             <div>
                 <h1>SOMA</h1>
                 <h1>Coffee Packaging Design</h1>
-                <p>June 2025 - Current</p>
+                <p>June 2025</p>
                 <div className={styles.mockupImageContainer} >
                     <ImageViewer imageSrc="/images/soma/mockup_all.png" altText="Soma Coffee Midnight Drift" />
                 </div>
-                {/* <div>
-                    <h2>About</h2>
+                <div className={styles.textContainer}>
+                    <p>
+                        A packaging design for SOMA Coffee Roaster that blends minimalism with artisanal warmth, honoring the journey from soil to sip through thoughtful storytelling and ethical transparency. The design combines modern aesthetics with handcrafted touches—featuring hand-drawn graphics and a hint of quirky fun—to create a unique, approachable feel. Each bag becomes a curated experience, crafted for a lifestyle-conscious, creative audience that values sustainability, quality, and the ritual of coffee.
+                    </p>
                 </div>
-                <div> 
-                    <h2>Goal</h2>
-                </div> */}
                 <div className={styles.dielineContainer} >
                     <ImageViewer imageSrc="/images/soma/dieline_velvet.png" altText="Dieline" />
                 </div>
-                <div className={styles.mockupImageContainer} >
+                <div className={styles.mockupImagesContainer} >
                     <ImageViewer imageSrc="/images/soma/midnight.png" altText="Soma Coffee Midnight Drift" />
                     <ImageViewer imageSrc="/images/soma/golden.png" altText="Soma Coffee Golden Sunrise" />
                     <ImageViewer imageSrc="/images/soma/velvet.png" altText="Soma Coffee Velvet Bloom" />
                 </div>
-                <div className={styles.textContainer} >
+                <div>
+                    <h2>Behind the Design</h2>
                     <div className={styles.processImageContainer} >
                         <div>
                             <p>Market Research</p>
@@ -45,24 +45,15 @@ export default function GlowKombu() {
                             <ImageViewer imageSrc="/images/soma/moodboard.png" altText="Moodboard" />
                         </div>
                         <div>
+                            <p>Logo Design</p>
+                            <ImageViewer imageSrc="/images/soma/logoideas.png" altText="Logo Ideas" />
+                        </div>
+                        <div>
                             <p>Illustration</p>
                             <ImageViewer imageSrc="/images/soma/illustration.png" altText="Illustration Ideas" />
                         </div>
-                        <div>
-                            <p>Logo Ideas</p>
-                            <ImageViewer imageSrc="/images/soma/logoideas.png" altText="Logo Ideas" />
-                        </div>
                     </div>
                 </div>
-                {/* <div className={styles.dielineContainer} >
-                    <ImageViewer imageSrc="/images/soma/mockup_cup.jpg" altText="Mockup Cup" />
-                </div>
-                <div className={styles.textContainer}>
-                  <h2>What I learned</h2>
-                    <ul>
-                      <li></li>
-                    </ul>
-                </div> */}
             </div>
         }/>
       </div>
