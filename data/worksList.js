@@ -1,10 +1,10 @@
 export const workList = [
     {
-        title: 'SOMA',
-        image: '/images/soma/thumbnail.png',
-        href: './works/Soma',
-        tags: ["Packaging Design"],
-        summary: "Coffee beans packaging design",
+        title: 'Glow Kombu',
+        image: '/images/glowkombu/glowkombu.png',
+        href: './works/GlowKombu',
+        tags: ["Packaging"],
+        summary: "Kombucha can design",
         targetBlank: false,
         category: ["Graphic Design"]
     },
@@ -12,16 +12,16 @@ export const workList = [
         title: 'Unicorn Marketing Co.',
         image: '/images/unicorn/logo.webp',
         href: './works/UnicornMarketingCo',
-        tags: ["Website Design"],
+        tags: ["Website"],
         targetBlank: false,
         category: ["UX/UI Design"]
     },
     {
-        title: 'Glow Kombu',
-        image: '/images/glowkombu/glowkombu.png',
-        href: './works/GlowKombu',
-        tags: ["Packaging Design"],
-        summary: "Kombucha can design",
+        title: 'Daily Design',
+        image: '/images/dailydesign/bite_club.png',
+        href: './works/DailyDesign',
+        tags: ["Brand Identity", "Packaging"],
+        summary: "Daily design challenge",
         targetBlank: false,
         category: ["Graphic Design"]
     },
@@ -29,7 +29,7 @@ export const workList = [
         title: 'Remedify',
         image: '/images/remedify/remedify_thumbnail.png',
         href: './works/Remedify',
-        tags: ["UX/UI Design", "Mobile App"],
+        tags: ["UX/UI", "Mobile App"],
         targetBlank: false,
         category: ["UX/UI Design"]
     },
@@ -37,7 +37,7 @@ export const workList = [
         title: 'Hair Sunset',
         image: '/images/hair/hair_sunset_business_card_square.png',
         href: './works/HairSunset',
-        tags: ["Graphic Design", "Logo Design"],
+        tags: ["Logo", "Campaign Ad"],
         summary: "A warm, inviting logo and campaign ad series for a family-friendly hair salon.",
         targetBlank: false,
         category: ["Graphic Design"]
@@ -46,15 +46,24 @@ export const workList = [
         title: 'Konmari Method',
         image: '/images/konmari.svg',
         href: './works/Konmari',
-        tags: ["Motion Graphic Design"],
+        tags: ["Motion Graphic"],
         targetBlank: false,
         category: ["Motion Graphic Design"]
+    },
+    {
+        title: 'SOMA',
+        image: '/images/soma/thumbnail.png',
+        href: './works/Soma',
+        tags: ["Packaging"],
+        summary: "Coffee beans packaging design",
+        targetBlank: false,
+        category: ["Graphic Design"]
     },
     {
         title: 'FurryTales',
         image: '/images/furrytales/thumbnail.svg',
         href: './works/FurryTales',
-        tags: ["UX/UI Design", "Website"],
+        tags: ["UX/UI", "Website"],
         targetBlank: false,
         category: ["UX/UI Design"]
     },
@@ -62,7 +71,7 @@ export const workList = [
         title: 'Tranquify',
         image: '/images/tranquify/tranquifyLogo.svg',
         href: './works/Tranquify',
-        tags: ["Graphic Design", "UX/UI Design", "Frontend Development", "Mobile App"],
+        tags: ["Graphic", "UX/UI", "Frontend Development", "Mobile App"],
         summary: "A personalized journey to better mental health through mood tracking and tailored meditation content.",
         targetBlank: false,
         category: ["UX/UI Design", "Graphic Design"]
@@ -71,7 +80,7 @@ export const workList = [
         title: 'Spotlight',
         image: '/images/spotlight/thumbnail.svg',
         href: './works/Spotlight',
-        tags: ["UX/UI Design", "Logo Design"],
+        tags: ["UX/UI", "Logo"],
         summary: "Kombucha can design",
         targetBlank: false,
         category: ["UX/UI Design"]
@@ -80,7 +89,7 @@ export const workList = [
         title: 'Harmony In Design',
         image: '/images/harmonyInDesign/print_magazine_square.png',
         href: './works/HarmonyInDesign',
-        tags: ["Magazine Design", "Print", "Digital"],
+        tags: ["Magazine", "Print", "Digital"],
         targetBlank: false,
         category: ["Graphic Design"]
     },
@@ -88,7 +97,7 @@ export const workList = [
         title: 'MOGUMOGU',
         image: '/images/mogumogu/thumbnail.png',
         href: './works/Mogumogu',
-        tags: ["Menu Design"],
+        tags: ["Menu", "Logo"],
         targetBlank: false,
         category: ["Graphic Design"]
     },
@@ -96,7 +105,7 @@ export const workList = [
         title: 'How to meditate',
         image: '/images/heart.svg',
         href: './works/HowToMeditate',
-        tags: ["Motion Graphic Design"],
+        tags: ["Motion Graphic"],
         targetBlank: false,
         category: ["Motion Graphic Design"]
     },
@@ -104,7 +113,7 @@ export const workList = [
         title: 'BLUECOUGAR',
         image: '/images/bluecougar/thumbnail.png',
         href: './works/Bluecougar',
-        tags: ["Bookcover Design"],
+        tags: ["Bookcover"],
         targetBlank: false,
         category: ["Graphic Design"]
     },
@@ -120,7 +129,7 @@ export const workList = [
     //     title: 'Dolce Donut',
     //     image: '/images/dolcedonut/dolce.png',
     //     href: './works/DolceDonuts',
-    //     tags: ["UX/UI Design", "Frontend Development"],
+    //     tags: ["UX/UI", "Frontend Development"],
     //     targetBlank: false,
     //     category: ["UX/UI Design"]
     // },
@@ -128,7 +137,7 @@ export const workList = [
     //     title: 'West Point Hotel',
     //     image: '/images/west-point-hotel.svg',
     //     href: 'https://west-point-hotel.vercel.app/',
-    //     tags: ["WordPress", "UX/UI Design", "Website"],
+    //     tags: ["WordPress", "UX/UI", "Website"],
     //     targetBlank: true,
     //     category: ["UX/UI Design"]
     // },
@@ -136,7 +145,7 @@ export const workList = [
     //     title: 'The World of Studio Ghibli',
     //     image: '/images/ghibli.jpg',
     //     href: 'https://the-world-of-studio-ghibli.vercel.app/',
-    //     tags: ["WordPress", "UX/UI Design", "Blog"],
+    //     tags: ["WordPress", "UX/UI", "Blog"],
     //     targetBlank: true,
     //     category: ["UX/UI Design"]
     // },
