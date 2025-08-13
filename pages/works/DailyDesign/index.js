@@ -22,11 +22,16 @@ export default function GlowKombu() {
                         Designing one brand a day. Practicing design skills and creativity, exploring different styles and trends, and believing these dots will connect into something greater in the future :-)
                     </p>
                 </div>
-                <div className={styles.mockupImageContainer} >
+                <div className={styles.mockupImageOuterContainer} >
+                  <div className={styles.mockupImageInnerContainer}>
                     <ImageViewer imageSrc="/images/dailydesign/bite_club.png" altText="Snack bar Bite Club packaging" />
-                    <ImageViewer imageSrc="/images/dailydesign/lume_box.png" altText="Lume Box match box packaging" />
                     <ImageViewer imageSrc="/images/dailydesign/just_milk.png" altText="Just Milk packaging" />
+                  </div>
+                  <div className={styles.mockupImageInnerContainer}>
+                    <ImageViewer imageSrc="/images/dailydesign/lume_box.png" altText="Lume Box match box packaging" />
+                    <ImageViewer imageSrc="/images/dailydesign/luvin.png" altText="Luvin deodorant packaging" />
                     <ImageViewer imageSrc="/images/dailydesign/17°_cream.png" altText="Ice cream 17° Cream packaging" />
+                  </div>
                 </div>
                 
             </div>

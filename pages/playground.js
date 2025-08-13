@@ -11,12 +11,12 @@ export default function Playground() {
       </Head>
 
       <div className={styles.imagesOuterContainer}>
-        <div className={styles.leftContainer}>
+        <div className={styles.imagesInnerContainer}>
             <ImageViewer imageSrc="/images/playground/glass_morphism.png" altText="Glass Morphism" />
             <ImageViewer imageSrc="/images/playground/pixel_collage.png" altText="Pixel Collage" />
             <ImageViewer imageSrc="/images/playground/let_go.png" altText="Let Go Illustration" />
         </div>
-        <div className={styles.rightContainer}>
+        <div className={styles.imagesInnerContainer}>
             <ImageViewer imageSrc="/images/filmfestival/film01.png" altText="Vancouver Film Festival Poster" />  
             <ImageViewer imageSrc="/images/filmfestival/film02.png" altText="Vancouver Film Festival Poster" />  
             <ImageViewer imageSrc="/images/playground/hi_posters.png" altText="Orange posters on the wall" />  
