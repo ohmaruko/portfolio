@@ -4,10 +4,8 @@
     display: flex;
     gap: 3rem;
 }  
-.imagesOuterContainer > div {
-    flex: 1;
-}
 .imagesInnerContainer {
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
