@@ -26,6 +26,7 @@ export default function GlowKombu() {
                   <div className={styles.mockupImageInnerContainer}>
                     <ImageViewer imageSrc="/images/dailydesign/bite_club.png" altText="Snack bar Bite Club packaging" />
                     <ImageViewer imageSrc="/images/dailydesign/just_milk.png" altText="Just Milk packaging" />
+                    <ImageViewer imageSrc="/images/dailydesign/solura.png" altText="Solura candle packaging" />
                   </div>
                   <div className={styles.mockupImageInnerContainer}>
                     <ImageViewer imageSrc="/images/dailydesign/lume_box.png" altText="Lume Box match box packaging" />

@@ -170,7 +170,7 @@
         display: block;
     }
     .menu {
-        margin: 0 2rem;
+        margin: 0 1rem;
         flex-wrap: wrap;
         justify-content: flex-start;
         gap: 0.5rem;
