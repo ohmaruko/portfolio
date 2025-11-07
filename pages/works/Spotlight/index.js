@@ -138,7 +138,7 @@ export default function Spotlight() {
                             <p>The design choices were made with the <strong>target audience—students—in mind</strong>. 
                             The aim was to create an interface that feels <strong>welcoming, bright, and friendly, </strong>
                             encouraging engagement, usability, and supporting their study habits.</p>
-                            <img src='/images/spotlight/styleguide.svg' alt="Spotlight styleguide include color, typography, and design assets like buttons"  />
+                            <img src='/images/spotlight/styleguide.png' alt="Spotlight styleguide include color, typography, and design assets like buttons"  />
                         </div>
                     </div>
 
@@ -168,10 +168,10 @@ export default function Spotlight() {
                         <h3>4. Logo</h3>
                         <p><strong>Ideation</strong></p>
                         <p>The logo design was inspired by the project name, "Spotlight," with the goal of creating a simple, easily recognizable mark. Basic shapes such as ellipses, squares, and triangles were used to form the spotlight shape. Straight lines were employed to align the selected font, Futura, ensuring a clean, modern look that complements the design’s simplicity and clarity.</p>
-                        <img src='/images/spotlight/logo_ideas.svg' alt="Spotlight logo ideas using basic shapes"  />
+                        <img src='/images/spotlight/logo_ideas.png' alt="Spotlight logo ideas using basic shapes"  />
                         <p><strong>Final logo</strong></p>
                         <p>The version featuring eyes was selected to add a touch of friendliness, making the logo more approachable and engaging for users.</p>
-                        <img className={styles.finalLogo} src='/images/spotlight/logo.svg' alt="Spotlight final logo design in the shape of spotlight with eyes"  />
+                        <img className={styles.finalLogo} src='/images/spotlight/logo.png' alt="Spotlight final logo design in the shape of spotlight with eyes"  />
                     </div>
 
                     <div className={styles.section}>

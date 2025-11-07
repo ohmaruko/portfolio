@@ -78,7 +78,7 @@ export const workList = [
     },
     {
         title: 'Spotlight',
-        image: '/images/spotlight/thumbnail.svg',
+        image: '/images/spotlight/thumbnail.png',
         href: './works/Spotlight',
         tags: ["UX/UI", "Logo"],
         summary: "Kombucha can design",

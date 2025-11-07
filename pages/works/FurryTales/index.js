@@ -300,7 +300,7 @@ export default function FurryTales() {
 
 
                     <div className={styles.section}>
-                        <h2>What's next for Spotlight</h2>
+                        <h2>What's next</h2>
                         <p>With more time, I would develop a <strong>design system with additional elements</strong> to help maintain 
                         <strong> consistent branding</strong> across platforms. 
                         Since the owner is active on Instagram, this would make it easier to align visuals across all channels.</p>

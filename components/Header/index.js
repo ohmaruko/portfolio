@@ -9,7 +9,7 @@ export default function Header() {
 
     const containerRef = useRef(null);
     const servicesRef = useRef(null);
-    const services = ['Branding', '*', 'Graphic Design', '*', 'Web Design', '*'];
+    const services = ['Branding', '*', 'Graphic Design', '*', 'UX/UI Design', '*'];
 
     return (
         <header className={`${styles.header} ${workSans.className}`}>
@@ -41,7 +41,7 @@ export default function Header() {
                             })}
                         </div>
                     </div>
-                    <h2 className={styles.servicesContainerMobile}>Branding | Graphic | Web Design</h2>
+                    <h2 className={styles.servicesContainerMobile}>Branding | Graphic | UXUI Design</h2>
                 </div>
                 <div id='scroll'></div>
             </div>
