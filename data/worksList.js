@@ -51,6 +51,14 @@ export const workList = [
         category: ["Motion Graphic Design"]
     },
     {
+        title: 'Olfactory Health Association',
+        image: '/images/olfactoryhealth/thumbnail.png',
+        href: './works/OlfactoryHealth',
+        tags: ["Website", "Brand Identity", "Social Media"],
+        targetBlank: false,
+        category: ["UX/UI Design", "Graphic Design"]
+    },
+    {
         title: 'SOMA',
         image: '/images/soma/thumbnail.png',
         href: './works/Soma',
