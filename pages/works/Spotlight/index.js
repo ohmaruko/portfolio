@@ -8,6 +8,7 @@ import { MdOutlineContentPaste } from "react-icons/md";
 import { GoGoal } from "react-icons/go";
 import { MdOutlineTipsAndUpdates } from "react-icons/md";
 import AnimatedButton from '@/components/AnimatedButton';
+import ImageViewer from '@/components/ImageViewer';
 
 export default function Spotlight() {
     return (
@@ -26,7 +27,7 @@ export default function Spotlight() {
                         <p>Jan 18-19, 2025 @<Link href='https://nwhacks.io/' target='_blank'>nwHacks 2025</Link></p>
                         <p><GiTargetPrize />Winner of the Aquareum.tv Sponsor Prize</p>
                     </div>
-                    <img src='/images/spotlight/spotlight_home.png' alt="Spotlight Home"  />
+                    <ImageViewer imageSrc='/images/spotlight/spotlight_home.png' altText="Spotlight Home" />
                     <p>Role: UX/UI Designer</p>
                     <p>Team: A frontend developer, two backend developers</p>
                     <div className={styles.btn}>
@@ -78,7 +79,7 @@ export default function Spotlight() {
                         <h3>1. Wireframe</h3>
                         <p>The wireframe was designed to establish the fundamental structure of the MVP product and ensure the idea was clearly shared among the team.</p>
                         <p>Key Pages and Features</p>
-                        <img src='/images/spotlight/wireframe.png' alt="Spotlight wireframe including home, browse, details pages"  />
+                        <ImageViewer imageSrc='/images/spotlight/wireframe.png' altText="Spotlight wireframe including home, browse, details pages" />
                         <p className={styles.pageDetailsTitle}><strong>Home</strong></p>
                         <div className={styles.pageDetails}>
                             <div className={styles.pageDetailsInner}>
@@ -161,7 +162,7 @@ export default function Spotlight() {
                                 <p className={styles.pageDetailsInnerContent}>The student’s schedule is displayed with the current time highlighted, allowing users to quickly identify available time slots.</p>
                             </div>
                         </div>
-                        <img src='/images/spotlight/hifi.png' alt="Spotlight hi-fi design including a new page for schedule"  />
+                        <ImageViewer imageSrc='/images/spotlight/hifi.png' alt='Spotlight hi-fi design including a new page for schedule' />
                     </div>
 
                     <div className={styles.section}>
@@ -192,7 +193,7 @@ export default function Spotlight() {
                             <AnimatedButton href='https://github.com/romansinkus/spotlight' targetBlank={true}><FaGithub /></AnimatedButton>
                         </div>
                         <div className={styles.mockup}>
-                            <iframe style={{border: "1px solid var(--light-orange)", borderRadius: "20px"}} width="800" height="550" src="https://embed.figma.com/proto/MHGdpBpkvLOCBJ7by1hMSG/Spotlight-nwHacks2025?node-id=10-517&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=39%3A1807&embed-host=share" allowfullscreen></iframe>
+                            <iframe style={{border: "1px solid var(--light-orange)", borderRadius: "20px"}} width="800" height="550" src="https://embed.figma.com/proto/6VlOUhTvwk1ymmd7pX5aXG/Spotlight-nwHacks2025?node-id=10-517&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=10%3A517&embed-host=share" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
