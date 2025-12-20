@@ -1,5 +1,13 @@
 export const workList = [
     {
+        title: 'Olfactory Health Association',
+        image: '/images/olfactoryhealth/thumbnail.png',
+        href: './works/OlfactoryHealth',
+        tags: ["Website", "Brand Identity", "Social Media"],
+        targetBlank: false,
+        category: ["UX/UI Design", "Graphic Design"]
+    },
+    {
         title: 'Glow Kombu',
         image: '/images/glowkombu/glowkombu.png',
         href: './works/GlowKombu',
@@ -29,7 +37,7 @@ export const workList = [
         title: 'Remedify',
         image: '/images/remedify/remedify_thumbnail.png',
         href: './works/Remedify',
-        tags: ["UX/UI", "Mobile App"],
+        tags: ["Mobile App"],
         targetBlank: false,
         category: ["UX/UI Design"]
     },
@@ -51,14 +59,6 @@ export const workList = [
         category: ["Motion Graphic Design"]
     },
     {
-        title: 'Olfactory Health Association',
-        image: '/images/olfactoryhealth/thumbnail.png',
-        href: './works/OlfactoryHealth',
-        tags: ["Website", "Brand Identity", "Social Media"],
-        targetBlank: false,
-        category: ["UX/UI Design", "Graphic Design"]
-    },
-    {
         title: 'SOMA',
         image: '/images/soma/thumbnail.png',
         href: './works/Soma',
@@ -68,27 +68,19 @@ export const workList = [
         category: ["Graphic Design"]
     },
     {
-        title: 'FurryTales',
-        image: '/images/furrytales/thumbnail.svg',
-        href: './works/FurryTales',
-        tags: ["UX/UI", "Website"],
-        targetBlank: false,
-        category: ["UX/UI Design"]
-    },
-    {
         title: 'Tranquify',
         image: '/images/tranquify/tranquifyLogo.svg',
         href: './works/Tranquify',
-        tags: ["Graphic", "UX/UI", "Frontend Development", "Mobile App"],
+        tags: ["Mobile App", "Brand Identity", "Frontend Development"],
         summary: "A personalized journey to better mental health through mood tracking and tailored meditation content.",
         targetBlank: false,
-        category: ["UX/UI Design", "Graphic Design"]
+        category: ["UX/UI Design"]
     },
     {
         title: 'Spotlight',
         image: '/images/spotlight/thumbnail.png',
         href: './works/Spotlight',
-        tags: ["UX/UI", "Logo"],
+        tags: ["Web App", "Logo"],
         summary: "Kombucha can design",
         targetBlank: false,
         category: ["UX/UI Design"]
@@ -97,9 +89,17 @@ export const workList = [
         title: 'Harmony In Design',
         image: '/images/harmonyInDesign/print_magazine_square.png',
         href: './works/HarmonyInDesign',
-        tags: ["Magazine", "Print", "Digital"],
+        tags: ["Magazine"],
         targetBlank: false,
         category: ["Graphic Design"]
+    },
+    {
+        title: 'FurryTales',
+        image: '/images/furrytales/thumbnail.svg',
+        href: './works/FurryTales',
+        tags: ["Website"],
+        targetBlank: false,
+        category: ["UX/UI Design"]
     },
     {
         title: 'MOGUMOGU',
@@ -117,30 +117,6 @@ export const workList = [
         targetBlank: false,
         category: ["Motion Graphic Design"]
     },
-    {
-        title: 'BLUECOUGAR',
-        image: '/images/bluecougar/thumbnail.png',
-        href: './works/Bluecougar',
-        tags: ["Bookcover"],
-        targetBlank: false,
-        category: ["Graphic Design"]
-    },
-    // {
-    //     title: 'Film Festival',
-    //     image: '/images/filmfestival/film01.png',
-    //     href: './works/FilmFestival',
-    //     tags: ["Typography Layout"],
-    //     targetBlank: false,
-    //     category: ["Graphic Design"]
-    // },
-    // {
-    //     title: 'Dolce Donut',
-    //     image: '/images/dolcedonut/dolce.png',
-    //     href: './works/DolceDonuts',
-    //     tags: ["UX/UI", "Frontend Development"],
-    //     targetBlank: false,
-    //     category: ["UX/UI Design"]
-    // },
     // {
     //     title: 'West Point Hotel',
     //     image: '/images/west-point-hotel.svg',

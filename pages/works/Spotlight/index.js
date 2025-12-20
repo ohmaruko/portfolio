@@ -30,11 +30,6 @@ export default function Spotlight() {
                     <ImageViewer imageSrc='/images/spotlight/spotlight_home.png' altText="Spotlight Home" />
                     <p>Role: UX/UI Designer</p>
                     <p>Team: A frontend developer, two backend developers</p>
-                    <div className={styles.btn}>
-                        <AnimatedButton href='https://devpost.com/software/spotlight-fx9bgu' targetBlank={true}>Devpost</AnimatedButton>
-                        <AnimatedButton href='https://spotlight-sigma-plum.vercel.app/' targetBlank={true}>Spotlight</AnimatedButton>
-                        <AnimatedButton href='https://github.com/romansinkus/spotlight' targetBlank={true}><FaGithub /></AnimatedButton>
-                    </div>
 
                     <div className={styles.section}>
                         <h2>Inspiration</h2>

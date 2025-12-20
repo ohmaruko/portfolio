@@ -15,7 +15,7 @@ export default function GlowKombu() {
         <Box backButton={true} content={
             <div>
                 <h1>Daily Design</h1>
-                <p>July 2025 - Present</p>
+                <p>July - August 2025</p>
                 <div className={styles.header} >
                     <ImageViewer imageSrc="/images/dailydesign/oli_oli.png" altText="Olive oil Oli Oli packaging" />
                     <p>

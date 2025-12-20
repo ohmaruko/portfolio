@@ -45,10 +45,6 @@ export default function GlowKombu() {
                             Going beyond the capabilities of a standard pillbox, Remedify is designed for <strong>individuals facing cognitive challenges or managing multiple medications</strong>, where the risk of misdosing is high. With a strong focus on accessibility and adherence, the app offers a reminder and a comprehensive medication library to support users in staying on track with their health.</p>
                             </div>
                         </div>
-                        <div className={styles.btn}>
-                            <AnimatedButton href='https://remedify.vercel.app/' targetBlank={true}>Landing Page</AnimatedButton>
-                            <AnimatedButton href='https://github.com/yeenathan/Asclepius' targetBlank={true}><FaGithub /></AnimatedButton>
-                        </div>
                     </div>
 
                     <div className={styles.section}>
@@ -162,7 +158,7 @@ export default function GlowKombu() {
                             <p>On Instagram, diverse content types were created to attract and engage the audience. These include features highlighting Remedify's benefits, educational posts with medication practice statistics, and team introductions to build trust and connection.</p>
                             <img src='/images/remedify/landingpage.svg' alt="Landing Page Banner Image"  />
                             <div className={styles.btn}>
-                                <AnimatedButton href='https://remedify.vercel.app/' targetBlank={true}>Landing Page</AnimatedButton>
+                                <AnimatedButton href='https://remedify.vercel.app/' targetBlank={true}>Website</AnimatedButton>
                                 <AnimatedButton href='https://www.instagram.com/rememberwithremedify/?utm_source=ig_web_button_share_sheet' targetBlank={true}><FaSquareInstagram /></AnimatedButton>
                             </div>
                         </div>

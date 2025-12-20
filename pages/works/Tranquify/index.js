@@ -67,10 +67,6 @@ export default function Works() {
                       <p><strong>Team</strong>: Two other teammates</p>
                       <p><strong>Timeline</strong>: January 2024 - April 2024</p>
                       <p><strong>Tools</strong>: Figma, NextJS, Adobe Illustrator, Adobe After Effects</p>
-                      <div className={styles.btn}>
-                        <AnimatedButton href='https://tranquify.vercel.app/' targetBlank={true}>Visit mockup</AnimatedButton>
-                        <AnimatedButton href='https://github.com/ohmaruko/Tranquify' targetBlank={true}><FaGithub /></AnimatedButton>
-                      </div>
 
                       <div className={styles.section}>
                         <h2>1. Persona</h2>
@@ -208,9 +204,6 @@ export default function Works() {
                             <Image src='/images/tranquify/page_setting.svg' alt="setting page" width={200} height={400} />
                           </div>
                         </div>
-                        <div className={styles.btn}>
-                          <AnimatedButton href='https://www.figma.com/proto/5tbiubXaIbwy4mL49rAXmZ/MDIA-2106-%E2%80%93-Tranquify-Latest(Madoka)?node-id=157-971&t=BMzEVAz554cAtwus-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=157%3A971' targetBlank={true}>Figma prototype</AnimatedButton>
-                        </div>
                       </div>
 
                       <div className={styles.section}>
@@ -222,6 +215,7 @@ export default function Works() {
                         </p>
                         <div className={styles.btn}>
                           <AnimatedButton href='https://tranquify.vercel.app/' targetBlank={true}>Coded mockup</AnimatedButton>
+                          <AnimatedButton href='https://github.com/ohmaruko/Tranquify' targetBlank={true}><FaGithub /></AnimatedButton>
                         </div>
                       </div>
 

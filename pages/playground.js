@@ -13,15 +13,14 @@ export default function Playground() {
       <div className={styles.imagesOuterContainer}>
         <div className={styles.imagesInnerContainer}>
             <ImageViewer imageSrc="/images/playground/glass_morphism.png" altText="Glass Morphism" />
-            <ImageViewer imageSrc="/images/playground/pixel_collage.png" altText="Pixel Collage" />
             <ImageViewer imageSrc="/images/playground/let_go.png" altText="Let Go Illustration" />
+            <ImageViewer imageSrc="/images/bluecougar/mockup_small.png" altText="Book cover design" />
         </div>
         <div className={styles.imagesInnerContainer}>
             <ImageViewer imageSrc="/images/filmfestival/film01.png" altText="Vancouver Film Festival Poster" />  
-            <ImageViewer imageSrc="/images/filmfestival/film02.png" altText="Vancouver Film Festival Poster" />  
-            <ImageViewer imageSrc="/images/playground/hi_posters.png" altText="Orange posters on the wall" />  
-            {/* <ImageViewer imageSrc="/images/filmfestival/film03.png" altText="Vancouver Film Festival Poster" />   */}
             <ImageViewer imageSrc="/images/playground/stickers.jpg" altText="Mascot Stickers" />
+            {/* <ImageViewer imageSrc="/images/playground/hi_posters.png" altText="Orange posters on the wall" />   */}
+            <ImageViewer imageSrc="/images/playground/vancouver_island_sticker.jpg" altText="Vancouver Island Sticker" />
         </div>
       </div>
     </div>
