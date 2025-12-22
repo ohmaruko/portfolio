@@ -1,27 +1,49 @@
 import styles from '../styles/Home.module.css'
 import WorkCard from '@/components/WorkCard'
-import Link from 'next/link'
 import Head from 'next/head'
-import { useState } from 'react'
+import { useRouter } from 'next/router'
+import { useEffect, useState } from 'react'
 import { workList } from '../data/worksList'
 
 export default function Works() {
+  const router = useRouter();
+  const { type } = router.query;
   const [selectedTag, setSelectedTag] = useState("All");
 
   const filterTags = [
-    "All",
-    "Graphic Design",
-    "UX/UI Design",
-    "Motion Graphic Design"
+  { label: "All", slug: "all" },
+  { label: "Graphic Design", slug: "graphic-design" },
+  { label: "UX/UI Design", slug: "ux-ui" },
+  { label: "Motion Graphic Design", slug: "motion" },
   ];
 
-  const handleTagClick = (tag) => {
-    setSelectedTag(tag);
-  };
+  useEffect(() => {
+    if (!type || type === 'all') {
+      setSelectedTag("All");
+    } else {
+      const matchedTag = filterTags.find(tag => tag.slug === type);
+      if (matchedTag) {
+        setSelectedTag(matchedTag.label)
+      }
+    }
+  }, [type])
+
+const handleTagClick = (tag) => {
+  setSelectedTag(tag.label);
+  router.push(
+    {
+      pathname: '/',
+      query: tag.slug === 'all' ? {} : { type: tag.slug },
+    },
+    undefined,
+    { shallow: true }
+  )
+}
 
   const filteredWorks = selectedTag === "All"
   ? workList
   : workList.filter(work => work.category.includes(selectedTag));
+
 
 
   return (
@@ -36,16 +58,16 @@ export default function Works() {
           <div
             key={index}
             onClick={() => handleTagClick(tag)}
-            className={`
-              ${selectedTag === tag
+            className={
+              selectedTag === tag.label
                 ? styles.filterOn
                 : styles.filterOff
-              }`}
-          >
-            <h4>{tag}</h4>
-          </div>
-        ))}
-      </div>
+            }
+      >
+      <h4>{tag.label}</h4>
+    </div>
+  ))}
+</div>
 
       {/* Work Cards */}
       <div className={styles.worksContainer}>
