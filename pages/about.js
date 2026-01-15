@@ -75,11 +75,11 @@ export default function About() {
               <AboutCard content={
                 <div className={styles.color}>
                   <p>
-                    I'm a graphic/web designer focusing on branding, originally from Japan and now based in Vancouver/Victoria. 
+                    I'm a brand and UX/UI designer with a strength in visual design, originally from Japan and now based in Vancouver/Victoria.
                   </p>
                   <p>
-                    I love infusing <span>color</span> and character into my designs, creating playful and organic visuals that <span>brighten everyday life :D </span>
-                    Aiming to create simple yet memorable designs that effectively deliver brand’s messages while bringing a touch of joy to the audience.</p>
+                    I’m motivated by <span>connecting brands and products with people</span> through design—whether creating a brand identity or designing an application interface—aiming to make everyday experiences a little brighter.
+                  </p>
                 </div>
               }/>
             </div>
@@ -114,9 +114,8 @@ export default function About() {
           <div className={styles.serviceCard} ref={addToRefs}>
             <AboutCard rotateDeg={-5} content={
               <div>
-                <img src='/images/about/icon_branding.svg' alt='Graphic design' />
                 <h2>Branding</h2>
-                <p>Transform brand messages into visuals through logo design, packaging, and design asset creation.</p>
+                <p>Bring brand stories to life through logos, packaging, and visual assets that connect with people.</p>
             </div>
             }/>
           </div>
@@ -125,7 +124,6 @@ export default function About() {
           <div className={styles.serviceCard} ref={addToRefs}>
               <AboutCard rotateDeg={3} content={
                 <div>
-                  <img src='/images/about/icon_graphic_design.svg' alt='Graphic design' />
                   <h2>Graphic Design</h2>
                   <p>Communicate messages visually, through advertisements, typography layouts, motion graphics.</p>
                 </div>
@@ -135,9 +133,8 @@ export default function About() {
           <div className={styles.serviceCard} ref={addToRefs}>
               <AboutCard rotateDeg={-1} content={
                 <div>
-                  <img src='/images/about/icon_uxui.svg' alt='Graphic design' />
                   <h2>UX/UI Design</h2>
-                  <p>Design solutions to achieve business goals with intuitive and responsive web design.</p>
+                  <p>Create intuitive, user-centered interfaces that feel effortless for users.</p>
               </div>
               }/>
           </div>
@@ -146,6 +143,13 @@ export default function About() {
           <div className={styles.experienceOuterContainer} ref={addToRefs}>
               <AboutCard content={
                 <div className={styles.exprienceInnerContainer}>
+                  <div className={styles.exprience}>
+                    <p>2025 - Present</p>
+                    <p>
+                      Freelance Web Designer and Developer
+                      <br/>Designed and built responsive websites and branding for small businesses.
+                    </p>
+                  </div>
                   <div className={styles.exprience}>
                     <p>April - May 2025</p>
                     <p>
@@ -215,7 +219,7 @@ export default function About() {
                   content={
                     <div className={styles.favouriteInnerContainer}>
                         <img src='/images/about/crochet.jpg' alt='Crochet' />
-                      <p>My new hobby</p>
+                      <p>Crafting</p>
                     </div>
                   }
                 />
